@@ -1,0 +1,108 @@
+Notable ROM changes 04/20:
+==============================
+Settings: Gray out Carrier Aggregation toggle
+config: Build AxQuickLook service
+component-overrides: Enable GPSU
+release: Enable notification themed icon [Experimental]
+release: Disable redesign notification font
+version: Uprev to 11.6.3
+config: Add Mosey nopauth variant selection flag
+config: Optionally inherit experimental Mosey impl
+config: Build AxThemeStore
+overlay: Use google-sans-text for regular font
+aconfig: bp4a: Enable UI affordances to put other content into a bubble
+aconfig: Enable flashlight strength tile support
+soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
+soong: Add support for vendor tag with client package name to select
+overlay: Import default wallpaper for tablets from Pixel Tab
+aconfig: Enable eyedropper
+evolution: Fix material expressive for permission manager
+release: Enable clock_reactive_variants
+overlay: Use google-sans for font config overlays
+release: Disable media_carousel_arrows flag
+evolution: Add support for Pixel OOT kernel building
+release/aconfig: enable two SurfaceFlinger VRR flags
+release: Disable navbar_flip_order_option for now
+device_config: Add back the long lost "Enter to Open app from search" feature
+device_config: Enable more smartspace features
+aconfig: Enable location indicator
+device_config: cleanup and update from 16 QPR2
+overlay: Convert Settings overlay to rro
+overlay: Enable UMO on the glanceable hub when media is playing for mobile also
+overlay: Enable Lockscreen widgets settings on mobile
+overlay: Overlay PermissionController to use headline font from framework resource
+config: Build BatteryStatsViewer
+release: Enable Extended wallpaper effect
+release: enable extendible theme manager
+[TEST] release: Enable psb reskin
+overlay: Enable RBC Setting for all
+release: Import release flags from bp2a and mica bp3a
+config: add blur flag
+config: Enable background blur by default
+Update default wallpaper from Pixel 10 Pro XL
+overlay: Enable AOD wallpaper
+device_config: Update smartspace flags to QPR1
+config: Dexpreopt pixel launcher
+config: add `target_ims_override` flag
+config: disabling hwc composition strategy on perf anim targets
+config/common: preopt extracted apk always
+config/common: Reduce system server verbosity
+config/common: Disable dexpreopt debug info on user builds
+config: art: Use boot image profile from art/build/boot
+config: Load boot image profile from frameworks/base
+vendor: Do not clone default AudioFX app
+config: adding flashlight strength flag
+overlay: disable dreams feature
+Revert "overlay: Default to Seedvault backup transport"
+overlay: Drop now playing customization
+vendor: overlay: enable ambient burn in protection
+Disable nfc by default
+overlay: frameworks: Suppress ASI system crash dialogs
+overlay: Don't warn user about FC in Google TTS
+overlay: core: Suppress System UI ANRs
+HACK: overlay: core: Suppress Intent Filter Verification Service crashes
+config: Set new audio from mustang BD3A.250721.001.B7 as default
+config: add PERF_ANIM_OVERRIDE flag
+overlay: SystemUI: Tune new biometric dialog UI
+build: Skip ABI Checks
+overlay: Enable split shade for notifications in landscape
+component-overrides: Force various google components [SQUASHED]
+build: Ship adb_root only WITH_SU
+overlay: add applock whitelist
+common: Disable art debug builds
+overlay: Allow ShannonIMS to access ServiceState
+overlay: Update circle to search overlays for vanilla builds
+overlay: Enable circle to search
+Enable ThinLTO cache
+envsetup: Prevent hang when generating random hostname
+build: Override host metadata
+kernel: Set "safe" default values for kernel build host & user
+overlay: Enable keyboard vibration
+overlay: SystemUI: Add plugin whitelist
+DeviceConfig: drop smartspace flashlight action chip (again)
+DeviceConfig: update nearby flags
+config: Conditionally build ColumbusService
+Add option to ship viperfx
+vendor: Make BCR optional
+config: Build Updater for all
+config: Disable RescueParty
+config: Build LMO Freeform app and sidebar
+config: Build OmniJaws service
+config: Build OmniStyle
+config: Build BtHelper
+config: Build GameSpace
+config: Build tensorflow lite jni
+config: Disable default frame rate limit for games
+vendor: Introduce bootanimation styles [2/3]
+common: Optimize Launcher3 and Settings for speed
+config: props: Set default wifi country code
+config: Don't dexpreopt prebuilt apps
+config: Disable memtag for different processes
+config: Adding an option to build DeviceAsWebcam
+overlay: Set AOSP webview as fallback
+Drop custom adb drawable
+sepolicy: Add missing mosey_server socket perms
+releasetools: Only update dynamic partitions if unsparse_super_empty.img exists
+SetupWizard: Rebrand to Evolution X
+SetupWizard: Make default `mIgnoreSimLocale` customizable
+custom_rom_hide: Fixing adb root hiding

@@ -1,0 +1,106 @@
+packages_apps_Settings::Settings: Gray out Carrier Aggregation toggle
+vendor_evolution::config: Build AxQuickLook service
+vendor_evolution::component-overrides: Enable GPSU
+vendor_evolution::release: Enable notification themed icon [Experimental]
+vendor_evolution::release: Disable redesign notification font
+vendor_evolution::version: Uprev to 11.6.3
+vendor_evolution::config: Add Mosey nopauth variant selection flag
+vendor_evolution::config: Optionally inherit experimental Mosey impl
+vendor_evolution::config: Build AxThemeStore
+vendor_evolution::overlay: Use google-sans-text for regular font
+vendor_evolution::aconfig: bp4a: Enable UI affordances to put other content into a bubble
+vendor_evolution::aconfig: Enable flashlight strength tile support
+vendor_evolution::soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
+vendor_evolution::soong: Add support for vendor tag with client package name to select
+vendor_evolution::overlay: Import default wallpaper for tablets from Pixel Tab
+vendor_evolution::aconfig: Enable eyedropper
+vendor_evolution::evolution: Fix material expressive for permission manager
+vendor_evolution::release: Enable clock_reactive_variants
+vendor_evolution::overlay: Use google-sans for font config overlays
+vendor_evolution::release: Disable media_carousel_arrows flag
+vendor_evolution::evolution: Add support for Pixel OOT kernel building
+vendor_evolution::release/aconfig: enable two SurfaceFlinger VRR flags
+vendor_evolution::release: Disable navbar_flip_order_option for now
+vendor_evolution::device_config: Add back the long lost "Enter to Open app from search" feature
+vendor_evolution::device_config: Enable more smartspace features
+vendor_evolution::aconfig: Enable location indicator
+vendor_evolution::device_config: cleanup and update from 16 QPR2
+vendor_evolution::overlay: Convert Settings overlay to rro
+vendor_evolution::overlay: Enable UMO on the glanceable hub when media is playing for mobile also
+vendor_evolution::overlay: Enable Lockscreen widgets settings on mobile
+vendor_evolution::overlay: Overlay PermissionController to use headline font from framework resource
+vendor_evolution::config: Build BatteryStatsViewer
+vendor_evolution::release: Enable Extended wallpaper effect
+vendor_evolution::release: enable extendible theme manager
+vendor_evolution::[TEST] release: Enable psb reskin
+vendor_evolution::overlay: Enable RBC Setting for all
+vendor_evolution::release: Import release flags from bp2a and mica bp3a
+vendor_evolution::config: add blur flag
+vendor_evolution::config: Enable background blur by default
+vendor_evolution::Update default wallpaper from Pixel 10 Pro XL
+vendor_evolution::overlay: Enable AOD wallpaper
+vendor_evolution::device_config: Update smartspace flags to QPR1
+vendor_evolution::config: Dexpreopt pixel launcher
+vendor_evolution::config: add `target_ims_override` flag
+vendor_evolution::config: disabling hwc composition strategy on perf anim targets
+vendor_evolution::config/common: preopt extracted apk always
+vendor_evolution::config/common: Reduce system server verbosity
+vendor_evolution::config/common: Disable dexpreopt debug info on user builds
+vendor_evolution::config: art: Use boot image profile from art/build/boot
+vendor_evolution::config: Load boot image profile from frameworks/base
+vendor_evolution::vendor: Do not clone default AudioFX app
+vendor_evolution::config: adding flashlight strength flag
+vendor_evolution::overlay: disable dreams feature
+vendor_evolution::Revert "overlay: Default to Seedvault backup transport"
+vendor_evolution::overlay: Drop now playing customization
+vendor_evolution::vendor: overlay: enable ambient burn in protection
+vendor_evolution::Disable nfc by default
+vendor_evolution::overlay: frameworks: Suppress ASI system crash dialogs
+vendor_evolution::overlay: Don't warn user about FC in Google TTS
+vendor_evolution::overlay: core: Suppress System UI ANRs
+vendor_evolution::HACK: overlay: core: Suppress Intent Filter Verification Service crashes
+vendor_evolution::config: Set new audio from mustang BD3A.250721.001.B7 as default
+vendor_evolution::config: add PERF_ANIM_OVERRIDE flag
+vendor_evolution::overlay: SystemUI: Tune new biometric dialog UI
+vendor_evolution::build: Skip ABI Checks
+vendor_evolution::overlay: Enable split shade for notifications in landscape
+vendor_evolution::component-overrides: Force various google components [SQUASHED]
+vendor_evolution::build: Ship adb_root only WITH_SU
+vendor_evolution::overlay: add applock whitelist
+vendor_evolution::common: Disable art debug builds
+vendor_evolution::overlay: Allow ShannonIMS to access ServiceState
+vendor_evolution::overlay: Update circle to search overlays for vanilla builds
+vendor_evolution::overlay: Enable circle to search
+vendor_evolution::Enable ThinLTO cache
+vendor_evolution::envsetup: Prevent hang when generating random hostname
+vendor_evolution::build: Override host metadata
+vendor_evolution::kernel: Set "safe" default values for kernel build host & user
+vendor_evolution::overlay: Enable keyboard vibration
+vendor_evolution::overlay: SystemUI: Add plugin whitelist
+vendor_evolution::DeviceConfig: drop smartspace flashlight action chip (again)
+vendor_evolution::DeviceConfig: update nearby flags
+vendor_evolution::config: Conditionally build ColumbusService
+vendor_evolution::Add option to ship viperfx
+vendor_evolution::vendor: Make BCR optional
+vendor_evolution::config: Build Updater for all
+vendor_evolution::config: Disable RescueParty
+vendor_evolution::config: Build LMO Freeform app and sidebar
+vendor_evolution::config: Build OmniJaws service
+vendor_evolution::config: Build OmniStyle
+vendor_evolution::config: Build BtHelper
+vendor_evolution::config: Build GameSpace
+vendor_evolution::config: Build tensorflow lite jni
+vendor_evolution::config: Disable default frame rate limit for games
+vendor_evolution::vendor: Introduce bootanimation styles [2/3]
+vendor_evolution::common: Optimize Launcher3 and Settings for speed
+vendor_evolution::config: props: Set default wifi country code
+vendor_evolution::config: Don't dexpreopt prebuilt apps
+vendor_evolution::config: Disable memtag for different processes
+vendor_evolution::config: Adding an option to build DeviceAsWebcam
+vendor_evolution::overlay: Set AOSP webview as fallback
+vendor_evolution::Drop custom adb drawable
+device_evolution_sepolicy::sepolicy: Add missing mosey_server socket perms
+build::releasetools: Only update dynamic partitions if unsparse_super_empty.img exists
+packages_apps_SetupWizard::SetupWizard: Rebrand to Evolution X
+packages_apps_SetupWizard::SetupWizard: Make default `mIgnoreSimLocale` customizable
+bionic::custom_rom_hide: Fixing adb root hiding
