@@ -6,8 +6,12 @@ const ORG = 'Evolution-X';
 const TOKEN = process.env.GITHUB_TOKEN;
 
 const SKIP_REPOS = new Set([
-  'OTA', 'vendor_certification', 'vendor_pixel-framework'
+  'changelog', 'OTA', 'www_gitres', '.github',
+  'vendor_evolution-priv_keys-template', 'www', 'wiki', 'XDA',
+  'vendor_certification', 'vendor_pixel-framework'
 ]);
+
+const TRACK_BRANCHES = ['bka', 'bq2'];
 
 function get(url) {
   return new Promise((resolve, reject) => {
@@ -32,27 +36,40 @@ function get(url) {
 async function getAllRepos() {
   let repos = [];
   let page = 1;
+  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
   while (true) {
     const batch = await get(
-      `https://api.github.com/orgs/${ORG}/repos?per_page=100&page=${page}`
+      `https://api.github.com/orgs/${ORG}/repos?per_page=100&page=${page}&sort=pushed&direction=desc`
     );
     if (!Array.isArray(batch) || batch.length === 0) break;
-    repos = repos.concat(batch);
+    const filtered = batch.filter(r => !r.fork && !SKIP_REPOS.has(r.name) && r.pushed_at >= weekAgo);
+    repos = repos.concat(filtered);
+    if (batch[batch.length - 1].pushed_at < weekAgo) break;
     page++;
   }
-  return repos.filter(r => !r.fork && !SKIP_REPOS.has(r.name));
+  return repos;
 }
 
 async function getCommits(repo, since, until) {
-  const url =
-    `https://api.github.com/repos/${ORG}/${repo}/commits` +
-    `?since=${since}&until=${until}&per_page=100`;
-  const data = await get(url);
-  if (!Array.isArray(data)) return [];
-  return data.map(c => ({
-    message: c.commit.message.split('\n')[0].trim(),
-    repo: repo
-  }));
+  const seen = new Set();
+  const commits = [];
+  for (const branch of TRACK_BRANCHES) {
+    const url =
+      `https://api.github.com/repos/${ORG}/${repo}/commits` +
+      `?sha=${branch}&since=${since}&until=${until}&per_page=100`;
+    const data = await get(url);
+    if (!Array.isArray(data)) continue;
+    for (const c of data) {
+      if (!seen.has(c.sha)) {
+        seen.add(c.sha);
+        commits.push({
+          message: c.commit.message.split('\n')[0].trim(),
+          repo
+        });
+      }
+    }
+  }
+  return commits;
 }
 
 async function main() {
