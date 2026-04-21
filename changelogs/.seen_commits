@@ -104,3 +104,53 @@ build::releasetools: Only update dynamic partitions if unsparse_super_empty.img 
 packages_apps_SetupWizard::SetupWizard: Rebrand to Evolution X
 packages_apps_SetupWizard::SetupWizard: Make default `mIgnoreSimLocale` customizable
 bionic::custom_rom_hide: Fixing adb root hiding
+packages_apps_Settings::Settings: Refactor OEM/device name formatting into shared utility
+packages_apps_Settings::Settings: Firmware: Resolve build maintainer from OTA metadata
+packages_apps_Settings::Settings: Hardware info: add OTA-backed device image card
+packages_apps_Settings::Changelog: Rework with Activity [1/2]
+packages_apps_Evolver::New Crowdin updates
+packages_apps_Evolver::Evolver: BootAnimation: fix Google previews, hide on Pixel devices
+packages_apps_Evolver::Evolver: About: Add OTA-backed current maintainers section
+packages_apps_Evolver::Evolver: Changelog: Rework with Activity [2/2]
+packages_apps_Evolver::Evolver: Add auto-select button for tricky store apps list
+packages_apps_Evolver::Evolver: Check for all versions when parsing canary releases
+packages_apps_Evolver::Evolver: Add canary channel selection for pif
+packages_apps_Evolver::Evolver: Fix spoofing structure
+vendor_evolution::createjson: Use changelog scraping with LATEST.txt fetch
+build::[ax_custom_rom_hide] overriding lineage namespace
+build::build: Fix reading build props on devices with legacy partition layout
+build::combo: Allow some core to be declared as both ARMv8-A and ARMv8-2A
+build::build: Erase more *_cache upon flashing
+build::product: Enable gestural navigation overlay to match default nav mode
+build::always use UTC as the time zone for build dates
+build::build: Turn off debug props on userdebug builds
+build::build: Clamp first api level to 32
+build::build: Do not leak lineage_ prefixes in build.prop
+build::Replace device_kernel_headers with generated_kernel_headers
+build::Replace old-style kernel headers only when building inline
+build::build: Automatically replace old-style kernel header includes with new header lib
+build::releasetools: do not remove dynamic partitions in system-only builds
+build::Correct logic for obtaining the path to full recovery image
+build::Don't make recovery patch for devices with prebuilt vendor
+build::Move recovery-from-boot.p from /system to /vendor
+build::build_image: get squashfs partition size from image size
+build::Exclude Camera2 for lineage builds
+build::envsetup: Drop the unnecessary spam_for_lunch
+build::Don't build QuickSearchBox
+build::core: sysprop: Write build display id to product prop
+build::Allow longer fingerprint
+build::evnsetup.sh: Add missing lunch commands
+build::disable memory tagging for surfaceflinger
+build::build: Erase resource-cache upon flashing
+build::build: Erase package_cache upon flashing
+build::releasetools: Don't compress with brotli
+build::build: dont include tasks from tests and platform_testing
+build::combo: Add kryo585 architecture to known v8 cores
+build::combo: Add kryo585|785 architectures to known v8-2a cores
+build::combo: Add cortex-a76 to known v8-2a cores
+build::core: Use $(PRODUCT_DEVICE) for auto generated RRO names
+build::Revert "Add DeviceAsWebcam to general handheld_system"
+build::envsetup.sh: Setup and enable ccache
+build::build: Add backuptool by default
+build::core: lineage-priv > evolution-priv
+vendor_extras::extras: Drop Evo navbar overlays
