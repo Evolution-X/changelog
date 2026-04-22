@@ -154,3 +154,4 @@ build::envsetup.sh: Setup and enable ccache
 build::build: Add backuptool by default
 build::core: lineage-priv > evolution-priv
 vendor_extras::extras: Drop Evo navbar overlays
+packages_apps_Settings::Settings: Refactor hardware info into unified card UI with OTA-backed data
