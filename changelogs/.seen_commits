@@ -155,3 +155,6 @@ build::build: Add backuptool by default
 build::core: lineage-priv > evolution-priv
 vendor_extras::extras: Drop Evo navbar overlays
 packages_apps_Settings::Settings: Refactor hardware info into unified card UI with OTA-backed data
+packages_apps_Settings::TMP RGB
+packages_apps_Settings::Settings: New logo style
+vendor_evolution::overlay: Update default keyguard affordance setup
