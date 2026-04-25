@@ -162,3 +162,40 @@ packages_apps_Evolver::Evolver: Drop redundant Photos spoof code in PIF
 packages_apps_Evolver::Evolver: TrickyStore: Add security patch date management
 packages_apps_Evolver::Evolver: Add Google Wallet to TrickyStore auto-select list
 vendor_evolution::version: Uprev to 11.6.4
+vendor_evolution::kernel: Pass `$$kernel_modules_dir` to kernel modules finder instead
+packages_apps_LineageParts::LineageParts: Keep PartsUpdater related fields and classes
+lineage-sdk::Introduce Shake Gestures feature
+lineage-sdk::Add three fingers swipe actions [1/3]
+lineage-sdk::Allow value to hide the clock
+lineage-sdk::ChargingControl: Show notification if device is charging
+lineage-sdk::Add toggle to allow advanced restart on secured lockscreen[1/2]
+lineage-sdk::lineage-sdk: fixing force full screen feature
+lineage-sdk::[BUGFIX] SelfRemovingPreference: set visibility at early stage
+lineage-sdk::sdk: remove app from recents after kill
+lineage-sdk::Enable full screen aspect ratio option by default
+lineage-sdk::ChargingControlNotification: fix system server crash
+lineage-sdk::lineage: Apply monet to Lineage framework icon
+lineage-sdk::LineageSettingsProvider: Apply monet to icon background
+lineage-sdk::ChargingControl: Prevent crash against null provider
+lineage-sdk::Add restart SystemUI in Advanced Reboot [2/2]
+lineage-sdk::Add On-The-Go Mode to power menu constants
+lineage-sdk::Set long press on back default to kill app
+lineage-sdk::Add more device key actions
+lineage-sdk::Fix settings pref switch for multi-user
+lineage-sdk::Properly set default value for switch pref
+lineage-sdk::Allow value 3 for status bar quick pull down
+lineage-sdk::Replace los versioning
+lineage-sdk::Try loading default setting value for switch
+lineage-sdk::Set summary automatically if required
+lineage-sdk::Enable advanced reboot by default
+lineage-sdk::Do not prevent boot on database downgrade
+lineage-sdk::Kill trust interface hint on first boot
+lineage-sdk::Disable by livedisplay by default
+lineage-sdk::Ship as Evolution X based on LOS
+lineage-sdk::Revert "sdk: Get rid of lineageos.os.{Build,Concierge}"
+lineage-sdk::LineageHardwareService: Use ColorDisplayManager to set mAcceleratedTransform
+packages_apps_Settings::Settings: Logo: Add animated RGB glow effect
+packages_apps_Settings::Settings: Refactor hardware info into unified card UI with OTA data
+packages_apps_Settings::Settings: Extract OEM/device name formatting into shared utility
+packages_apps_Evolver::Evolver: PIF: overhaul config handling and add auto-fetch
+packages_apps_Evolver::Evolver: BootAnimation: fix previews, hide on unsupported devices, misc fixes
