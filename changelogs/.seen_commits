@@ -199,3 +199,126 @@ packages_apps_Settings::Settings: Refactor hardware info into unified card UI wi
 packages_apps_Settings::Settings: Extract OEM/device name formatting into shared utility
 packages_apps_Evolver::Evolver: PIF: overhaul config handling and add auto-fetch
 packages_apps_Evolver::Evolver: BootAnimation: fix previews, hide on unsupported devices, misc fixes
+packages_apps_Evolver::Evolver: Consolidate per-app and game spoofing UI
+packages_apps_Evolver::Evolver: TrickyStore: Replace app picker with per-app mode bottom sheet
+packages_apps_Evolver::Evolver: Consolidate app hide settings into single Compose fragment
+packages_apps_Evolver::Evolver: Drop EvolverTheme
+frameworks_opt_telephony::SatelliteController: Make NTN nullness explicit
+frameworks_opt_telephony::SatelliteController: Harden carrier roaming NTN notifications
+frameworks_opt_telephony::services: Cache unsupported N1 mode responses
+frameworks_opt_telephony::services: Sanitize invalid physical cell IDs from RIL
+frameworks_opt_telephony::services: Avoid exception-driven invalid subId user handles
+packages_apps_Settings::Video wallpaper selector [2/2]
+packages_apps_Settings::Settings: Introduce automated Sleep Mode [2/2]
+packages_apps_Settings::Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
+packages_apps_Settings::Set launch mode to singleTop for UserBackupSettingsActivity
+packages_apps_Settings::Change UserBackupSettingsActivity to extend FragmentActivity
+packages_apps_Settings::ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
+packages_apps_Settings::wifi: Fix reachability check in WifiDppQrCodeScannerFragment [qr-2/2]
+packages_apps_Settings::Settings: Observe auto brightness mode changes
+packages_apps_Settings::Settings: Introduce navbar pill auto-hide [2/2]
+packages_apps_Settings::Settings: Add torch toggle for double tap power gesture [2/2]
+packages_apps_Settings::Settings: Implement device idle manager [2/2]
+packages_apps_Settings::Settings: Add toggle for face down detection
+packages_apps_Settings::Settings: Add config to display Now Playing
+packages_apps_Settings::Settings: hide ambient from search
+packages_apps_Settings::location: greyed-out mock override toggle until app is selected
+packages_apps_Settings::location: Move mock location app picker to Location settings
+packages_apps_Settings::Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
+packages_apps_Settings::Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE
+packages_apps_Settings::Settings: Add Glide library
+packages_apps_Settings::Settings: Add missing icon for Adaptive connectivity
+packages_apps_Settings::Settings: Fix custom Private DNS hostname being overwritten
+packages_apps_Settings::Settings: Add support for daily and weekly data usage cycles [2/2]
+packages_apps_Settings::Settings: fix broken mobile network reset button
+packages_apps_Settings::Settings: SoftAp: add support for setting shutdown timeout
+packages_apps_Settings::Revert "[Catalyst] Migrate Wi-Fi hotspot auto-off switch preference"
+packages_apps_Settings::fixup! RU: Google Import translations
+packages_apps_Settings::Settings: Reset mobile data always on developer setting correctly
+packages_apps_Settings::Settings: Set proper initial value for multi media focus
+packages_apps_Settings::Settings: Adding multi-media focus support [2/2]
+packages_apps_Settings::Settings: VolumeDialog: Add toggle for haptic feedback [2/2]
+packages_apps_Settings::Settings: Hide back haptics setting if not supported
+packages_apps_Settings::Settings: Add icon for WEP in wifi network settings
+packages_apps_Settings::Settings: Add icon for emergency broadcasts
+packages_apps_Settings::AppVolumeSlice: Allow querying icon of apps installed by any user
+packages_apps_Settings::Settings: support per-app volume [3/3]
+packages_apps_Settings::Settings: Adapt Google battery saver changes to A16 QPR2
+packages_apps_Settings::Settings: Implement reverse-engineered battery saver page
+packages_apps_Settings::Settings: Update overlay package for pure black theme
+packages_apps_Settings::Settings: Add icon for 'WiFi timeout'
+packages_apps_Settings::Wi-Fi timeout feature
+packages_apps_Settings::Bluetooth timeout feature
+packages_apps_Settings::Settings: Remove flag check for blur toggle
+packages_apps_Settings::Settings: fingerprint: Skip creating footer during enrollment on UDFPS devices
+packages_apps_Settings::Revert "Settings: Only show gesture navigation if device has a software nav bar"
+packages_apps_Settings::fixup! Settings: doze brightness customization
+packages_apps_Settings::Settings: doze brightness customization
+packages_apps_Settings::Fixup updater crash on WiFI only devices
+packages_apps_Settings::Remove the Automatic ota check option but be sure it's disabled
+packages_apps_Settings::Settings: Force disable top level support preference
+packages_apps_Settings::fixup! Settings: Skip auth for USB func ctrl when unlocked in the last 60s
+packages_apps_Settings::Settings: fix npe when opening WiFi dialog for networks without WifiConfiguration
+packages_apps_Settings::treat IdentityCheck promo+notification already shown by default
+packages_apps_Settings::disable redundant indexing of WidgetsOnLockscreenFragment contents
+packages_apps_Settings::Settings: Enable glanceble hub for all
+packages_apps_Settings::Settings: Implement localepicker from SettingsGoogle
+packages_apps_Settings::Settings: Use default letter spacing for category titles
+packages_apps_Settings::BatterySaverScheduleSeekBarController: Allow a wider control range
+packages_apps_Settings::Settings: Add Device codename to Firmware version window
+packages_apps_Settings::Settings: Fix duplicated baseband string on all devices.
+packages_apps_Settings::BasebandVersionPreferenceController: Trim baseband if needed
+packages_apps_Settings::Settings: Add config to show/hide vendor security patch level
+packages_apps_Settings::Settings: Avoid enforcing weird backgrounds
+packages_apps_Settings::Settings: Fix up panel theme and layout
+packages_apps_Settings::Revert "Settings: Move Google Setting way down"
+packages_apps_Settings::Settings: Allow choosing a custom vibration pattern [3/3]
+packages_apps_Settings::Settings: Add vibration patterns from OOS [3/3]
+packages_apps_Settings::Settings: Hide headsup toggle
+packages_apps_Settings::Optional haptic feedback on back gesture [2/2]
+packages_apps_Settings::Allow to hide arrow for back gesture [2/2]
+packages_apps_Settings::Settings: Change back gesture height intervals
+packages_apps_Settings::Allow changing back gesture height [2/2]
+packages_apps_Settings::Settings: Fix incorrect sort
+packages_apps_Settings::Settings: Import updated lottie animations from bp41
+packages_apps_Settings::Settings: Pull navigation mode settings out
+packages_apps_Settings::Settings: Add missing illustration for camera gesture
+packages_apps_Settings::Settings: Use Theme.AlertDialog.SettingsLib for AlertDialog theme
+packages_apps_Settings::reorder spinner entries on the battery optimization app list screen
+packages_apps_Settings::DevelopmentSettings: Hide OEM unlock by default
+packages_apps_Settings::Settings: Remove summary placeholder from "System updates" pref
+packages_apps_Settings::Settings: allow disable of screenshot shutter sound [2/2]
+packages_apps_Settings::Settings: Introduce `Force LTE_CA` override on per subscription basis [3/3]
+packages_apps_Settings::Settings: Enable clone apps
+packages_apps_Settings::Revert "Settings: Bring in the new icon"
+packages_apps_Settings::Settings: Allow dismissing suggestions
+packages_apps_Settings::location: Allow to override Mock Location restriction [2/2]
+packages_apps_Settings::network: Link to custom eSIM settings
+packages_apps_Settings::Settings: Allow disabling refresh rate lowering in battery saver
+packages_apps_Settings::Refresh rate: Add display refresh rate illustration
+packages_apps_Settings::Settings: Implement RefreshRateManager [SQUASHED] [2/2]
+packages_apps_Settings::Settings: explicitly enable cloned apps
+packages_apps_Settings::Settings: Enable "install available apps"
+packages_apps_Settings::Settings: Add config check for screen off UDFPS
+packages_apps_Settings::DevelopmentSettings: Remove system update and other prefs
+packages_apps_Settings::DevelopmentSettings: Disable automatic updates
+packages_apps_Settings::Settings: Ambient Music Ticker - Allow to pulse on new tracks [2/2]
+vendor_evolution::config: Spoof BuildFingerprint as Pixel Beta
+packages_apps_LineageParts::LongScreenSettings: force stop app when adding/removing to long screen app list
+packages_apps_LineageParts::fix long screen layout issues
+packages_apps_LineageParts::Extend Long screen feature to all apps
+packages_apps_LineageParts::removing lineage stats
+packages_apps_LineageParts::LineageParts: Do not restore keydisabler state at boot
+packages_apps_LineageParts::DisplayRotation: fix lockscreen rotation hidden on portrait
+packages_apps_LineageParts::[TMP] Partially revert "Disable more unused components"
+packages_apps_LineageParts::[TMP] LineageParts: Comment out some items added in Evolver
+packages_apps_LineageParts::LineageParts: Add more device key actions [3/3]
+packages_apps_LineageParts::Disable unused components
+packages_apps_LineageParts::Remove unused Network Traffic fragment
+packages_apps_LineageParts::Kill redundant search fun party
+packages_apps_LineageParts::Make trust interface less boring
+packages_apps_LineageParts::stats: Mod version switched to Evolution X version
+packages_apps_LineageParts::Ship as Evolution X based on LOS
+bionic::hardcoding custom rom hide app white list
+device_evolution_sepolicy::common: clean up /data/adb crufts
+system_sepolicy::removing tests to ease of sepolicy addition maintenance
