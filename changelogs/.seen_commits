@@ -322,3 +322,14 @@ packages_apps_LineageParts::Ship as Evolution X based on LOS
 bionic::hardcoding custom rom hide app white list
 device_evolution_sepolicy::common: clean up /data/adb crufts
 system_sepolicy::removing tests to ease of sepolicy addition maintenance
+packages_apps_Evolver::Evolver: Use general enable string for cutout ring
+packages_apps_Evolver::Evolver: TrickyStore: Rework attestation controls and per-app mode picker
+packages_apps_Evolver::Evolver: Replace HideAppListSettings with HideDeveloperStatusSettings
+manifest::manifest: Initialize for Evolution X 11.6.4
+device_evolution_sepolicy::sepolicy: Add sandbox rules
+packages_apps_Sandbox::Fix missing keyboard for password field
+packages_apps_AppLocker::Fix missing keyboard for password field
+vendor_evolution::config: Build AxSandbox
+vendor_evolution::Revert "overlay: add applock whitelist"
+packages_apps_ThemeStore::AxThemeStore: Add Vietnamese translations
+packages_apps_Updater::Updater: Make it REUSE compatible
