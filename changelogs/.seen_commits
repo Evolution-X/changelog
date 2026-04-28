@@ -333,3 +333,18 @@ vendor_evolution::config: Build AxSandbox
 vendor_evolution::Revert "overlay: add applock whitelist"
 packages_apps_ThemeStore::AxThemeStore: Add Vietnamese translations
 packages_apps_Updater::Updater: Make it REUSE compatible
+packages_apps_Evolver::Evolver: Cleanup and preference UI consistency
+packages_apps_Evolver::Evolver: BootAnimation: Compose rewrite with M3 Expressive UI
+packages_apps_Evolver::Evolver: PIF: Overhaul config handling and add auto-fetch
+packages_apps_Evolver::Evolver: Rewrite Sensor Block as Compose UI
+manifest::manifest: Initialize for Evolution X 11.7
+packages_apps_Settings::Settings: Hardware info: Rework as unified card UI with OTA-backed data
+packages_apps_Settings::Settings: Logo: Add animated RGB glow; static outline on light theme
+packages_apps_Settings::ProfileSelectFragment: stop assuming tab id == tab index
+packages_apps_Settings::[temp] ProfileSelectFragment: adjust 16 QPR3's canHaveProfile logic until profiles_for_all
+packages_apps_Settings::ProfileSelectFragment: add clarifying comment about UserHandle#myUserId
+packages_apps_Settings::ProfileSelectFragment: backport 16 QPR3 changes
+frameworks_native::SurfaceFlinger: fix outdated test expectation on Pixels due to HDCP
+frameworks_native::SurfaceFlinger: destroy Pixel HWC external display layers on disconnect if command batching
+frameworks_native::SurfaceFlinger: add isLayerCommandBatchingEnabled to Composer classes
+vendor_evolution::version: Uprev to 11.7
