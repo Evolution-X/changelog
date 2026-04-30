@@ -352,3 +352,12 @@ packages_apps_Evolver::Evolver: pif: fix auto-fetch reliability and default to b
 packages_apps_Evolver::Revert "Evolver: Add dynamic bar event for ongoing calls"
 vendor_evolution::release: Enable show_icon_in_empty_shade
 packages_apps_GameSpace::New Crowdin updates (#2)
+packages_apps_Evolver::Evolver: Spoofing: Restructure screen layout and clarify strings
+packages_apps_Evolver::Evolver: PlayIntegrityFix: overhaul config handling, auto-fetch, and import guards
+packages_apps_Evolver::Evolver: TrickyStore: Overhaul app picker and add per-app attestation mode
+packages_apps_Evolver::Evolver: Misc cleanup and UI consistency fixes
+packages_apps_Evolver::Evolver: Replace global Tensor toggle with per-app target picker
+packages_apps_Evolver::Evolver: Update smart pixels
+packages_apps_Evolver::Evolver: Clean up for dynamic bar
+vendor_evolution::overlay: Use google-sans-flex as default
+vendor_extras::extras: Drop Evo navbar overlay
