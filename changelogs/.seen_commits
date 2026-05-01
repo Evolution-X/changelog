@@ -361,3 +361,17 @@ packages_apps_Evolver::Evolver: Update smart pixels
 packages_apps_Evolver::Evolver: Clean up for dynamic bar
 vendor_evolution::overlay: Use google-sans-flex as default
 vendor_extras::extras: Drop Evo navbar overlay
+packages_apps_Evolver::Evolver: Misc: Overhaul app picker screens and consolidate shared UI
+packages_apps_GameSpace::GameSpace: Fix up gaming gesture lock
+packages_apps_GameSpace::GameSpace: Do not set process priority from sidebar
+packages_apps_GameSpace::GameSpace: Add toggle to auto detect games on install
+packages_apps_GameSpace::New Crowdin updates (#143)
+vendor_evolution::tools: fix changelog date format for correct git log parsing
+vendor_evolution::tools: Execute changelog script once at a time
+vendor_evolution::tools: Add changelog script
+vendor_evolution::overlay: Use google-sans-flex for font config overlays
+build::build: execute changelog generator script
+vendor_pixel-style::pixel-style: Update overlays from stallion CP1A.260405.005
+vendor_pixel-style::pixel-style: Do not override qualified networks service
+device_evolution_sepolicy::sepolicy: Allow game space set thread priority
+device_evolution_sepolicy::sepolicy: Add support for game space
