@@ -375,3 +375,13 @@ vendor_pixel-style::pixel-style: Update overlays from stallion CP1A.260405.005
 vendor_pixel-style::pixel-style: Do not override qualified networks service
 device_evolution_sepolicy::sepolicy: Allow game space set thread priority
 device_evolution_sepolicy::sepolicy: Add support for game space
+packages_apps_Evolver::Evolver: Add animation styles for QS tile toggle
+frameworks_av::codec2: Treat IGBP transport failures as blocking
+packages_modules_Wifi::WifiChipAidlImpl: Cache unsupported capability probes
+hardware_interfaces::wifi_chip: Reduce legacy Wi-Fi HAL startup noise
+packages_apps_GameSpace::GameSpace: Use same thread priority for sidebar
+packages_apps_GameSpace::Revert "GameSpace: Do not set process priority from sidebar"
+packages_apps_GameSpace::GameSpace: Remove unimplemented trim memory callback
+packages_apps_GameSpace::GameSpace: Add changes for call listener improvements
+build::build: changelog: Prevent script errors from failing the build
+vendor_evolution::tools: changelog: Fix date command compatibility
