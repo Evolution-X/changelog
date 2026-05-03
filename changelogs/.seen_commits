@@ -385,3 +385,5 @@ packages_apps_GameSpace::GameSpace: Remove unimplemented trim memory callback
 packages_apps_GameSpace::GameSpace: Add changes for call listener improvements
 build::build: changelog: Prevent script errors from failing the build
 vendor_evolution::tools: changelog: Fix date command compatibility
+vendor_evolution::version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
+packages_apps_Settings::Settings: Hardware info: Gate OTA maintainer fetch behind official build type
