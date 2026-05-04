@@ -387,3 +387,10 @@ build::build: changelog: Prevent script errors from failing the build
 vendor_evolution::tools: changelog: Fix date command compatibility
 vendor_evolution::version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
 packages_apps_Settings::Settings: Hardware info: Gate OTA maintainer fetch behind official build type
+packages_apps_Evolver::Evolver: Allow configure bass haptics playback for pulse
+packages_apps_Evolver::Evolver: Add subtle haptics on bass spikes
+packages_apps_Evolver::Evolver: Add particle and waveform renderer styles
+device_evolution_sepolicy::sepolicy: Address sandbox denials
+device_evolution_sepolicy::sepolicy: Add permissions for secure Sandbox Vault
+lineage-sdk::Automatic translation import
+packages_apps_Updater::Automatic translation import
