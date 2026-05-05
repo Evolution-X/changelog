@@ -394,3 +394,5 @@ device_evolution_sepolicy::sepolicy: Address sandbox denials
 device_evolution_sepolicy::sepolicy: Add permissions for secure Sandbox Vault
 lineage-sdk::Automatic translation import
 packages_apps_Updater::Automatic translation import
+packages_apps_Evolver::Evolver: TrickyStore: Add keybox revocation status check
+packages_apps_Evolver::Evolver: Add edge light preview
