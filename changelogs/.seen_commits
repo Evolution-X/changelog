@@ -396,3 +396,21 @@ lineage-sdk::Automatic translation import
 packages_apps_Updater::Automatic translation import
 packages_apps_Evolver::Evolver: TrickyStore: Add keybox revocation status check
 packages_apps_Evolver::Evolver: Add edge light preview
+vendor_evolution::config: dexpreopt gamespace
+packages_apps_Evolver::Evolver: Consolidate, clean up, and reorganize our strings
+packages_apps_Evolver::Evolver: Add emoji styles
+packages_apps_Evolver::Evolver: Introduce new iOS like clock styles
+packages_apps_Evolver::Evolver: Fix DeviceConfig switch sync for face down detection
+vendor_extras::extras: Update ios emoji
+vendor_extras::extras: add swiftui and facebook emoji
+vendor_extras::extras: add emoji packs
+packages_apps_Settings::Settings: Fix capitalization, grammar, and wording in our strings
+packages_modules_Permission::SafetyCenterUtils: This function is only used by tests
+packages_modules_Permission::SystemUI: Use new privacy indicators for location
+packages_modules_Permission::PermissionController: Use headline font from framework resource
+packages_modules_Permission::PermissionController: Remove check/s for permission controller version
+packages_modules_Permission::set textAllCaps theme property to off by default
+packages_modules_Permission::Revert "PermissionController: Bring in the new icon"
+packages_modules_Permission::PermissionController: Add missing permission groups
+packages_services_OmniJaws::OmniJaws: Correct resources nomenclature
+bionic::custom_rom_hide: Remove recovery paths
