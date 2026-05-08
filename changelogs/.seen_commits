@@ -428,3 +428,10 @@ packages_apps_Settings::Settings: Introduce per app GPU screen composition setti
 build::build: overriding lineage namespace
 vendor_evolution::bootanimation: Add support for dynamic color for Evolution X/Google (monet) boot animations [1/3]
 manifest::manifest: Track vanilla branch for OTA
+vendor_themes::temp update battery styles
+packages_apps_Settings::Settings: fix udfps | skip button overlap issue
+packages_apps_Settings::Settings: display: gate display engine category on persist prop
+packages_apps_Settings::development: greyed-out `Disable HW overlays` option
+packages_apps_Settings::Settings: Logo: Add animated RGB glow; use old logo on light theme
+system_sepolicy::sepolicy: adding usap pool rules
+vendor_evolution::config: gate display engine category on persist prop
