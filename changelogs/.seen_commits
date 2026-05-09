@@ -435,3 +435,23 @@ packages_apps_Settings::development: greyed-out `Disable HW overlays` option
 packages_apps_Settings::Settings: Logo: Add animated RGB glow; use old logo on light theme
 system_sepolicy::sepolicy: adding usap pool rules
 vendor_evolution::config: gate display engine category on persist prop
+frameworks_av::MediaSync: fix nullptr dereference in onAbandoned_l on output death
+frameworks_av::MediaSync: remove InputListener death recipient dead code
+frameworks_av::MediaSync: fix nullptr dereference when detachNextBuffer fails
+frameworks_opt_net_wifi::Fix hidden AP remove WifiEntry during connection.
+packages_apps_Evolver::Revert "Evolver: Add nothing os charging animation"
+packages_apps_Evolver::Evolver: Allow change media player position [2/2]
+packages_apps_Evolver::Evolver: Introduce quicksettings widget
+packages_apps_Evolver::Evolver: Allow switching QS tile color to pre-qpr shade [2/2]
+packages_apps_Evolver::Evolver: Restructure spoofing, consolidate strings, add TrickyStore/PIF improvements
+hardware_interfaces::[viperfx_aidl] viperfx aidl integrate
+hardware_interfaces::compatibility_matrices: Allow soundtrigger 2.2 on target-level 6
+hardware_interfaces::compatibility_matrices: Add p/android-4.4 into FCM 5
+hardware_interfaces::Restore q/android-4.9 again
+kernel_configs::Lower q/android-4.9 requirements
+kernel_configs::p/android-4.4: Bump min LTS version
+kernel_configs::p/android-4.4: Enforce eBPF configs
+kernel_configs::Revert "Delete p/android-4.4."
+kernel_configs::Restore q/android-4.9
+packages_apps_ThemeStore::ThemeStore: Update theme repository path
+vendor_themes::themes: Update json
