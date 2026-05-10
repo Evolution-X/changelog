@@ -455,3 +455,15 @@ kernel_configs::Revert "Delete p/android-4.4."
 kernel_configs::Restore q/android-4.9
 packages_apps_ThemeStore::ThemeStore: Update theme repository path
 vendor_themes::themes: Update json
+packages_apps_Evolver::Evolver: Refactor Lockscreen Media art [2/2]
+packages_apps_Evolver::Evolver: Implement custom color support for pulse [2/2]
+packages_apps_Evolver::Evolver: Reorganize categories and move flashlight to misc
+packages_apps_Evolver::Evolver: Add sound preview to lock/unlock sound picker
+packages_apps_Evolver::Evolver: Add seekbar navigation to clock preview
+packages_apps_Evolver::Evolver: Add 2 colon clocks
+vendor_themes::themes: Update json for back gesture and charging animations
+vendor_themes::themes: Add back gesture | charging anim themes
+packages_apps_ThemeStore::strings: Added a Russian translation
+packages_apps_ThemeStore::ThemeStore: Exclude more prebuild overlays
+packages_apps_ThemeStore::ThemeStore: Add more battery style previews
+packages_apps_ThemeStore::ThemeStore: Switch to new json version
