@@ -467,3 +467,20 @@ packages_apps_ThemeStore::strings: Added a Russian translation
 packages_apps_ThemeStore::ThemeStore: Exclude more prebuild overlays
 packages_apps_ThemeStore::ThemeStore: Add more battery style previews
 packages_apps_ThemeStore::ThemeStore: Switch to new json version
+packages_apps_Evolver::Evolver: Drop charging animation changes [SQUASHED]
+packages_apps_Evolver::Evolver: Introduce {Global,Secure,System}PrimarySwitchPreference
+frameworks_native::keeping expensive rendering across blur cache hits
+frameworks_native::build: Fixing dalvik|art|usap tuning regressions
+frameworks_native::build: Adding 8gb/12gb/16gb dalvik heap configs
+frameworks_native::Revert "Add dalvik-heap device configs for 8/12/16 GiB devices"
+frameworks_native::build: Optimizing dalvik heap configs for lower ram tiers
+frameworks_native::Revert "increasing dalvik heap growth limit for 6gb+ targets"
+packages_apps_LMOFreeform::Revert "LMOFreeform: Prefer highest refresh rate display mode"
+packages_apps_LMOFreeform::sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar
+packages_apps_LMOFreeform::sidebar: Implement configurable swipe-to-open gesture for sidebar
+packages_apps_LMOFreeform::sidebar: Integrate GameSpace awareness and auto-hide support
+packages_apps_LMOFreeform::sidebar: Implement gesture setting to open sidebar drawer on tap
+packages_apps_LMOFreeform::sidebar: Refactor settings navigation using NavController
+packages_apps_LMOFreeform::sidebar: Replace custom drawer icons with Material Icons
+packages_apps_LMOFreeform::Sidebar: Implement configurable slider width
+packages_apps_LMOFreeform::sidebar: Refactor customization into standalone activity
