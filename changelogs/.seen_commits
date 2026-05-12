@@ -484,3 +484,7 @@ packages_apps_LMOFreeform::sidebar: Refactor settings navigation using NavContro
 packages_apps_LMOFreeform::sidebar: Replace custom drawer icons with Material Icons
 packages_apps_LMOFreeform::Sidebar: Implement configurable slider width
 packages_apps_LMOFreeform::sidebar: Refactor customization into standalone activity
+packages_apps_Settings::Settings: Restore Russian "Media vibration" translation
+packages_apps_Settings::Revert "fixup! RU: Google Import translations"
+vendor_extras::extras: Update BCR to Version v2.10
+packages_apps_Evolver::Evolver: Reduce clock opacity min value to 0
