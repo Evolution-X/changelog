@@ -488,3 +488,6 @@ packages_apps_Settings::Settings: Restore Russian "Media vibration" translation
 packages_apps_Settings::Revert "fixup! RU: Google Import translations"
 vendor_extras::extras: Update BCR to Version v2.10
 packages_apps_Evolver::Evolver: Reduce clock opacity min value to 0
+packages_apps_Evolver::Evolver: Show dynamic summaries for applicable preferences
+packages_apps_Evolver::Evolver: Consolidate strings, restructure spoofing, fix stale state bugs
+vendor_evolution::overlay: Use Dark Shade from Aluminium OS as default wallpaper
