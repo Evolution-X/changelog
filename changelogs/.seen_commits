@@ -491,3 +491,10 @@ packages_apps_Evolver::Evolver: Reduce clock opacity min value to 0
 packages_apps_Evolver::Evolver: Show dynamic summaries for applicable preferences
 packages_apps_Evolver::Evolver: Consolidate strings, restructure spoofing, fix stale state bugs
 vendor_evolution::overlay: Use Dark Shade from Aluminium OS as default wallpaper
+packages_apps_Updater::Updater: fix NPE when update is not found in controller
+packages_apps_Updater::Updater: keep local update entry after install until reboot
+packages_apps_ThemeStore::ThemeStore: Prioritize active themes
+packages_apps_ThemeStore::ThemeStore: fixing scaffold|top app bar issues
+packages_apps_ThemeStore::ThemeStore: Add Vietnamese translations
+packages_apps_AppLocker::fixing applocker activity lifecycle issues
+packages_apps_Sandbox::fixing auth activity lifecycle issues
