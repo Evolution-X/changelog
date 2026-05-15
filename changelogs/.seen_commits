@@ -498,3 +498,9 @@ packages_apps_ThemeStore::ThemeStore: fixing scaffold|top app bar issues
 packages_apps_ThemeStore::ThemeStore: Add Vietnamese translations
 packages_apps_AppLocker::fixing applocker activity lifecycle issues
 packages_apps_Sandbox::fixing auth activity lifecycle issues
+packages_apps_Evolver::Revert "Evolver: Allow toggle waveform seekbar [2/2]"
+vendor_evolution::bootanimation: Update from Pixel 10 series
+packages_apps_Settings::Settings: Fix battery widget not updating in real time
+packages_apps_Sandbox::Sandbox: Fixing auth activity lifecycle issues
+vendor_themes::themes: Import waveform APKs
+packages_apps_ThemeStore::ThemeStore: add support for dynamic media waveform themes
