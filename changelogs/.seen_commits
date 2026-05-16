@@ -504,3 +504,8 @@ packages_apps_Settings::Settings: Fix battery widget not updating in real time
 packages_apps_Sandbox::Sandbox: Fixing auth activity lifecycle issues
 vendor_themes::themes: Import waveform APKs
 packages_apps_ThemeStore::ThemeStore: add support for dynamic media waveform themes
+packages_apps_Settings::bluetooth: fix DISALLOW_CONFIG_BLUETOOTH blocking settings toggle
+packages_apps_Evolver::Evolver: TrickyStore: Improve robustness and UX
+packages_apps_Evolver::Evolver: Bring back status bar brightness control
+packages_modules_Bluetooth::Fix BTA_JV_DEF_RFC_MTU calculation for 3DH5
+packages_modules_Bluetooth::Fix SCO volume off-by-1 error in HFP absolute volume mapping
