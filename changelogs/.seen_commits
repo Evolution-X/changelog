@@ -509,3 +509,20 @@ packages_apps_Evolver::Evolver: TrickyStore: Improve robustness and UX
 packages_apps_Evolver::Evolver: Bring back status bar brightness control
 packages_modules_Bluetooth::Fix BTA_JV_DEF_RFC_MTU calculation for 3DH5
 packages_modules_Bluetooth::Fix SCO volume off-by-1 error in HFP absolute volume mapping
+packages_apps_Evolver::Evolver: Allow toggling keyguard behind scrim visibility [2/2]
+packages_services_OmniJaws::OmniJaws: Add Pirate weather provider to compose UI
+packages_services_OmniJaws::OmniJaws: Update RU translations
+packages_services_OmniJaws::OmniJaws: Add Pirate weather provider
+packages_services_OmniJaws::OmniJaws: Fix weather icon pack updates
+packages_services_OmniJaws::OmniJaws: Add themed outline icon resources
+packages_services_OmniJaws::OmniJaws: Hide icon theme settings for non-themeable packs
+packages_services_OmniJaws::OmniJaws: Convert Google New icons to themed resources
+packages_services_OmniJaws::OmniJaws: Add app icon theme setting
+packages_services_OmniJaws::OmniJaws: Resolve app weather icons through icon provider
+packages_services_OmniJaws::OmniJaws: Add widget icon theme handling
+packages_services_OmniJaws::OmniJaws: Convert Nothing icons to themed resources
+packages_services_OmniJaws::OmniJaws: Add theme-aware icon provider
+packages_services_OmniJaws::OmniJaws: Add weather icon pack model
+packages_services_OmniJaws::OmniJaws: Add dark mode for Nothing Icon Pack
+packages_services_OmniJaws::OmniJaws: Add front-end
+packages_services_AxQuickLook::WeatherProvider: Update import path for OmniJawsClient
