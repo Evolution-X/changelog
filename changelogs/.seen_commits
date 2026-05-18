@@ -526,3 +526,23 @@ packages_services_OmniJaws::OmniJaws: Add weather icon pack model
 packages_services_OmniJaws::OmniJaws: Add dark mode for Nothing Icon Pack
 packages_services_OmniJaws::OmniJaws: Add front-end
 packages_services_AxQuickLook::WeatherProvider: Update import path for OmniJawsClient
+vendor_pixel-style::pixel-style: charger: Convert build system to Android.bp
+build::envsetup: Export the `TARGET_PREBUILT_KERNEL_HEADERS` variable, if it exists
+packages_modules_Bluetooth::Bluetooth timeout feature
+packages_modules_Bluetooth::l2cap: Use basic mode for edge case devices
+packages_modules_Bluetooth::skip abort crash on failed init
+packages_modules_Bluetooth::ignore EnableRealTimeScheduling failures
+packages_modules_Bluetooth::SBC Dual Channel (SBC HD) support - redux
+packages_modules_Bluetooth::ignore invalid mask
+packages_modules_Bluetooth::Update valid phone number for VoIP call
+packages_modules_Bluetooth::Initiate codec negotiation when AT+BCC is received
+packages_modules_Bluetooth::link commands triggered after classic link disconnection
+packages_modules_Bluetooth::Bluetooth: Add missing connect permission
+packages_modules_Bluetooth::Fix BT noise issue during startup
+packages_modules_Bluetooth::leaudio: Overriding bit depth for broadcast as well
+vendor_evolution::overlay: Update DocumentsUIOverlay
+vendor_extras::extras: sdk: Add common utils lib
+vendor_extras::extras: sdk: Import material 3 library v1.5.0-alpha12
+vendor_extras::extras: sdk: Remove device info dependency in compose sdk
+vendor_extras::extras: sdk: Add platform hooks
+vendor_extras::extras: sdk: Add compose lifecycle utils
