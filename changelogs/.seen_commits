@@ -546,3 +546,9 @@ vendor_extras::extras: sdk: Import material 3 library v1.5.0-alpha12
 vendor_extras::extras: sdk: Remove device info dependency in compose sdk
 vendor_extras::extras: sdk: Add platform hooks
 vendor_extras::extras: sdk: Add compose lifecycle utils
+packages_apps_Evolver::Evolver: Add Settings icon background customization [2/2]
+packages_apps_Evolver::Evolver: Bring back status bar brightness control [2/2]
+vendor_evolution::config: gate display engine category on persist prop [1/2]
+packages_apps_Settings::feat: sleep mode deep sleep toggle [2/2]
+packages_apps_Settings::Settings: Add Settings icon background customization [1/2]
+packages_apps_Settings::Settings: display: gate display engine category on persist prop [2/2]
