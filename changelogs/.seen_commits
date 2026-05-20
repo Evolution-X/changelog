@@ -552,3 +552,5 @@ vendor_evolution::config: gate display engine category on persist prop [1/2]
 packages_apps_Settings::feat: sleep mode deep sleep toggle [2/2]
 packages_apps_Settings::Settings: Add Settings icon background customization [1/2]
 packages_apps_Settings::Settings: display: gate display engine category on persist prop [2/2]
+vendor_evolution::config: speed compile applocker
+vendor_gms-mosey::gms-mosey: Import Mosey vendor blobs
