@@ -554,3 +554,16 @@ packages_apps_Settings::Settings: Add Settings icon background customization [1/
 packages_apps_Settings::Settings: display: gate display engine category on persist prop [2/2]
 vendor_evolution::config: speed compile applocker
 vendor_gms-mosey::gms-mosey: Import Mosey vendor blobs
+packages_apps_Evolver::Evolver: TrickyStore: Improve robustness, UX, and network efficiency
+packages_apps_Evolver::Evolver: PlayIntegrityFix: Persist auto-fetch cooldown across restarts
+packages_apps_Evolver::Evolver: Clean up and organize various fragments
+packages_apps_Evolver::Evolver: Fix UI/UX inconsistencies in lockscreen clock picker fragment
+packages_apps_Evolver::Evolver: Fix QS media player show switch
+packages_apps_Evolver::Evolver: Add Sleep Mode trigger option in idlemanager [2/2]
+packages_apps_Evolver::Evolver: Rework locksreen clock color picker
+packages_apps_Evolver::Evolver: Show lockscreen wallpaper in custom clock preview
+packages_apps_Evolver::Evolver: Implement lockscreen clock picker fragment with UI
+packages_apps_Evolver::Evolver: Import Skydoves color picker
+packages_apps_Evolver::Evolver: Add more clocks [2/2]
+packages_services_OmniJaws::OmniJaws: Remove stale code and resources
+packages_services_OmniJaws::OmniJaws: Remove hardcoded strings
