@@ -567,3 +567,17 @@ packages_apps_Evolver::Evolver: Import Skydoves color picker
 packages_apps_Evolver::Evolver: Add more clocks [2/2]
 packages_services_OmniJaws::OmniJaws: Remove stale code and resources
 packages_services_OmniJaws::OmniJaws: Remove hardcoded strings
+lineage-sdk::sdk: fix javadoc warnings
+packages_apps_Evolver::Evolver: TrickyStore: Improve keybox revocation UX and reliability
+bootable_recovery::allowing spl downgrade by default
+bootable_recovery::recovery: Add support for AIDL bootcontrol HAL in slot switch option
+bootable_recovery::recovery: Do not print switch slot info without actually switching a slot
+bootable_recovery::recovery: rewrite slot switch logic using bootcontrol APIs
+bootable_recovery::recovery: add support for changing slots
+bootable_recovery::install: Do not check ro.build.tags on user builds
+bootable_recovery::recovery: Always consider builds to be debuggable
+bootable_recovery::recovery: Skip verifying packages altogether
+bootable_recovery::recovery: Make recovery usable on user builds
+bootable_recovery::recovery: allow formatting & mounting system on user builds
+bootable_recovery::recovery: Update OTA animation to Evolution-X Style
+bootable_recovery::recovery: Rebrand to Evolution X
