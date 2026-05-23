@@ -581,3 +581,6 @@ bootable_recovery::recovery: Make recovery usable on user builds
 bootable_recovery::recovery: allow formatting & mounting system on user builds
 bootable_recovery::recovery: Update OTA animation to Evolution-X Style
 bootable_recovery::recovery: Rebrand to Evolution X
+packages_apps_Settings::Settings: Force transparent footer background for UDFPS in SetupWizard
+vendor_gms-mosey::gms-mosey: Ship initial-package-stopped-states XML
+vendor_extras::extras: Update BCR to Version v2.11
