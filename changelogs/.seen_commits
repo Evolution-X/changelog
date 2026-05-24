@@ -584,3 +584,8 @@ bootable_recovery::recovery: Rebrand to Evolution X
 packages_apps_Settings::Settings: Force transparent footer background for UDFPS in SetupWizard
 vendor_gms-mosey::gms-mosey: Ship initial-package-stopped-states XML
 vendor_extras::extras: Update BCR to Version v2.11
+packages_apps_Evolver::Evolver: Fix up clock styles previews
+packages_apps_Evolver::Evolver: Add custom carrier label and location customization [2/2]
+vendor_gms-mosey::gms-mosey: Lock ExternalSharingService component [1/2]
+frameworks_av::Explicitly initialize chrono types in VirtualCameraRenderThread
+frameworks_av::Fix Active Array Size calculation logic
