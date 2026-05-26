@@ -593,3 +593,6 @@ packages_apps_Evolver::New Crowdin updates (#490)
 packages_apps_Evolver::Evolver: Add dedicated Pixel props fragment and extract shared Spoofing UI
 device_evolution_sepolicy::sepolicy: declare legacy v1 mosey service endpoint
 device_evolution_sepolicy::sepolicy: allow mosey_server SIOCGIFNAME on netlink_generic_socket
+packages_apps_Settings::Settings: Fix resource not found issue in notification settings
+packages_services_OmniJaws::OmniJaws: Remove more hardcoded strings in UI
+packages_services_OmniJaws::OmniJaws: Tighten valid forecast check in forecast card
