@@ -599,3 +599,4 @@ packages_services_OmniJaws::OmniJaws: Tighten valid forecast check in forecast c
 packages_apps_Evolver::Evolver: TrickyStore: add per-package default modes on reset
 packages_apps_Evolver::Evolver: Power menu: Add granular restart action toggles
 lineage-sdk::sdk: LineageSettings: Add POWER_MENU_RESTART_ACTIONS system setting
+packages_apps_Evolver::Evolver: TrickyStore: improve target management and GMS reset handling
