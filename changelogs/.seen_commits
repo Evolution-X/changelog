@@ -600,3 +600,4 @@ packages_apps_Evolver::Evolver: TrickyStore: add per-package default modes on re
 packages_apps_Evolver::Evolver: Power menu: Add granular restart action toggles
 lineage-sdk::sdk: LineageSettings: Add POWER_MENU_RESTART_ACTIONS system setting
 packages_apps_Evolver::Evolver: TrickyStore: improve target management and GMS reset handling
+vendor_extras::extras: Update BCR to Version v3.1
