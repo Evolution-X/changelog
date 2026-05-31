@@ -604,3 +604,6 @@ vendor_extras::extras: Update BCR to Version v3.1
 packages_modules_Bluetooth::Add L2CAP and A2DP offload coex mechanism for MTK
 packages_apps_AppLocker::strings: Added Russian translation
 packages_apps_Evolver::Evolver: Miscellaneous: Shared UI infrastructure and multi-screen refactors
+packages_apps_Evolver::Evolver: Fix qs quick pulldown
+packages_apps_LineageParts::LineageParts: Add partial screenshot action
+packages_apps_Settings::Settings: Blend battery info with new UI
