@@ -607,3 +607,5 @@ packages_apps_Evolver::Evolver: Miscellaneous: Shared UI infrastructure and mult
 packages_apps_Evolver::Evolver: Fix qs quick pulldown
 packages_apps_LineageParts::LineageParts: Add partial screenshot action
 packages_apps_Settings::Settings: Blend battery info with new UI
+packages_apps_Evolver::Evolver: Add partial screenshot action
+lineage-sdk::sdk: Add partial screenshot action
