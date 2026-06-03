@@ -610,3 +610,34 @@ packages_apps_Settings::Settings: Blend battery info with new UI
 packages_apps_Evolver::Evolver: Add partial screenshot action
 lineage-sdk::sdk: Add partial screenshot action
 vendor_evolution::config: CUSTOM_LOCALES: Add Central Kurdish
+vendor_extras::extras: sdk: adding ax_blur libs
+vendor_extras::extras: sdk: compose: improving settings flow | adding commonized typography
+packages_apps_ThemeStore::ThemeStore: integrating axion sdk components
+vendor_evolution::release: enabling enable_create_any_bubble flag
+vendor_evolution::version: Uprev to 11.8
+packages_apps_Settings::Settings: fixing platform apps storage info
+frameworks_native::fixup! fixing dalvik|art|usap tuning regressions
+frameworks_native::[ax_perf] low latency frame drop integrate
+manifest::[TMP] manifest: Track our forks for 2026-06 ASB
+manifest::manifest: Initialize for Evolution X 11.8
+packages_services_Telecomm::Telecomm: Provide required permissions for Telephony
+packages_services_Telecomm::Ringer: There should really not be an observer here
+packages_services_Telecomm::Ringer: Rewrite flashlight blink on incoming calls
+packages_services_Telecomm::Telecomm: Add DND & Rate settings to flash on call [2/3]
+packages_services_Telecomm::Telecomm: Allow to flash on call only when entirely silent [2/3]
+packages_services_Telecomm::Telecomm: Add Flashlight blink on incoming calls [2/3]
+packages_services_Telecomm::Telecomm: Update vibration patterns
+packages_services_Telecomm::Telecomm: Add a null check to custom ring vibration
+packages_services_Telecomm::Telecomm: Allow choosing a custom vibration pattern [2/3]
+packages_services_Telecomm::Telecomm: Add vibration patterns from OOS [2/3]
+packages_services_Telecomm::Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+packages_services_Telecomm::Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
+packages_services_Telecomm::Telcomm: Enable support for blocking callers not in contacts
+packages_services_Telecomm::CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
+packages_services_Telecomm::Telecomm: More improvements for incall vibrations
+packages_services_Telecomm::Telecomm: Get rid of deprecation in incall vibrations
+packages_services_Telecomm::Incall vibration options [2/3]
+packages_services_Telecomm::Add back increasing ring feature (1/2).
+packages_services_Telecomm::Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+packages_services_Telephony::Telephony: Migrate MainSwitchBar and Switch to Material3
+packages_services_Telephony::Telephony: Apply Material You to exposed settings
