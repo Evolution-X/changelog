@@ -641,3 +641,7 @@ packages_services_Telecomm::Add back increasing ring feature (1/2).
 packages_services_Telecomm::Telecomm: Phone ringtone setting for Multi SIM device [3/3]
 packages_services_Telephony::Telephony: Migrate MainSwitchBar and Switch to Material3
 packages_services_Telephony::Telephony: Apply Material You to exposed settings
+vendor_evolution::config: Spoof BuildFingerprint as Pixel Canary
+vendor_evolution::overlay: avoiding IME logspam during DPAD events
+packages_apps_Settings::Settings: Use color accents for biometrics enroll style
+packages_apps_Settings::Settings: gestures: gate navbar button order on Launcher3 as default home
