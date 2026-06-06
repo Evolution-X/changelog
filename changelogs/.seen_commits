@@ -645,3 +645,5 @@ vendor_evolution::config: Spoof BuildFingerprint as Pixel Canary
 vendor_evolution::overlay: avoiding IME logspam during DPAD events
 packages_apps_Settings::Settings: Use color accents for biometrics enroll style
 packages_apps_Settings::Settings: gestures: gate navbar button order on Launcher3 as default home
+packages_apps_Settings::fixup! Settings: Reset tether offload developer setting correctly
+packages_apps_Settings::Settings: Use dynamic colors for UDFPS enroll style
