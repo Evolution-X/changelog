@@ -647,3 +647,15 @@ packages_apps_Settings::Settings: Use color accents for biometrics enroll style
 packages_apps_Settings::Settings: gestures: gate navbar button order on Launcher3 as default home
 packages_apps_Settings::fixup! Settings: Reset tether offload developer setting correctly
 packages_apps_Settings::Settings: Use dynamic colors for UDFPS enroll style
+packages_apps_Evolver::Evolver: Add album art color override for lockscreen clock [2/2]
+packages_apps_Evolver::Evolver: Add some new ios type clocks [2/2]
+frameworks_native::surfaceflinger: specifically no vote status bar
+frameworks_native::surfaceflinger: arr: handle no vote the same as idle
+frameworks_native::surfaceflinger: arr: use as low as kMinSupportedFrameRate from anchor list for idle rate
+frameworks_native::surfaceflinger: always show refresh/render rate in overlay
+frameworks_native::surfaceflinger: vrr: apply idle signal to vrr rate policy
+frameworks_native::surfaceflinger: extend ARR overrides to normal, add oplus anchor list
+packages_apps_GameSpace::GameSpace: Add toggle to disable pulse bass haptics in-game
+packages_apps_GameSpace::GameSpace: Disable statusbar brightness control with auto brightness
+bionic::custom_rom_hide: additional intercepts
+lineage-sdk::LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
