@@ -659,3 +659,4 @@ packages_apps_GameSpace::GameSpace: Add toggle to disable pulse bass haptics in-
 packages_apps_GameSpace::GameSpace: Disable statusbar brightness control with auto brightness
 bionic::custom_rom_hide: additional intercepts
 lineage-sdk::LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
+frameworks_av::codec2: Synchronize mParamReflectors updates in the HAL ComponentStore
