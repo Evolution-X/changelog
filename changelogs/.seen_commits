@@ -660,3 +660,5 @@ packages_apps_GameSpace::GameSpace: Disable statusbar brightness control with au
 bionic::custom_rom_hide: additional intercepts
 lineage-sdk::LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
 frameworks_av::codec2: Synchronize mParamReflectors updates in the HAL ComponentStore
+packages_apps_Settings::Settings: Rewrite kernel version pref to replicate old behavior
+packages_apps_Settings::Settings: Tint icons in VolumeSliderPreference
