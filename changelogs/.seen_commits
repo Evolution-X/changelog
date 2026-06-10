@@ -662,3 +662,56 @@ lineage-sdk::LightsCapabilities: Add LIGHTS_NO_BRIGHTNESS_CONTROL
 frameworks_av::codec2: Synchronize mParamReflectors updates in the HAL ComponentStore
 packages_apps_Settings::Settings: Rewrite kernel version pref to replicate old behavior
 packages_apps_Settings::Settings: Tint icons in VolumeSliderPreference
+packages_apps_Evolver::Evolver: Add volume slider and ringer mode in QS panel
+manifest::manifest: Re-enable QCOM msm8996 HALs
+vendor_extras::extras: sdk: Extract glyph first in IconTinterUtils
+vendor_extras::extras: sdk: Update IconTinterUtils
+device_evolution_sepolicy::sepolicy: Move trickystore, pif and game props spoof
+device_evolution_sepolicy::sepolicy: Import Mosey entries
+device_evolution_sepolicy::[game_props] adding game spoofing
+device_evolution_sepolicy::[pif] adding pif sepolicy rules
+device_evolution_sepolicy::[keybox] adding tricky store sepolicy rules
+device_evolution_sepolicy::[ax_custom_rom_hide] adding rules
+device_evolution_sepolicy::Adding theme engine sepolicies
+device_evolution_sepolicy::sepolicy: Add rules to allow powerhal accessing IStates AIDL
+device_evolution_sepolicy::sepolicy: Allow systemui access to bluetooth_lea_prop
+device_evolution_sepolicy::sepolicy: Address denial for webview crash
+device_evolution_sepolicy::sepolicy: Label sun HALs/services/props
+device_evolution_sepolicy::sepolicy: Update for CachedAppOptimizer denial
+device_evolution_sepolicy::sepolicy: Allow platform read thermal sysfs
+device_evolution_sepolicy::sepolicy: Address CachedAppOptimizer denial
+device_evolution_sepolicy::common: Always run recovery in permissive domain
+device_evolution_sepolicy::Revert "Make backuptool permissive only in non user builds"
+device_evolution_sepolicy::sepolicy: label Compact HUN property
+device_evolution_sepolicy::common: allow zygote sys_nice
+device_evolution_sepolicy::Add rules for smart charge
+device_evolution_sepolicy::common: Address denial for google services app
+device_evolution_sepolicy::common: Address launcher app denials
+device_evolution_sepolicy::sepolicy: Allow platform app to set bootanim system prop
+device_evolution_sepolicy::sepolicy: Allow to set ApSensor system property
+device_evolution_sepolicy::common: Label bluetooth.hci.erroneous_data_reporting.enabled
+device_evolution_sepolicy::sepolicy: Add support for boost framework
+device_evolution_sepolicy::sepolicy: Allow gmscore_app to set system_prop
+device_evolution_sepolicy::sepolicy: Add rules for boot animation styles feature
+device_evolution_sepolicy::sepolicy: Allow gmscore_app to access system_data_file
+device_evolution_sepolicy::sepolicy: Add support for LMOFreeform service
+device_evolution_sepolicy::Allow launcher to access zram sysfs
+device_evolution_sepolicy::Allow apps to access usap pool
+device_evolution_sepolicy::lineage: Make Health service discoverable by Settings app
+device_evolution_sepolicy::sepolicy: Label Dolby Sepolicy labels
+device_evolution_sepolicy::Allow system app to read navbar config
+device_evolution_sepolicy::sepolicy: Label more dirty writeback parameters
+device_evolution_sepolicy::sepolicy: introduce app lock [2/4]
+device_evolution_sepolicy::sepolicy: Label LinearmotorVibratorService
+device_evolution_sepolicy::sepolicy: Move in pocket service sepolicy
+device_evolution_sepolicy::sepolicy: Label skip unconfigure prop
+device_evolution_sepolicy::Allow updater to read data files
+device_evolution_sepolicy::updater_app: Address uncrypt denials
+device_evolution_sepolicy::sepolicy: Allow system_server to read and write to sysfs_battery_supply
+device_evolution_sepolicy::sepolicy: Allow launcher app to read archiving prop
+device_evolution_sepolicy::Allow platform app to read memory info
+device_evolution_sepolicy::sepolicy: Allow platform adjust camera shutter sound
+device_evolution_sepolicy::Allow documents UI to access storage
+device_evolution_sepolicy::sepolicy: Allow key disabler access for platform
+device_evolution_sepolicy::sepolicy: Updater changes for Evolution X
+device_evolution_sepolicy::sepolicy: Label ro.surface_flinger.blur_disabled_by_default
