@@ -715,3 +715,5 @@ device_evolution_sepolicy::Allow documents UI to access storage
 device_evolution_sepolicy::sepolicy: Allow key disabler access for platform
 device_evolution_sepolicy::sepolicy: Updater changes for Evolution X
 device_evolution_sepolicy::sepolicy: Label ro.surface_flinger.blur_disabled_by_default
+packages_services_OmniJaws::OmniJaws: Add null checks for forecast entries
+device_evolution_sepolicy::common: Label ro.config.force_multi_window prop
