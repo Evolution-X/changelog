@@ -717,3 +717,5 @@ device_evolution_sepolicy::sepolicy: Updater changes for Evolution X
 device_evolution_sepolicy::sepolicy: Label ro.surface_flinger.blur_disabled_by_default
 packages_services_OmniJaws::OmniJaws: Add null checks for forecast entries
 device_evolution_sepolicy::common: Label ro.config.force_multi_window prop
+packages_apps_Evolver::Evolver: Extend volume slider modes
+vendor_evolution::Revert "release: disable new dozing keyguard states"
