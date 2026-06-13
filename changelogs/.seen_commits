@@ -719,3 +719,6 @@ packages_services_OmniJaws::OmniJaws: Add null checks for forecast entries
 device_evolution_sepolicy::common: Label ro.config.force_multi_window prop
 packages_apps_Evolver::Evolver: Extend volume slider modes
 vendor_evolution::Revert "release: disable new dozing keyguard states"
+packages_apps_Evolver::Evolver: TrickyStore: Fix keybox revocation check always returning VALID
+frameworks_native::Increase BINDER_VM_SIZE from 1MB to 4MB
+frameworks_av::CameraService: Add OnePlus camera extension support for zoom
