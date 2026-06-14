@@ -722,3 +722,10 @@ vendor_evolution::Revert "release: disable new dozing keyguard states"
 packages_apps_Evolver::Evolver: TrickyStore: Fix keybox revocation check always returning VALID
 frameworks_native::Increase BINDER_VM_SIZE from 1MB to 4MB
 frameworks_av::CameraService: Add OnePlus camera extension support for zoom
+packages_apps_Evolver::Evolver: Drop ongoing progress chip
+packages_apps_LMOFreeform::New Crowdin updates (#29)
+packages_apps_GameSpace::New translations (#150)
+packages_apps_Settings::Settings: Hardcode Settings icon color in launcher
+frameworks_av::camera: bypass roundBufferDimensionNearest for Y16
+packages_services_OmniJaws::OmniJaws: Improve UI for detail cards
+packages_services_OmniJaws::OmniJaws: Fix hourly forecast card curve
