@@ -729,3 +729,4 @@ packages_apps_Settings::Settings: Hardcode Settings icon color in launcher
 frameworks_av::camera: bypass roundBufferDimensionNearest for Y16
 packages_services_OmniJaws::OmniJaws: Improve UI for detail cards
 packages_services_OmniJaws::OmniJaws: Fix hourly forecast card curve
+build::Revert "build: Erase resource-cache upon flashing"
