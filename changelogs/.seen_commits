@@ -730,3 +730,11 @@ frameworks_av::camera: bypass roundBufferDimensionNearest for Y16
 packages_services_OmniJaws::OmniJaws: Improve UI for detail cards
 packages_services_OmniJaws::OmniJaws: Fix hourly forecast card curve
 build::Revert "build: Erase resource-cache upon flashing"
+bootable_recovery::recovery: Add support for analog dpad
+lineage-sdk::Partial Reapply "LineagePreferenceLib: Ensure the preference is available before replacing"
+packages_apps_LineageParts::Automatic translation import
+packages_apps_LineageParts::LineageParts: Update LiveDisplay color profiles to match AOSP
+packages_apps_Settings::Automatic translation import
+packages_apps_Settings::Settings: Add a preference for LiveDisplay display profiles
+packages_apps_SetupWizard::Automatic translation import
+packages_services_OmniJaws::OmniJaws: Fix issues and improve sunrise / sunset card
