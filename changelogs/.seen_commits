@@ -742,3 +742,5 @@ hardware_interfaces::Health: poll battery on the awake interval despite epoll ev
 packages_providers_MediaProvider::MediaProvider: Gate verbose picker DB failure logging behind isLoggable
 hardware_google_pixel::thermal: increase Thermal HAL uevent buffer
 system_sepolicy::Allow init and vendor_init to access proc_type
+vendor_extras::extras: Update BCR to Version v3.2
+vendor_evolution::config: Drop memtag props
