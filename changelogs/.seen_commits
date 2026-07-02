@@ -744,3 +744,43 @@ hardware_google_pixel::thermal: increase Thermal HAL uevent buffer
 system_sepolicy::Allow init and vendor_init to access proc_type
 vendor_extras::extras: Update BCR to Version v3.2
 vendor_evolution::config: Drop memtag props
+build_soong::soong: Overriding lineage namespace
+build_soong::soong: Fix 'date' command options
+build_soong::soong: Increase ThinLTO cache to 15GB
+build_soong::soong: Add com.thundersoft to allowed package list
+build_soong::soong: Make sure TLTO cache dir exists
+build_soong::lto: support overriding ThinLTO cache directory
+build_soong::soong: Add out/soong/*.glob* to installclean
+build_soong::check_boot_jars: Add MTK packages to whitelist
+build_soong::soong: Allow various path commands
+build_soong::soong: check_boot_jars: Whitelist Xiaomi Extensions
+build_soong::soong: check_boot_jars: Whitelist Camera Extensions
+build_soong::soong: Clamp first api level to 32
+build_soong::soong: Do not leak lineage_ prefixes in build.prop
+build_soong::always use UTC as the time zone for build dates
+build_soong::remove cross-version ABI dump difference check
+build_soong::remove same-version ABI dump difference check
+build_soong::include PLATFORM_SECURITY_PATCH variable in dumpvars output
+build_soong::whitelist external, hardware/google & hardware/interfaces
+build_soong::soong: Remove HOST_* vars except HOST_OS from BannerVars
+build_soong::Disable fsgen check
+build_soong::gen_build_prop: Set appcompat value of ro.boot.verifiedbootstate to green on non-eng builds
+build_soong::soong: Disable sandbox
+build_soong::check_boot_jars: Whitelist LMOFreeform
+build_soong::Remove workaround for Qualcomm Kryo 385
+build_soong::Enable crypto extensions for armv9-a
+build_soong::cc: Enable more features when using armv8.2-a+dotprod
+build_soong::soong: Add kryo300 variant support
+build_soong::soong: add kryo785 architecture variant for arm64.
+build_soong::Define AArch32 soong variable
+build_soong::soong: increase heap size for metalava
+build_soong::Revert "Add "packages/" to Android.mk denylist."
+build_soong::Introduce Cortex-A510 CPU variant
+build_soong::check_boot_jars: Add Evolution X package to whitelist
+build_soong::Use -march=armv9-a+nosve for Armv9-A arch variant
+build_soong::check_boot_jars: add org.ifaa.aidl packages to whitelist
+build_soong::check_boot_jars: add OnePlus packages to whitelist
+build_soong::soong: Change to EVO_VERSION
+build_soong::Revert "Remove timestamp from local build number"
+build_soong::soong: Set ro.evolution.device
+build_soong::soong: lineage-priv > evolution-priv
