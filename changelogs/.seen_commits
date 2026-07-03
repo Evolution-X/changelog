@@ -784,3 +784,5 @@ build_soong::soong: Change to EVO_VERSION
 build_soong::Revert "Remove timestamp from local build number"
 build_soong::soong: Set ro.evolution.device
 build_soong::soong: lineage-priv > evolution-priv
+packages_apps_Settings::Settings: Fix color state for auto-confirm PIN checkbox
+packages_apps_Evolver::New translations evolution_strings.xml (Hungarian)
