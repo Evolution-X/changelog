@@ -786,3 +786,8 @@ build_soong::soong: Set ro.evolution.device
 build_soong::soong: lineage-priv > evolution-priv
 packages_apps_Settings::Settings: Fix color state for auto-confirm PIN checkbox
 packages_apps_Evolver::New translations evolution_strings.xml (Hungarian)
+manifest::Revert "manifest: Track custom prebuilts/misc revision"
+manifest::manifest: Track libvmmem
+vendor_evolution::config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong
+vendor_evolution::config: Exclude prebuilts/misc/protobuf_vendorcompat
+vendor_evolution::config: Remove deprecated flags
