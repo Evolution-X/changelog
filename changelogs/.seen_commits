@@ -791,3 +791,4 @@ manifest::manifest: Track libvmmem
 vendor_evolution::config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong
 vendor_evolution::config: Exclude prebuilts/misc/protobuf_vendorcompat
 vendor_evolution::config: Remove deprecated flags
+vendor_evolution::release: Bump Security String to 2026-07-01
