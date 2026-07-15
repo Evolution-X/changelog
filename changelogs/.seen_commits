@@ -795,3 +795,6 @@ vendor_evolution::release: Bump Security String to 2026-07-01
 vendor_evolution::config: Uprev to 11.9
 vendor_evolution::lineage: Introduce a simple program for disabling adb remount overlays
 packages_apps_Evolver::New translations evolution_strings.xml (Turkish)
+packages_apps_Evolver::Evolver: trickystore: sync default target modes with TEESimulator
+packages_apps_Evolver::Evolver: trickystore: expand patch date dialog to multi-line format
+packages_apps_Evolver::Evolver: pif: preserve per-package patch config on canary fetch
