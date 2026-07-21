@@ -798,3 +798,28 @@ packages_apps_Evolver::New translations evolution_strings.xml (Turkish)
 packages_apps_Evolver::Evolver: trickystore: sync default target modes with TEESimulator
 packages_apps_Evolver::Evolver: trickystore: expand patch date dialog to multi-line format
 packages_apps_Evolver::Evolver: pif: preserve per-package patch config on canary fetch
+frameworks_av::[bugfix] fixing visualizer not working on bluetooth audio
+frameworks_av::MediaCodec: Improve mediacrypto async priorty
+frameworks_av::audio: fix incorrect eos in sync offload output case.
+frameworks_av::Null Pointer Exception in CameraServer during user switch
+frameworks_av::services: Move libcameraservice_ext_lib_defaults to select()
+frameworks_av::CameraProviderExtension: add enabled bool and always set torch
+frameworks_av::CameraProviderExtension: Use weak linkage for default implementations
+frameworks_av::CameraProviderExtension: Inject strength in fixupTorchStrengthTags
+frameworks_av::CameraProviderExtension: Reset strength level on torch off
+frameworks_av::CameraProviderExtension: Update mTorchStrengthLevel with new level
+frameworks_av::CameraProviderExtension: Return BAD_VALUE for invalid strength level
+frameworks_av::camera: Add extension to control torch light strength
+frameworks_av::skip mediametrics when statsd is not available
+frameworks_av::Add AC4Tbl params for dolby AC4 decoder [1/2]
+frameworks_av::Revert "MultiAccessUnit reflector helper allocated once per ComponentStore"
+frameworks_av::Revert "[audio] Legacy AudioTrack::set cleanup"
+frameworks_av::Effects: Do not allow SW dolby effect to be supsended
+frameworks_av::services: Move uses_miui_camera_defaults to select()
+frameworks_av::services: Move camera_package_name_defaults to select()
+frameworks_av::Effects: Do not allow ViperFx effect to be supsended
+frameworks_av::[DO NOT MERGE] goddammit google
+frameworks_av::Camera: Add support for miui camera mode [1/2]
+frameworks_av::Camera: Allow setting fallback physical ID for logical camera [1/2]
+frameworks_av::don't require RECORD_AUDIO permission for REMOTE_SUBMIX audio source
+vendor_pixel-style::pixel-style: Drop ANGLE allowlist
