@@ -823,3 +823,39 @@ frameworks_av::Camera: Add support for miui camera mode [1/2]
 frameworks_av::Camera: Allow setting fallback physical ID for logical camera [1/2]
 frameworks_av::don't require RECORD_AUDIO permission for REMOTE_SUBMIX audio source
 vendor_pixel-style::pixel-style: Drop ANGLE allowlist
+frameworks_av::Adapt dynamic resolution in nuplayer with enable sample aspect ratio parameter
+frameworks_av::Fix PlanesLockGuard copy-assignment delete type
+frameworks_av::Fix PlanesLockGuard::getStatus() return type
+frameworks_av::Fix PlanesLockGuard buffer lock leak
+frameworks_av::CameraProviderManager: ignore torch callbacks for flashless cameras
+frameworks_av::fix null derefence exception when surface is reset
+frameworks_av::[viper_effect] adding viper audio effect
+frameworks_av::libcameraservice: support disabling torch control support
+frameworks_av::libcameraservice: Fixup! add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+frameworks_av::libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB
+frameworks_av::libcameraservice: Fixup! Add support to set vendor tag with client package name
+frameworks_av::libcameraservice: Add support to set vendor tag with client package name
+frameworks_av::audio: Check MODIFY_AUDIO_ROUTING permission for per-app volume
+frameworks_av::av: updating syntax for IAfTrackBase
+frameworks_av::av: updating syntax for keyed vector -> map transition
+frameworks_av::fixup! av: support per-app volume [1/3]
+frameworks_av::av: support per-app volume [1/3]
+frameworks_av::codec2,aom/Android.bp: Disable CFI
+frameworks_av::Revert "codec2,aom/Android.bp: add libcodec2_soft_sanitize_cfi"
+frameworks_av::fixup! Camera: Allow setting fallback physical ID for logical camera [1/2]
+frameworks_av::camera: Expose aux cameras in third party apps
+frameworks_av::MediaProfiles: Check before overriding media settings xml
+frameworks_av::media: Add changes to pick target specific media xml's
+frameworks_av::media: OMXStore: Import loading libstagefrightdolby
+frameworks_av::OMX: Remove support for prebuilt ac4 decoder
+frameworks_av::libstagefright: omx: Add support for loading prebuilt ddp and ac4 decoder lib
+frameworks_av::frameworks/av: Import Xiaomi Image Tags defenitions
+frameworks_av::av: Initial support for 24bit encoding and 6 channels
+frameworks_av::nuplayer: Avoid crash when codec fails to load
+frameworks_av::StagefrightRecorder: Add "set-title" parameter
+frameworks_av::libstagefright: Support YVU420SemiPlanar camera format
+frameworks_av::stagefright: add changes related to high-framerates in CameraSource
+frameworks_av::camera: Don't segfault if we get a NULL parameter
+frameworks_av::Camera: Flush Improvements - Result drain optimization
+frameworks_av::CameraService: Fix deadlock in binder death cleanup
+frameworks_av::av: Remove restrictions for system audio record
