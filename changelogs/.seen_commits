@@ -859,3 +859,5 @@ frameworks_av::camera: Don't segfault if we get a NULL parameter
 frameworks_av::Camera: Flush Improvements - Result drain optimization
 frameworks_av::CameraService: Fix deadlock in binder death cleanup
 frameworks_av::av: Remove restrictions for system audio record
+vendor_evolution::release: Bump Security String to 2026-08-01
+packages_apps_Evolver::Evolver: Make ChangelogFragment device and branch aware
