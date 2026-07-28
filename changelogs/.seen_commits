@@ -863,3 +863,8 @@ vendor_evolution::release: Bump Security String to 2026-08-01
 packages_apps_Evolver::Evolver: Make ChangelogFragment device and branch aware
 vendor_pixel-style::pixel-style: Uncomment GPSU related configs
 packages_apps_Evolver::Evolver: Update members
+packages_apps_Evolver::Evolver: Drop custom fork stuff
+packages_apps_Evolver::Evolver: Make ChangelogFragment device and branch aware, prioritize CNB for OTA maintainer lookup
+packages_apps_Settings::Settings: Drop custom fork stuff
+vendor_extras::extras: Replace Accord with Gramophone 1.1.1
+vendor_extras::extras: Update BCR to Version v3.5
