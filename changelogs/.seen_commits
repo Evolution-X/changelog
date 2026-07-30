@@ -868,3 +868,6 @@ packages_apps_Evolver::Evolver: Make ChangelogFragment device and branch aware, 
 packages_apps_Settings::Settings: Drop custom fork stuff
 vendor_extras::extras: Replace Accord with Gramophone 1.1.1
 vendor_extras::extras: Update BCR to Version v3.5
+vendor_gms::gms: Update from stallion CP1A.260505.005
+vendor_gms::gms: Setup LFS config
+manifest::manifest: Initialize for Evolution X 11.x
