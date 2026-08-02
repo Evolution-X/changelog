@@ -871,3 +871,4 @@ vendor_extras::extras: Update BCR to Version v3.5
 vendor_gms::gms: Update from stallion CP1A.260505.005
 vendor_gms::gms: Setup LFS config
 manifest::manifest: Initialize for Evolution X 11.x
+vendor_evolution::version: Uprev to 11.10
