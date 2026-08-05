@@ -872,3 +872,5 @@ vendor_gms::gms: Update from stallion CP1A.260505.005
 vendor_gms::gms: Setup LFS config
 manifest::manifest: Initialize for Evolution X 11.x
 vendor_evolution::version: Uprev to 11.10
+packages_apps_Evolver::Evolver: Update compose UI
+packages_apps_Evolver::Evolver: trickystore: add SKIP mode to app target picker
