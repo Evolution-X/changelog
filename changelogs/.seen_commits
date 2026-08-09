@@ -876,3 +876,5 @@ packages_apps_Evolver::Evolver: Update compose UI
 packages_apps_Evolver::Evolver: trickystore: add SKIP mode to app target picker
 system_sepolicy::sepolicy: allow bootstat to query health HAL
 system_sepolicy::sepolicy: Remove neverallow for system server setting boot prop
+build_soong::check_boot_jars: Add Xiaomi's IMS allowlist
+packages_modules_Bluetooth::Update Interop fix to be custom UUID based
