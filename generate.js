@@ -11,7 +11,7 @@ const SKIP_REPOS = new Set([
   'vendor_certification', 'vendor_pixel-framework'
 ]);
 
-const TRACK_BRANCHES = ['bka', 'bq2'];
+const TRACK_BRANCHES = ['cnb'];
 
 function get(url) {
   return new Promise((resolve, reject) => {
