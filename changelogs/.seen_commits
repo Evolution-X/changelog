@@ -878,3 +878,45 @@ system_sepolicy::sepolicy: allow bootstat to query health HAL
 system_sepolicy::sepolicy: Remove neverallow for system server setting boot prop
 build_soong::check_boot_jars: Add Xiaomi's IMS allowlist
 packages_modules_Bluetooth::Update Interop fix to be custom UUID based
+packages_apps_Settings::Settings: Add "Vehicle Motion Cues" [2/2]
+packages_apps_Settings::Settings: adding blur level settings [2/2]
+packages_apps_Settings::Settings: Allow to quickly open Running Services from meminfo view
+packages_apps_Settings::Fix long click intent for Smart Pixels tile [2/2]
+packages_apps_Settings::Settings: doze brightness customization [2/2]
+packages_apps_Settings::Settings: Show device market name in software update header
+packages_apps_Settings::Settings: Implement reverse-engineered system updates page
+packages_apps_Settings::Settings: Implement reverse-engineered expressive QR generator
+packages_apps_Settings::Expand abbreviation in average memory usage string
+packages_apps_Settings::backport 17 QPR1 fix for Bluetooth dev settings confirmation
+packages_apps_Settings::Settings: Add support for disabling fingerprint lockout [2/2]
+packages_apps_Settings::Settings: Allow disabling color inversion support [2/2]
+packages_apps_Settings::Settings: Add Game Space support
+packages_apps_Settings::Settings: Align device info page with CP41.260701.006
+packages_apps_Settings::Settings: Add toggle for Smart 5G [2/2]
+packages_apps_Settings::Settings: Incall vibration option [3/3]
+packages_apps_Settings::Settings: Enable redirect vibration toggle unconditionally
+packages_apps_Settings::Settings: Gray out Carrier Aggregation toggle if preferred network type is not LTE or above
+packages_apps_Settings::Introduce `Force LTE_CA` override on per subscription basis [3/3]
+packages_apps_Settings::Settings: Launch device changelog on device name tap
+packages_apps_Settings::Settings: Align advanced VPN page with SettingsGoogle
+packages_apps_Settings::Settings: Add pocket lock toggle
+packages_apps_Settings::Settings: hardwareinfo: Prioritize CNB branch for OTA maintainer lookup
+packages_apps_Settings::Settings: Show package name in app info header
+packages_apps_Settings::Settings: Support hiding gesture hint in NexusLauncher
+packages_apps_Settings::Settings: Export an activity for private DNS settings
+packages_apps_Settings::Settings: Allow disabling private DNS for VPN [2/2]
+packages_apps_Settings::Settings: Safeguard ringtone pref against faulty gapps
+packages_apps_Settings::Settings: Use seekbar to allow setting arbitrary animation values
+packages_apps_Settings::Settings: add TextView for summary into SeekBarDialogPreference
+packages_apps_Settings::Settings: Fix invalid private DNS help text if URI is missing
+packages_apps_Settings::Settings: Add more DNS providers
+packages_apps_Settings::Settings: Add AdGuard DNS as a private DNS Provider
+packages_apps_Settings::Settings: Backport app icon from CP31.260618.005
+packages_apps_Settings::Settings: Move Notch Cutout to Display
+packages_apps_Settings::Settings: Link smallest width options in display settings
+packages_apps_Settings::Settings: move Extra Dim feature to display
+packages_apps_Settings::Settings: Long press to copy wifi password
+packages_apps_Settings::QS dev tiles: Don't set them to active area
+packages_apps_Settings::Enable FeatureFlags on "user" builds too
+packages_apps_Evolver::Evolver: CP2A bringup
+packages_apps_Evolver::Evolver: Pulse: Implement waveform (amplitude) capture mode [2/2]
