@@ -920,3 +920,4 @@ packages_apps_Settings::QS dev tiles: Don't set them to active area
 packages_apps_Settings::Enable FeatureFlags on "user" builds too
 packages_apps_Evolver::Evolver: CP2A bringup
 packages_apps_Evolver::Evolver: Pulse: Implement waveform (amplitude) capture mode [2/2]
+packages_apps_Evolver::Evolver: Pulse: Add missing solid wave renderer option
