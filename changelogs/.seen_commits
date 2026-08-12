@@ -921,3 +921,29 @@ packages_apps_Settings::Enable FeatureFlags on "user" builds too
 packages_apps_Evolver::Evolver: CP2A bringup
 packages_apps_Evolver::Evolver: Pulse: Implement waveform (amplitude) capture mode [2/2]
 packages_apps_Evolver::Evolver: Pulse: Add missing solid wave renderer option
+packages_apps_Evolver::Evolver: Pulse: Add missing renderer options
+manifest::manifest: Initialize for Evolution X 12
+vendor_evolution::version: Uprev to 12.1
+vendor_evolution::release: Disable lhdc
+vendor_evolution::init: Fix evolution_updates directory SELinux label on existing installs
+vendor_evolution::vendor: Add more prebuilt apps to clone apps exemption list
+vendor_evolution::release: Enable new app lock
+vendor_evolution::release: Enable new ui blur
+vendor_evolution::release: Disable native app zygote prototype flags in cp2a
+vendor_evolution::[Flexiglass] NSSL Dispatches complete event streams to Compose
+vendor_evolution::config: Enable background blur for widget picker
+vendor_evolution::config: Add debug persist prop
+vendor_evolution::release: Enable double tap to sleep
+vendor_evolution::release: Disable Catalyst for Settings app firmware version
+vendor_evolution::overlay: Remove bouncer delay when face unlock is enabled
+vendor_evolution::overlay: device_config: Updates
+vendor_evolution::overlay: device_config: Add values required for Speech Recognition
+vendor_evolution::overlay: device_config: Escape special characters
+vendor_evolution::overlay: device_config: animate navbar on long press
+vendor_evolution::overlay: update configs for AiAi
+vendor_evolution::overlay: Add gms location history to extra location packages
+vendor_evolution::overlay: Add tethering to location exemption
+lineage-sdk::Introduce Shake Gestures feature [1/3]
+lineage-sdk::Add more device key actions [1/3]
+lineage-sdk::Partially Revert "sdk: Get rid of lineageos.os.{Build,Concierge}"
+vendor_extras::extras: ax_blur: improve blur
