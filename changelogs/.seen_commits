@@ -952,3 +952,5 @@ manifest::manifest: Restore legacy msm8996 repositories
 manifest::manifest: Temporarily track lineage-23.2 branch for our repos
 manifest::Track our packages/modules/Telephony
 vendor_evolution::overlay: Add SystemUI to location extra packages
+packages_apps_Settings::Settings: Double tap to trigger doze [2/2]
+vendor_evolution::aconfig: Enable enable_qsb_on_hotseat
