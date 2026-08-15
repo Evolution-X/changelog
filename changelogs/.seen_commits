@@ -954,3 +954,24 @@ manifest::Track our packages/modules/Telephony
 vendor_evolution::overlay: Add SystemUI to location extra packages
 packages_apps_Settings::Settings: Double tap to trigger doze [2/2]
 vendor_evolution::aconfig: Enable enable_qsb_on_hotseat
+packages_apps_Evolver::Evolver: Add colorOS big clock style [2/2]
+packages_apps_Evolver::Evolver: Add NOS4 clock style [2/2]
+packages_apps_Evolver::Evolver: Add 4 new clock styles [2/2]
+packages_apps_Evolver::Evolver: Clock style custom gradient color support [2/2]
+packages_apps_Evolver::Evolver: Implement custom power menu style [2/2]
+packages_apps_Evolver::Evolver: Introduce more in-depth monet customization [2/2]
+packages_apps_Evolver::Evolver: Add ambient display action [3/3]
+packages_apps_Evolver::Evolver: Pulse: Implement dot wave renderer [2/2]
+packages_apps_Evolver::Evolver: Pulse: Improve dynamic prefs
+packages_apps_Settings::Settings: add abstract fragment class to reduce fragments boilerplate
+packages_apps_LineageParts::LineageParts: Add ambient display action [3/3]
+lineage-sdk::sdk: Add ambient display action [2/3]
+vendor_extras::Revert "extras: CP2A bringup"
+vendor_extras::extras: ax_blur: fix colors for Android 17
+frameworks_libs_systemui::iconloaderlib: Enable force monochrome icons
+frameworks_libs_systemui::iconloaderlib: Force themed icon over app monochrome icon
+frameworks_libs_systemui::iconloaderlib: Switch back to meterial color for themed icons
+frameworks_libs_systemui::iconloaderlib: Follow themed icon color for badge too
+frameworks_libs_systemui::iconloaderlib: Update themed icon colors
+frameworks_libs_systemui::iconloaderlib: Fix themed icon background color tint
+packages_services_OmniJaws::OmniJaws: Don't show in Launcher
