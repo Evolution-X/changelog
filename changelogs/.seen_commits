@@ -975,3 +975,10 @@ frameworks_libs_systemui::iconloaderlib: Follow themed icon color for badge too
 frameworks_libs_systemui::iconloaderlib: Update themed icon colors
 frameworks_libs_systemui::iconloaderlib: Fix themed icon background color tint
 packages_services_OmniJaws::OmniJaws: Don't show in Launcher
+packages_apps_Settings::ExternalStorageProvider: Conditionally remove SAF restrictions [2/2]
+packages_apps_Settings::Settings: add option to enable AOD on charging only [2/2]
+vendor_extras::extras: syncing corner radius with SettingsTheme expressive
+vendor_extras::extras: ax_blur: blur enhancements from android 17
+vendor_extras::extras: sdk: material3: Update Material 3 library to v1.5.0-alpha23
+vendor_extras::extras: CP2A bringup
+system_fs_fs_mgr::libsnapshot: Restore dm-snapshot support
