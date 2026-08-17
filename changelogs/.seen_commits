@@ -982,3 +982,19 @@ vendor_extras::extras: ax_blur: blur enhancements from android 17
 vendor_extras::extras: sdk: material3: Update Material 3 library to v1.5.0-alpha23
 vendor_extras::extras: CP2A bringup
 system_fs_fs_mgr::libsnapshot: Restore dm-snapshot support
+packages_apps_Evolver::Evolver: consolidate PixelPropsSettings and PlayIntegrityFix onto PixelDeviceRepository
+packages_apps_Evolver::Evolver: Add main LS widgets toggle as a dependency for transparency
+packages_apps_Evolver::Evolver: Convert lock screen widgets preference to PrimarySwitchPreference
+packages_apps_Evolver::Evolver: Reload primary switches on clock style resume
+packages_apps_Evolver::Evolver: Hide info widget color options when not set to custom
+packages_apps_Evolver::Evolver: Show alpha slider for device info widget color picker
+packages_apps_Evolver::Evolver: Hide LS widget transparency slider if not using translucent mode
+packages_apps_Evolver::Evolver: Hide apply button for widgets if disabled
+packages_apps_Evolver::Evolver: Visually group widget preferences
+packages_apps_Evolver::Evolver: Revert vibrating preference click changes
+packages_apps_Evolver::Evolver: Cast to SystemSettingsMainSwitchPreference for widget settings
+packages_apps_Evolver::Evolver: Clean up some custom clock strings
+lineage-sdk::Add toggle to allow advanced restart on secured lockscreen [1/2]
+vendor_extras::extras: ax_blur: fixing issues | improving structure
+vendor_extras::extras: ax_compose: expanding preferences scope
+vendor_extras::extras: ax_compose: add compose feature cards
