@@ -998,3 +998,5 @@ lineage-sdk::Add toggle to allow advanced restart on secured lockscreen [1/2]
 vendor_extras::extras: ax_blur: fixing issues | improving structure
 vendor_extras::extras: ax_compose: expanding preferences scope
 vendor_extras::extras: ax_compose: add compose feature cards
+packages_apps_Evolver::Evolver: Clean up lockscreen clock/widget settings and preferences
+packages_apps_Evolver::Evolver: Dedupe canary fetch pipeline and confirm Play Store data wipe
