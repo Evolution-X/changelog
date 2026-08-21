@@ -1000,3 +1000,4 @@ vendor_extras::extras: ax_compose: expanding preferences scope
 vendor_extras::extras: ax_compose: add compose feature cards
 packages_apps_Evolver::Evolver: Clean up lockscreen clock/widget settings and preferences
 packages_apps_Evolver::Evolver: Dedupe canary fetch pipeline and confirm Play Store data wipe
+vendor_gms::gms: Update from mustang CP2A.260605.012
