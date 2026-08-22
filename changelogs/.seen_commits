@@ -1001,3 +1001,13 @@ vendor_extras::extras: ax_compose: add compose feature cards
 packages_apps_Evolver::Evolver: Clean up lockscreen clock/widget settings and preferences
 packages_apps_Evolver::Evolver: Dedupe canary fetch pipeline and confirm Play Store data wipe
 vendor_gms::gms: Update from mustang CP2A.260605.012
+packages_apps_Evolver::Evolver: Add model based auto depth wallpaper [2/2]
+packages_apps_Settings::Settings: Add model based auto depth wallpaper [1/2]
+packages_apps_Settings::Settings: Import androidx.room_room-runtime
+packages_apps_Settings::[4/4] Introduce a native backup/restore solution
+vendor_extras::extras: Update BCR to Version v3.7
+vendor_extras::extras: adding xnnpack tflite deps
+vendor_extras::extras: [tflite] adding axion tflite common deps
+vendor_evolution::config: Build AppDataBackup
+system_sepolicy::[3/4] Introduce a native backup/restore solution
+frameworks_native::[2/4] Introduce a native backup/restore solution
