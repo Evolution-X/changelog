@@ -1011,3 +1011,12 @@ vendor_extras::extras: [tflite] adding axion tflite common deps
 vendor_evolution::config: Build AppDataBackup
 system_sepolicy::[3/4] Introduce a native backup/restore solution
 frameworks_native::[2/4] Introduce a native backup/restore solution
+packages_apps_Settings::Settings: restore applock features
+device_evolution_sepolicy::sepolicy: Move Mosey policy to system_ext for CP2A
+device_evolution_sepolicy::common: private: Don't audit bootanimation searching system_data_file
+device_evolution_sepolicy::atv: Don't audit Katniss cgroup spam
+device_evolution_sepolicy::sepolicy: atv: vendor: Don't audit TvSettings reaching into GMS dirs
+vendor_evolution::config: Relax library check for gms builds
+packages_apps_Evolver::Evolver: Drop compact style/position prefs, disable screen on native Pixel
+vendor_extras::extras: SystemUIClocks: Update from kodiak CD1A.260714.001.A9
+vendor_gms::gms: Update from kodiak CD1A.260714.001.A9
