@@ -1020,3 +1020,4 @@ vendor_evolution::config: Relax library check for gms builds
 packages_apps_Evolver::Evolver: Drop compact style/position prefs, disable screen on native Pixel
 vendor_extras::extras: SystemUIClocks: Update from kodiak CD1A.260714.001.A9
 vendor_gms::gms: Update from kodiak CD1A.260714.001.A9
+packages_apps_Settings::fixup!: Settings: Add model based auto depth wallpaper [1/2]
