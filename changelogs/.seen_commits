@@ -1021,3 +1021,8 @@ packages_apps_Evolver::Evolver: Drop compact style/position prefs, disable scree
 vendor_extras::extras: SystemUIClocks: Update from kodiak CD1A.260714.001.A9
 vendor_gms::gms: Update from kodiak CD1A.260714.001.A9
 packages_apps_Settings::fixup!: Settings: Add model based auto depth wallpaper [1/2]
+packages_apps_Evolver::Evolver: Only display the clock styles disclaimer once
+packages_apps_Evolver::Evolver: Adjust clock setting visibility based on selected clock
+packages_apps_Evolver::Evolver: Hide custom clock color picker preference when not in custom mode
+packages_apps_Evolver::Evolver: PixelProps/PlayIntegrityFix: consume isCanary, gate canary metadata
+packages_apps_Evolver::Evolver: Replace Pixel 10 Pro XL spoof profile with Pixel 11 Pro XL
