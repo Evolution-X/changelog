@@ -1026,3 +1026,4 @@ packages_apps_Evolver::Evolver: Adjust clock setting visibility based on selecte
 packages_apps_Evolver::Evolver: Hide custom clock color picker preference when not in custom mode
 packages_apps_Evolver::Evolver: PixelProps/PlayIntegrityFix: consume isCanary, gate canary metadata
 packages_apps_Evolver::Evolver: Replace Pixel 10 Pro XL spoof profile with Pixel 11 Pro XL
+build_soong::Add LG to allowed list
