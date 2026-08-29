@@ -1027,3 +1027,7 @@ packages_apps_Evolver::Evolver: Hide custom clock color picker preference when n
 packages_apps_Evolver::Evolver: PixelProps/PlayIntegrityFix: consume isCanary, gate canary metadata
 packages_apps_Evolver::Evolver: Replace Pixel 10 Pro XL spoof profile with Pixel 11 Pro XL
 build_soong::Add LG to allowed list
+packages_apps_Evolver::Evolver: Add Advanced Reboot toggle for compose powermenu
+packages_apps_Evolver::Evolver: Clean up and improve pulse prefs
+packages_apps_Evolver::Evolver: Add support for showing pulse on media controls background [2/2]
+packages_apps_GameSpace::GameSpace: Follow interruption filter for Danmaku notifications
