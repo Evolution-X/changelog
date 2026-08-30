@@ -1031,3 +1031,20 @@ packages_apps_Evolver::Evolver: Add Advanced Reboot toggle for compose powermenu
 packages_apps_Evolver::Evolver: Clean up and improve pulse prefs
 packages_apps_Evolver::Evolver: Add support for showing pulse on media controls background [2/2]
 packages_apps_GameSpace::GameSpace: Follow interruption filter for Danmaku notifications
+packages_apps_Evolver::New Crowdin updates (#564)
+packages_apps_Evolver::Evolver: Scale bitmap to view size in LockscreenWallpaperView
+packages_apps_Evolver::Evolver: Fix clock preview preference visibility lifecycle
+bionic::[bugfix] fixing custom rom hide sysprop | crash issues
+bionic::bionic: fix regressions
+bionic::bionic: custom_rom_hide: perf pass
+bionic::spoofing improvements
+bionic::bionic: drop long property-name warning spam
+bionic::custom_rom_hide: fix potential crashes from invalid pointer dereferences
+bionic::custom_rom_hide: improve spoofing
+bionic::custom_rom_hide: guard against invalid pointer args across all entry points
+bionic::custom_rom_hide: hide VINTF names
+bionic::fixing adb service spoofing
+bionic::Add hooks for custom rom hide
+bionic::bionic: Fix align usage for fast lookup hosts file data
+bionic::bionic: Support wildcards in cached hosts file
+bionic::bionic: Sort and cache hosts file data for fast lookup
