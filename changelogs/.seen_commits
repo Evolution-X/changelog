@@ -1048,3 +1048,97 @@ bionic::Add hooks for custom rom hide
 bionic::bionic: Fix align usage for fast lookup hosts file data
 bionic::bionic: Support wildcards in cached hosts file
 bionic::bionic: Sort and cache hosts file data for fast lookup
+packages_apps_Evolver::[2/2] Evolver: Add toggle for screenshot flash animation
+packages_apps_FaceUnlock::FaceSense: Support private space enrollment [2/2]
+vendor_extras::extras: ax_blur: surface bright alpha value
+vendor_extras::extras: ax_blur: Reduce blur color alpha
+vendor_extras::extras: ax_blur: Restore old settings spec
+build_soong::soong: nuke debug
+build_soong::soong: Hardcode release-keys instead of dev-keys
+build_soong::soong: config.go: Always use en_US.UTF-8 for LC_MESSAGES
+build_soong::soong: Specify heap size for metalava for S+
+build_soong::soong: Bring back LINEAGE_VERSION
+packages_services_Telecomm::Telecomm: Replace system API calls with direct string keys and update logic for slot handling
+packages_services_Telecomm::Telecomm: Remove legacy default ring vibration loading methods
+packages_services_Telecomm::enable support for blocking callers not in contacts
+packages_services_Telecomm::fix InCallController.getInCallServiceComponents() in secondary users
+frameworks_opt_telephony::Introduce `Force LTE_CA` override on per subscription basis [2/3]
+frameworks_opt_telephony::EuiccCardController: Avoid NPE for legacy euicc devices
+frameworks_opt_telephony::prevent confusing NPE in PackageBasedTokenUtil.generateToken()
+frameworks_opt_telephony::fix token collision check in PackageBasedTokenUtil.generateToken()
+frameworks_opt_telephony::fix createAppSpecificSmsTokenWithPackageInfo() in secondary users
+frameworks_opt_telephony::Limit SIM contact fetch retries and handle capacity errors
+frameworks_opt_telephony::Telephony: Fix crash while updating Operator Name
+frameworks_opt_telephony::Ignore PLMN bit when SPN is required
+frameworks_opt_telephony::Fix NPE with 1.0 and 1.1 CardStatus
+frameworks_opt_telephony::Provide a default executor
+frameworks_opt_telephony::telephony: Disable handling audio direction changes on IMS calls.
+frameworks_native::gpuservice: Validate BPF map structures before initialization
+frameworks_native::Add dither logic for MediaTek udfps optical devices
+frameworks_native::[ax_custom_rom_hide] blocking untrusted app lineage service checks
+frameworks_native::system_server LW_EVENT_SYNC_NATIVE_CRASH in InputDispatcher
+frameworks_native::surfaceflinger: Ignore when `getLuts` is unsupported
+frameworks_native::surfaceflinger: allow overriding min supported frame rate
+frameworks_native::surfaceflinger: allow overriding FrameRateCategoryRateHigh
+frameworks_native::perf: Disable schedstats
+frameworks_native::surfaceflinger: Lower DisplayModeController log verbosity
+frameworks_native::HWComposer: Silence duplicate VSYNC logspam
+frameworks_native::nativedisplay: fix the flicker issue in streaming video
+frameworks_native::increasing max frame buffer for capable targets
+frameworks_native::increasing dalvik heap growth limit for 6gb+ targets
+frameworks_native::disable buffer permission enforcements when using pixel launcher
+frameworks_native::fix statsd disabled spam
+frameworks_native::Add AC4Tbl params for dolby AC4 decoder [2/2]
+frameworks_native::Disable useless Keystore features
+frameworks_native::Add dalvik-heap device configs for 8/12/16 GiB devices
+frameworks_native::Revert "Add IProducerListener::onBufferAttached"
+frameworks_native::Revert "Add missing IProducerListener callbacks to BLASTBufferQueue"
+frameworks_native::gui: Re-apply missing symbols needed for WFD libs
+frameworks_native::Revert "Remove the WCG check from switch Color Modes"
+frameworks_native::hwcomposer: stop spamming about luts
+frameworks_native::SF: change LatchUnsignaledConfig property precedence
+frameworks_native::SF: Restore debug.sf.latch_unsignaled sysprop
+frameworks_native::libbinder: Suppress log spam when unlinking death recipients
+frameworks_native::SF: Don't enable expensive rendering for unknown dataspace
+frameworks_native::Native: Camera: Import Release Slot Xiaomi Changes
+frameworks_native::input: Bring back PointerProperties::copyFrom()
+frameworks_native::gui: Fix buffer caching issue causing flicker
+frameworks_av::CameraService: allow device-specific request overrides
+frameworks_av::libmediaplayerservice: fix thumbnail property read
+frameworks_av::audio: Remove UID check from per-app volume commands
+frameworks_av::[per_app_volume] av: support per-app volume [1/3]
+frameworks_av::CameraServiceExtFactory: Load the camera extension at most once
+frameworks_av::Revert "Remove libheif source directory"
+frameworks_av::MediaCodec: Drop onBufferAttached
+build::Revert "build: Add backuptool by default"
+system_update_engine::update_engine: Always disable signature and downgrade checks
+system_sepolicy::sepolicy: allow permissive backuptool on precompiled_sepolicy_without_vendor
+system_sepolicy::Allow permissive backuptool domain on user builds
+system_sepolicy::Allow permissive domains on user builds for recovery
+system_sepolicy::sepolicy: Add mosey_app to compat mapping
+system_sepolicy::Enhance vold_prepare_subdirs for media storage
+system_sepolicy::[bugfix] fixing dex2oat denials
+system_sepolicy::[bugfix] fixing platform app neverallow
+system_sepolicy::exempt system_server from vndbinder neverallow
+system_sepolicy::Optimize the priority of ServiceManager(2/2).
+system_sepolicy::sepolicy: address media_quality_service selinux denial
+system_sepolicy::sepolicy: except zygote from neverallow
+system_sepolicy::Ignore access to /proc/pagetypeinfo for Settings
+system_sepolicy::Label wifi.interface.
+system_sepolicy::Making sys.boot.reason.last restricted
+system_sepolicy::Allow adb root on user builds
+system_sepolicy::sepolicy: allow vold to mount ext4 sdcard
+system_sepolicy::Allow ueventd to read apexd property
+system_sepolicy::sepolicy: Allow hal_audio_default to get/set bluetooth_prop for a2dp offloading.
+system_sepolicy::sepolicy: allow system_app to get incremental progress
+system_sepolicy::Allow system server to access tmpfs files
+system_vold::vold: Don't hold the global lock across app dir filesystem walks
+system_vold::vold: Bound the watchdog monitor probe's lock wait
+system_vold::Fix binder thread starvation in dump
+system_vold::vold: fix Android/media app dir ACLs and revert 777 mode
+system_vold::fixing app dir write/read access
+hardware_interfaces::Revert "health: expose updateChargerPresence for BatteryMonitor"
+hardware_interfaces::Revert "Remove Android S (6) FCM from android 17 devices"
+hardware_interfaces::Revert "Remove android.hardware.light@2.0 HAL"
+hardware_interfaces::compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
+packages_modules_Bluetooth::Fix avrcp disconnect/connect issue
