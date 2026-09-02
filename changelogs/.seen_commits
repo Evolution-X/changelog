@@ -1142,3 +1142,9 @@ hardware_interfaces::Revert "Remove Android S (6) FCM from android 17 devices"
 hardware_interfaces::Revert "Remove android.hardware.light@2.0 HAL"
 hardware_interfaces::compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7
 packages_modules_Bluetooth::Fix avrcp disconnect/connect issue
+packages_apps_Evolver::Evolver: TrickyStore: cache offline revocation fallback for network failures
+packages_apps_Evolver::Evolver: TrickyStore: warn when security patch level is 12+ months stale [2/2]
+device_evolution_sepolicy::qcom: Allow platform_app_36 to access soter HAL
+packages_apps_LineageParts::upgrading force full screen to compose
+vendor_pixel-style::Revert "pixel-style: apex: Import com.google.android.webapp"
+vendor_evolution::overlay: Update default wallpaper from CD1A
