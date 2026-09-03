@@ -1148,3 +1148,11 @@ device_evolution_sepolicy::qcom: Allow platform_app_36 to access soter HAL
 packages_apps_LineageParts::upgrading force full screen to compose
 vendor_pixel-style::Revert "pixel-style: apex: Import com.google.android.webapp"
 vendor_evolution::overlay: Update default wallpaper from CD1A
+packages_apps_Evolver::Evolver: Allow hiding statusbar while capturing screenshots [2/2]
+packages_apps_Evolver::Evolver: Allow to copy screenshots to clipboard instead of saving in storage [2/2]
+packages_apps_Settings::Settings: Implement AppLock credential utility and custom authentication support [2/2]
+packages_apps_Settings::Settings: Allow configurable app lock timeout [2/2]
+packages_apps_Settings::Settings: Implement AppLock settings interface
+packages_apps_Settings::Settings: Add support for Launcher3 gesture hint overlay toggling
+vendor_extras::extras: add Launcher3NoGestureHintOverlay to hide gesture hints
+vendor_evolution::config: Support Google FaceUnlock integration
