@@ -1156,3 +1156,14 @@ packages_apps_Settings::Settings: Implement AppLock settings interface
 packages_apps_Settings::Settings: Add support for Launcher3 gesture hint overlay toggling
 vendor_extras::extras: add Launcher3NoGestureHintOverlay to hide gesture hints
 vendor_evolution::config: Support Google FaceUnlock integration
+frameworks_opt_telephony::telephony: Distinguish unsupported optional features in diagnostics
+frameworks_opt_telephony::RIL: track each HIDL signal strength criteria request separately
+frameworks_av::audio: avoid warnings for unavailable Binder freeze notifications
+frameworks_av::codec2: add RGBA8888 output to software decoders
+frameworks_av::codec2: add runtime preferences for RGBA output
+frameworks_av::codec2: add RGBA_8888 decoder output support
+frameworks_av::Revert "MediaCodecBuffer: use setRangeWithStatus instead of setRange"
+frameworks_av::MediaCodec: restore surface generation after reconnect
+frameworks_native::SensorService: avoid errors for unavailable Binder freeze notifications
+frameworks_native::dumpstate: fall back to P_PID when waitid rejects P_PIDFD
+hardware_google_pixel::thermal: Accept empty cooling device selections
