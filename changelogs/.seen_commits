@@ -1167,3 +1167,7 @@ frameworks_av::MediaCodec: restore surface generation after reconnect
 frameworks_native::SensorService: avoid errors for unavailable Binder freeze notifications
 frameworks_native::dumpstate: fall back to P_PID when waitid rejects P_PIDFD
 hardware_google_pixel::thermal: Accept empty cooling device selections
+packages_apps_Settings::Settings: fix satellite logspam
+frameworks_native::Disable frame buffer permission enforcements for launcher3 as well
+frameworks_native::surfaceflinger: Hookup per fps durations
+vendor_gms::gms: pico: Trim non-essential Pixel apps to reduce footprint
