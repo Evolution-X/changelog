@@ -1171,3 +1171,16 @@ packages_apps_Settings::Settings: fix satellite logspam
 frameworks_native::Disable frame buffer permission enforcements for launcher3 as well
 frameworks_native::surfaceflinger: Hookup per fps durations
 vendor_gms::gms: pico: Trim non-essential Pixel apps to reduce footprint
+packages_services_Telephony::SimPhonebookProvider: Close discarded cursors on remote failures
+packages_services_Telephony::Revert "Telephony: Bring in the new icon"
+vendor_evolution::version: Uprev to 12.2
+vendor_evolution::prebuilt: Do not clone more apps
+packages_apps_Evolver::Evolver: Add toggle for screenshot flash animation [2/2]
+packages_apps_Evolver::Evolver: Update keybox repo URL
+packages_apps_Evolver::Evolver: OverlaySwitchPreference: Multi user fixes
+vendor_extras::extras: Add ImeNavBarSpaceOverlay
+packages_apps_Settings::Settings: gestures: Wire sysui_show_nav_bar_ime to ImeNavBarSpaceOverlay
+packages_providers_TelephonyProvider::TelephonyProvider: Avoid abandoned cursors in APN and message queries
+packages_modules_Bluetooth::btif_av: Do not reconfigure codec on GAME switch
+frameworks_native::fixup! surfaceflinger: Allow ZOrder override for UDFPS dim layer
+hardware_interfaces::bluetooth/aidl/default: Fix 100% CPU spin while waiting for the HCI interface
