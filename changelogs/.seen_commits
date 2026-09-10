@@ -1184,3 +1184,35 @@ packages_providers_TelephonyProvider::TelephonyProvider: Avoid abandoned cursors
 packages_modules_Bluetooth::btif_av: Do not reconfigure codec on GAME switch
 frameworks_native::fixup! surfaceflinger: Allow ZOrder override for UDFPS dim layer
 hardware_interfaces::bluetooth/aidl/default: Fix 100% CPU spin while waiting for the HCI interface
+frameworks_av::Fix OOB in DynamicsProcessing MBC band processing
+frameworks_av::Fix signed overflow in convertCleanApertureToRect
+frameworks_av::Fix heap-buffer-overflow in AudioAttributes unmarshalling
+packages_modules_Wifi::Fix persistent DoS in WifiNetworkSuggestionsManager via PersistableBundle depth bomb
+packages_providers_TelephonyProvider::Revert "TelephonyProvider: Bring in the new icon"
+packages_apps_Settings::Sanitize sensitive BiometricsSettingsBase extra
+packages_apps_Settings::Remove EXTRA_DATA from ConfirmDeviceCredentialActivity
+packages_apps_Settings::Strip URI grant flags in AppRestrictionsFragment
+packages_apps_Settings::Remove dialog building logic from PaymentDefaultDialog onCreate.
+packages_apps_Settings::Ensure remote device credential alias is used for action CONFIRM_REMOTE_DEVICE_CREDENTIAL.
+packages_apps_Settings::Settings: Label additional battery power components
+packages_apps_Settings::Settings: Stop uninstall after showing administrator restrictions
+art::runtime: Allow modifications to android.os.Build and its inner classes
+art::optimized hprof speed
+art::art: Optimize the entirity of ART for performance
+art::ART: dex2oat and instruction_set_features: utilize modified runtime capabilities set
+art::Revert "Add visibility attributes in runtime/arch"
+art::art: add check for __ARM_FEATURE_ATOMICS that indicates LSE atomics availability on target
+art::art: Add Kryo585 support
+art::art: Kryo785 supports dotprod
+art::art: Disable debug tracing on production builds
+art::art: add kryo785 architecture variant.
+art::art: Add support for Cortex-A510
+art::Revert "Remove strip.keep_symbols from libart defaults"
+hardware_interfaces::AIDL CAS HAL: Fix incorrect mmap failure check
+system_vold::vold: Respect filesystem maintenance capabilities
+packages_providers_MediaProvider::MediaProvider: Less spam
+packages_providers_MediaProvider::Revert "MediaProvider: Bring in the new icon"
+frameworks_native::libgui: Make BufferItemConsumer abandon idempotent
+packages_services_Telecomm::CallLog: Get rid of warning
+packages_services_Telecomm::Revert "Telecomm: Bring in the new icon"
+packages_services_Telephony::Restrict USSD requests to the subscription's associated user.
