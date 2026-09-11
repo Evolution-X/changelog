@@ -1216,3 +1216,6 @@ frameworks_native::libgui: Make BufferItemConsumer abandon idempotent
 packages_services_Telecomm::CallLog: Get rid of warning
 packages_services_Telecomm::Revert "Telecomm: Bring in the new icon"
 packages_services_Telephony::Restrict USSD requests to the subscription's associated user.
+frameworks_native::Port AxionOS GlassBlurFilter to A17 RenderEngine
+frameworks_opt_telephony::telephony: Unfinalize base classes for MTK vendor extensions
+frameworks_av::camera: Support legacy Xiaomi single-role tag lookups
