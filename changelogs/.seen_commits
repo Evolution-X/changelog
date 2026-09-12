@@ -1219,3 +1219,31 @@ packages_services_Telephony::Restrict USSD requests to the subscription's associ
 frameworks_native::Port AxionOS GlassBlurFilter to A17 RenderEngine
 frameworks_opt_telephony::telephony: Unfinalize base classes for MTK vendor extensions
 frameworks_av::camera: Support legacy Xiaomi single-role tag lookups
+frameworks_native::renderengine: port AxionOS GlassBlurFilter to A17
+frameworks_native::surfaceflinger: Query UDFPS dim layer name with strstr
+vendor_gms::gms: Update packages from kodiak CD1A.260905.001.B1
+vendor_extras::extras: SystemUIClocks: Update from kodiak CD1A.260905.001.B1
+packages_apps_Settings::Settings: Make satellite settings unavailable without attach support
+packages_apps_Settings::Settings: Add preference for Double tap screen to sleep
+packages_apps_Settings::Settings: Update illustrations from Canary
+packages_apps_Settings::Update lottie animations from Pixel 9 Pro XL BP2A.250805.005
+packages_apps_Settings::colors: Introduce Reality display engine [2/2]
+packages_apps_Settings::gesture: allow hiding navigation ime bar [2/2]
+packages_apps_Settings::Setting: batteryinfo: Add config to enable/disable battery design & maximum capacity info
+packages_apps_Settings::Settings: Improve battery divider handling in BatteryHeaderPreferenceController
+packages_apps_Settings::Settings: Add BatteryDivider to fuelgauge
+packages_apps_Settings::add app battery optimization settings link to Battery screen
+packages_apps_Settings::Settings: Stop showing header in device info
+packages_apps_Settings::WifiTetherClientLimitPreference: Fix compilation
+packages_apps_Settings::Settings: SoftAp: add Hidden SSID preference
+packages_apps_Settings::Settings: SoftAP: Add client manager
+packages_apps_Settings::WiFi: Remove country code checking.
+packages_apps_Settings::Revert "[Wi-Fi] Remove 'Do not validate' option in CA certificate spinner"
+packages_apps_Settings::Settings: DevicePicker: Adapt to S style
+packages_apps_Settings::ChooseLockPassword: Decrease minimum pin length for auto confirm
+frameworks_opt_telephony::Satellite: Check support before modem registration and carrier mode queries
+packages_modules_Wifi::Wifi: Check radio features before observing UWB and Thread state
+packages_modules_Wifi::fix location mode check in enforceCanAccessScanResultsForWifiScanner()
+packages_modules_Wifi::WifiChipAidlImpl: ignore debug logging requests on MTE Pixel devices
+packages_modules_Wifi::add option of always randomizing MAC addresses
+packages_modules_Wifi::WiFiInfo: Fix crash on google setup wizard
