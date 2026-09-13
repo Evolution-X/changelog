@@ -1247,3 +1247,19 @@ packages_modules_Wifi::fix location mode check in enforceCanAccessScanResultsFor
 packages_modules_Wifi::WifiChipAidlImpl: ignore debug logging requests on MTE Pixel devices
 packages_modules_Wifi::add option of always randomizing MAC addresses
 packages_modules_Wifi::WiFiInfo: Fix crash on google setup wizard
+system_update_engine::update_engine: Allow backup tool to run in user builds
+build::releasetools: clear stale per-user RRO state on OTA update
+build::build: skip check-selinux-treble-labeling in droidcore
+build::core: fix broken bootloader on A/B devices which wants buildvariant info in the cmdline of bootimage.
+build::Allow prebuild APK's in Vendor
+build::core: dexpreopt: Reset compat library lists for non-app modules
+build::Revert "Revert^2 "Turn on SELinux Treble labeling tests""
+build::envsetup.sh: Fix inaccurate ccache size reporting
+build::envsetup.sh: Wrap ccache setup into a function
+vendor_gms::gms: Disable Pixel haptics components completely
+vendor_gms::gms: Disable Pixel haptics components on non-Pixel builds
+frameworks_opt_telephony::telephony: Gate satellite evaluation on device satellite support
+packages_apps_Settings::Settings: Skip no-op satellite tile state writes
+vendor_pixel-style::PixelDocumentsUIGoogleOverlay: Override the AOSP overlay
+vendor_pixel-style::GoogleHealthConnectOverlay: Use the explicit resource map
+hardware_google_pixel::thermal: Accept empty temperature selections
