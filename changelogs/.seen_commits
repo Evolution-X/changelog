@@ -1263,3 +1263,8 @@ packages_apps_Settings::Settings: Skip no-op satellite tile state writes
 vendor_pixel-style::PixelDocumentsUIGoogleOverlay: Override the AOSP overlay
 vendor_pixel-style::GoogleHealthConnectOverlay: Use the explicit resource map
 hardware_google_pixel::thermal: Accept empty temperature selections
+vendor_gms::gms: Revert Pixel Launcher to mustang CP2A
+build_soong::check_boot_jars: Add camera packages to the whitelist
+build_soong::check_boot_jars: Add xiaomi packages to the whitelist
+system_vold::vold: Fallback to direct restorecon if property set fails
+hardware_interfaces::bluetooth/aidl/default: Fix CPU spin while waiting for HCI
