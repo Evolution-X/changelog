@@ -1268,3 +1268,7 @@ build_soong::check_boot_jars: Add camera packages to the whitelist
 build_soong::check_boot_jars: Add xiaomi packages to the whitelist
 system_vold::vold: Fallback to direct restorecon if property set fails
 hardware_interfaces::bluetooth/aidl/default: Fix CPU spin while waiting for HCI
+vendor_evolution::overlay: Apply shared library resources at build time
+vendor_pixel-style::overlays: Stop including the unsupported SystemUI VPN overlay
+vendor_pixel-style::overlays: Target the shipped modular system packages
+vendor_pixel-style::GoogleConfigOverlay: Use the platform DeviceLock controller
