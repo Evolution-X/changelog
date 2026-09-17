@@ -1272,3 +1272,9 @@ vendor_evolution::overlay: Apply shared library resources at build time
 vendor_pixel-style::overlays: Stop including the unsupported SystemUI VPN overlay
 vendor_pixel-style::overlays: Target the shipped modular system packages
 vendor_pixel-style::GoogleConfigOverlay: Use the platform DeviceLock controller
+packages_apps_Settings::Revert "Settings: adding blur level settings [2/2]"
+vendor_extras::extras: Update BCR to Version v3.8
+vendor_evolution::release: turn on the Android 17 blur features cp2a keeps behind read-only flags
+vendor_evolution::Revert "release: Enable new ui blur"
+vendor_pixel-style::pixel-style: Update from CP3A.260905.009
+frameworks_native::Revert "renderengine: port AxionOS GlassBlurFilter to A17"
