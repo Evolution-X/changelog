@@ -1278,3 +1278,11 @@ vendor_evolution::release: turn on the Android 17 blur features cp2a keeps behin
 vendor_evolution::Revert "release: Enable new ui blur"
 vendor_pixel-style::pixel-style: Update from CP3A.260905.009
 frameworks_native::Revert "renderengine: port AxionOS GlassBlurFilter to A17"
+frameworks_native::renderengine: kawase2: cache scratch blur surfaces across frames
+art::[DO NOT MERGE] "method_verifier: Disable some verification"
+vendor_pixel-style::GoogleSettingsOverlay: Suppress injected Backup & Restore dashboard tile
+packages_apps_Settings::Revert "Settings: Implement RefreshRateManager [SQUASHED] [2/2]"
+packages_apps_Settings::Revert "Refresh rate: Add display refresh rate illustration"
+packages_apps_Settings::Revert "Settings: Allow disabling refresh rate lowering in battery saver"
+vendor_gms::gms: Update from mustang CP3A.260905.009
+vendor_extras::extras: Update SystemUIClocks from kodiak CD1A.260714.001.A9
