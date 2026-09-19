@@ -1286,3 +1286,7 @@ packages_apps_Settings::Revert "Refresh rate: Add display refresh rate illustrat
 packages_apps_Settings::Revert "Settings: Allow disabling refresh rate lowering in battery saver"
 vendor_gms::gms: Update from mustang CP3A.260905.009
 vendor_extras::extras: Update SystemUIClocks from kodiak CD1A.260714.001.A9
+manifest::manifest: Allow excluding prebuilts/rust-toolchain/linux-musl-x86
+vendor_evolution::config: Reduce surfaceflinger uclamp value
+vendor_evolution::config: add surfaceflinger boost prop
+vendor_extras::extras: ax_blur: scale ratio locked blur
