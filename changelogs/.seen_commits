@@ -1290,3 +1290,5 @@ manifest::manifest: Allow excluding prebuilts/rust-toolchain/linux-musl-x86
 vendor_evolution::config: Reduce surfaceflinger uclamp value
 vendor_evolution::config: add surfaceflinger boost prop
 vendor_extras::extras: ax_blur: scale ratio locked blur
+manifest::manifest: Initialize for Evolution X 12.2
+manifest::Revert "Revert "Track our packages/modules/Telephony""
