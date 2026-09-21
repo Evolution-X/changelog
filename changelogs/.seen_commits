@@ -1292,3 +1292,8 @@ vendor_evolution::config: add surfaceflinger boost prop
 vendor_extras::extras: ax_blur: scale ratio locked blur
 manifest::manifest: Initialize for Evolution X 12.2
 manifest::Revert "Revert "Track our packages/modules/Telephony""
+packages_apps_Evolver::Evolver: Spoofing: Add reset to defaults
+packages_apps_Evolver::Evolver: TrickyStore: keybox: fetch attestation roots and revocation list live from Google
+packages_apps_Evolver::Evolver: Prioritize and pre-select 'a' series devices in PIF picker
+vendor_gms::gms: Drop RecorderPrebuilt
+bionic::custom_rom_hide: Mirror staged PIF product props
