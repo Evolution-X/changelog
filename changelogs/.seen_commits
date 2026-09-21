@@ -878,3 +878,18 @@ system_sepolicy::sepolicy: allow bootstat to query health HAL
 system_sepolicy::sepolicy: Remove neverallow for system server setting boot prop
 build_soong::check_boot_jars: Add Xiaomi's IMS allowlist
 packages_modules_Bluetooth::Update Interop fix to be custom UUID based
+frameworks_av::Revert "MediaCodecBuffer: use setRangeWithStatus instead of setRange"
+frameworks_av::MediaCodec: restore surface generation after reconnect
+frameworks_opt_telephony::prevent confusing NPE in PackageBasedTokenUtil.generateToken()
+frameworks_opt_telephony::fix token collision check in PackageBasedTokenUtil.generateToken()
+frameworks_opt_telephony::fix createAppSpecificSmsTokenWithPackageInfo() in secondary users
+frameworks_opt_telephony::Limit SIM contact fetch retries and handle capacity errors
+frameworks_opt_telephony::Introduce `Force LTE_CA` override on per subscription basis [2/3]
+frameworks_opt_telephony::Telephony: Fix crash while updating Operator Name
+frameworks_opt_telephony::Ignore PLMN bit when SPN is required
+frameworks_opt_telephony::Fix NPE with 1.0 and 1.1 CardStatus
+frameworks_opt_telephony::Provide a default executor
+frameworks_opt_telephony::telephony: Disable handling audio direction changes on IMS calls.
+frameworks_opt_telephony::Ignore null action in ImsResolver.
+packages_services_Telephony::SimPhonebookProvider: Close discarded cursors on remote failures
+packages_services_Telephony::Revert "Telephony: Bring in the new icon"
