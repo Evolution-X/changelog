@@ -1297,3 +1297,11 @@ packages_apps_Evolver::Evolver: TrickyStore: keybox: fetch attestation roots and
 packages_apps_Evolver::Evolver: Prioritize and pre-select 'a' series devices in PIF picker
 vendor_gms::gms: Drop RecorderPrebuilt
 bionic::custom_rom_hide: Mirror staged PIF product props
+packages_apps_Evolver::New Crowdin updates (#596)
+packages_apps_Evolver::Evolver: Revert font picker selection when the overlay fails
+packages_apps_Evolver::Evolver: add complete Arabic localization
+packages_apps_Evolver::Evolver: harden lifecycle and I/O handling, fix RTL layout attrs
+packages_apps_Evolver::Evolve: Update secure QS tile string
+packages_apps_Evolver::Evolver: TrickyStoreAppSettings: Read default targets from framework
+packages_apps_Evolver::Evolver: Spoofing: Add reset, live attestation roots, a-series pick
+bionic::bionic: Keep dynamic property overrides out of loader ELF TLS
