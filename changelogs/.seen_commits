@@ -1305,3 +1305,6 @@ packages_apps_Evolver::Evolve: Update secure QS tile string
 packages_apps_Evolver::Evolver: TrickyStoreAppSettings: Read default targets from framework
 packages_apps_Evolver::Evolver: Spoofing: Add reset, live attestation roots, a-series pick
 bionic::bionic: Keep dynamic property overrides out of loader ELF TLS
+packages_apps_Evolver::Evolver: Add option to disable wallpaper zoom [2/2]
+packages_apps_Evolver::Evolver: Update secure QS tile string
+external_bouncycastle::bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working
