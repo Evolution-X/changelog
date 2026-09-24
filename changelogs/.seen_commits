@@ -1308,3 +1308,15 @@ bionic::bionic: Keep dynamic property overrides out of loader ELF TLS
 packages_apps_Evolver::Evolver: Add option to disable wallpaper zoom [2/2]
 packages_apps_Evolver::Evolver: Update secure QS tile string
 external_bouncycastle::bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working
+packages_apps_Evolver::New translations evolution_strings.xml (Ukrainian)
+packages_apps_Evolver::New Crowdin updates (#606)
+frameworks_opt_telephony::telephony: Handle scan rejection and fall back to visible cell infos
+packages_apps_Settings::Settings: Fix manual network scan failure and add fallback to visible cells
+packages_apps_Settings::Settings: Hide radio info if device don't support voice
+packages_apps_Settings::Settings: Expose radio info (*#*#4636#*#*)
+packages_apps_Settings::Settings: Allow disabling clipboard overlay [2/2]
+frameworks_native::SurfaceFlinger: Add opt-in legacy VDS refresh pacing
+system_sepolicy::gpuservice: Allow querying pinned BPF map metadata
+device_evolution_sepolicy::sepolicy: Label the legacy product fingerprint as build metadata
+device_evolution_sepolicy::sepolicy: label legacy VDS refresh pacing property
+build::releasetools: Support ZipFile/zip-path input in PartitionMapFromTargetFiles
