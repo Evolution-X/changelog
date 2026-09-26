@@ -1320,3 +1320,7 @@ system_sepolicy::gpuservice: Allow querying pinned BPF map metadata
 device_evolution_sepolicy::sepolicy: Label the legacy product fingerprint as build metadata
 device_evolution_sepolicy::sepolicy: label legacy VDS refresh pacing property
 build::releasetools: Support ZipFile/zip-path input in PartitionMapFromTargetFiles
+packages_apps_Evolver::Evolver: fix attestation root trust for TrickyStore
+vendor_evolution::config: Switch to SystemUIGoogle for GMS builds
+vendor_gms::gms: Bring in VelvetGo for gms_pico
+packages_modules_Bluetooth::Bluetooth: accept proprietary L2CAP option 0x7F on config
