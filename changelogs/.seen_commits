@@ -1324,3 +1324,30 @@ packages_apps_Evolver::Evolver: fix attestation root trust for TrickyStore
 vendor_evolution::config: Switch to SystemUIGoogle for GMS builds
 vendor_gms::gms: Bring in VelvetGo for gms_pico
 packages_modules_Bluetooth::Bluetooth: accept proprietary L2CAP option 0x7F on config
+packages_apps_Evolver::Evolver: Update Monet Engine
+vendor_evolution::overlay: Add OmniJaws to location extra packages
+vendor_evolution::overlay: Offload WM shell to another thread
+vendor_evolution::common: Allow OTA downgrade regardless build type
+vendor_evolution::soong: Conditionally spoof ro.product.first_api_level to 32 [1/2]
+vendor_evolution::evolution: Switch to AOSPA's face unlock implementation
+vendor_evolution::overlay: Update device configs global overrides
+vendor_evolution::overlay: Allow new SystemUI clocks
+vendor_evolution::overlay: Settings: Show memory usage in app info
+vendor_evolution::evolution: Enable Cloned App
+vendor_evolution::kernel: Add option to avoid rebuilding kernel everytimes
+vendor_evolution::evolution: Configure support for Evolution X Vanilla
+vendor_evolution::evolution: Inherit Pixel additions via `WITH_GMS`
+vendor_evolution::lineage: Initial Evolution X rebrand
+vendor_evolution::Revert "config: Use add_soong_config_namespace/add_soong_config_var macros"
+vendor_evolution::Revert "Revert "Add product_launched_with_j{,_mr1,mr2}.mk""
+vendor_evolution::Revert "bootanimation: Convert to Android.bp"
+vendor_evolution::Revert "charger: Convert to Android.bp"
+vendor_evolution::vars: September 2026 Pixel Update
+packages_apps_Settings::Settings: Answer search index queries as Settings
+external_pffft::exposing pffft to axion fx and steam audio
+lineage-sdk::util: ControllerUtils: Add support for passing custom fragmentTitle
+lineage-sdk::util: Introduce ControllerUtils class
+system_memory_libmeminfo::libdmabufinfo: Avoid error spam when the optional BPF iterator is absent
+frameworks_av::stagefright: Use the stock index for opted-in AC-4 tables
+frameworks_av::stagefright: Match the opted-in AC-4 table request ABI
+frameworks_av::stagefright: Allow products to select 21-entry Dolby AC-4 tables
