@@ -1351,3 +1351,8 @@ system_memory_libmeminfo::libdmabufinfo: Avoid error spam when the optional BPF 
 frameworks_av::stagefright: Use the stock index for opted-in AC-4 tables
 frameworks_av::stagefright: Match the opted-in AC-4 table request ABI
 frameworks_av::stagefright: Allow products to select 21-entry Dolby AC-4 tables
+vendor_extras::extras: sdk: Add PrimarySwitchPreference
+vendor_extras::extras: sdk: Add EditableSliderPreference
+vendor_gms::gms: Build more packages with gms_pico
+vendor_evolution::config: Switch to SettingsGoogle/SystemUIGoogle for GMS builds
+packages_apps_Settings::Settings: Allow configuring haptics for wake gestures [2/2]
