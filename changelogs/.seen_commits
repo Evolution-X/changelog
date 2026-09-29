@@ -1356,3 +1356,10 @@ vendor_extras::extras: sdk: Add EditableSliderPreference
 vendor_gms::gms: Build more packages with gms_pico
 vendor_evolution::config: Switch to SettingsGoogle/SystemUIGoogle for GMS builds
 packages_apps_Settings::Settings: Allow configuring haptics for wake gestures [2/2]
+vendor_extras::fonts: Add selectable Oh My Font with SF Arabic
+frameworks_opt_net_wifi::WifiTrackerLib: Prefer SAE/OWE over PSK/Open in transition-mode pair
+packages_apps_Settings::location: gray out mock override toggle until app is selected
+packages_apps_Evolver::Evolver: Keep PIF spoof flags when saving a fingerprint
+manifest::manifest: Initialize for Evolution X 12.2+
+hardware_interfaces::Integrate axfx support into AIDL audio
+frameworks_av::audioflinger: Do not allow AxFx effect to be suspended
