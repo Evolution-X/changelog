@@ -1363,3 +1363,9 @@ packages_apps_Evolver::Evolver: Keep PIF spoof flags when saving a fingerprint
 manifest::manifest: Initialize for Evolution X 12.2+
 hardware_interfaces::Integrate axfx support into AIDL audio
 frameworks_av::audioflinger: Do not allow AxFx effect to be suspended
+packages_apps_Evolver::Evolver: TrickyStore: Fix the keybox revocation check
+packages_apps_Evolver::Evolver: Drop stale PIF device fields on edit
+packages_apps_Evolver::Evolver: Move PIF/TrickyStore to framework backends, add reset
+bionic::custom_rom_hide: Serve PIF props to DroidGuard only
+vendor_pixel-style::pixel-style: Rip out synthetic overlays
+device_evolution_sepolicy::sepolicy: Label the Play Integrity staging props
