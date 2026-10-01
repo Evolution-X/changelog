@@ -1369,3 +1369,14 @@ packages_apps_Evolver::Evolver: Move PIF/TrickyStore to framework backends, add 
 bionic::custom_rom_hide: Serve PIF props to DroidGuard only
 vendor_pixel-style::pixel-style: Rip out synthetic overlays
 device_evolution_sepolicy::sepolicy: Label the Play Integrity staging props
+vendor_evolution::Reapply "aconfig: Disable FRP enforcement"
+vendor_evolution::Revert "[1/2] overlay: Seed the LineageOS palette for first boot"
+vendor_evolution::Revert "common: Ship LMODroid font clock plugin"
+vendor_evolution::common: Ship LMODroid font clock plugin
+vendor_evolution::common: Ship Pixel lockscreen clock plugins
+packages_apps_Evolver::Evolver: TrickyStore: Keep the keybox until a replacement is validated
+packages_apps_SystemUIClocks::Revert "clocks: Add LMODroid font clocks"
+packages_apps_SystemUIClocks::clocks: Add LMODroid font clocks
+packages_apps_SystemUIClocks::clocks: Import SystemUIClocks-Flex from mustang BD3A.251105.010.E1
+vendor_extras::extras: Move out SystemUIClocks
+bionic::custom_rom_hide: Serve build description, type and tags to DroidGuard
