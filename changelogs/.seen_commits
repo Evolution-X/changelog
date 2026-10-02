@@ -1380,3 +1380,7 @@ packages_apps_SystemUIClocks::clocks: Add LMODroid font clocks
 packages_apps_SystemUIClocks::clocks: Import SystemUIClocks-Flex from mustang BD3A.251105.010.E1
 vendor_extras::extras: Move out SystemUIClocks
 bionic::custom_rom_hide: Serve build description, type and tags to DroidGuard
+packages_apps_Evolver::New Crowdin updates (#614)
+packages_apps_Evolver::Partially Revert "Evolver: Add Settings icon background customization [2/2]"
+packages_apps_SystemUIClocks::words: Ship under the stock handwritten package id
+packages_modules_common::Keep Binder-dispatched methods in standalone system server jars
