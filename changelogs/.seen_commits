@@ -1384,3 +1384,4 @@ packages_apps_Evolver::New Crowdin updates (#614)
 packages_apps_Evolver::Partially Revert "Evolver: Add Settings icon background customization [2/2]"
 packages_apps_SystemUIClocks::words: Ship under the stock handwritten package id
 packages_modules_common::Keep Binder-dispatched methods in standalone system server jars
+vendor_gms::gms: Drop prebuilt Theme packs
