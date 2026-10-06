@@ -1387,3 +1387,6 @@ packages_modules_common::Keep Binder-dispatched methods in standalone system ser
 vendor_gms::gms: Drop prebuilt Theme packs
 packages_apps_Settings::Settings: Put the audio codec on the device details page
 packages_apps_Settings::Settings: Allow scheduling always on display [2/2]
+vendor_evolution::config: Drop ThemeIcons
+vendor_gms::gms: Update from grizzly_beta DP11.260918.005
+packages_modules_Bluetooth::Remove unused ext_attrs from playerapplicationsetting_cb
