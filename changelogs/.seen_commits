@@ -1390,3 +1390,64 @@ packages_apps_Settings::Settings: Allow scheduling always on display [2/2]
 vendor_evolution::config: Drop ThemeIcons
 vendor_gms::gms: Update from grizzly_beta DP11.260918.005
 packages_modules_Bluetooth::Remove unused ext_attrs from playerapplicationsetting_cb
+packages_apps_Evolver::Evolver: Add option to set volume slider below brightness slider
+vendor_evolution::version: Uprev to 12.3
+vendor_evolution::overlay: Update pallete for first boot
+vendor_evolution::aconfig: Enable new reveal animation for QS tiles
+vendor_evolution::aconfig: Enable cloud search and album features in media picker
+vendor_evolution::aconfig: Enable iconshapes and theme packs
+packages_apps_Settings::Settings: Phone ringtone setting for Multi SIM device [2/2]
+packages_apps_Settings::Settings: gestures: Enable Cycle through ringer modes for all
+packages_apps_Settings::Settings: Add option to cycle through ringer modes [2/2]
+packages_apps_Settings::Settings: Expose clipboard auto clear setting [2/2]
+packages_apps_Settings::Drawables: Dark mode support for app installation restriction icon
+packages_apps_Settings::Settings: Remove remaining hardcoded fonts
+packages_apps_Settings::Settings: Use font configs instead fonts directly
+packages_apps_Settings::Settings: Fix rest of the edit menu icon tint
+packages_apps_Settings::Settings: Add icon for 'WiFi direct'
+packages_apps_Settings::Settings: Add missing icon for media output
+packages_apps_Settings::Add the rest of Cloudflare and Quad9 Private DNS options
+packages_apps_Settings::Settings: Skip auth for WiFi net share when unlocked in the last 60s
+packages_apps_Settings::Settings: Add icon for 'WiFi cellular data fallback'
+packages_apps_Settings::Settings: Add icon for WiFi -> Install certificates
+packages_apps_Settings::Open app when clicking on icon in App Info
+packages_apps_Settings::Settings: Address a memory leak
+packages_apps_Settings::Settings: Fix slice data illegal state in credentials
+packages_apps_Settings::Settings: Prevent IllegalArgumentException in storage settings
+packages_apps_Settings::RunningServices: Remove DeveloperOptionAwareMixin interface
+packages_apps_Settings::fixup! Settings: Expose radio info (*#*#4636#*#*)
+system_sepolicy::sepolicy: Allow permissive in recovery on user builds
+system_sepolicy::sepolicy: Allow system app to access sysfs_leds
+system_sepolicy::sepolicy: Make su domain permissive on user builds
+device_evolution_sepolicy::common: Allow init in recovery to write to proc_firmware_config
+packages_services_Telecomm::Telecomm: Adapt custom settings to A17
+packages_services_Telephony::Fix SimPhonebookProviderTest flakiness and leaks
+packages_services_Telephony::phone JE when select image from phone in FDNList interface.
+packages_modules_Bluetooth::Bluetooth: Disable Bluetooth auto-on feature by default
+packages_modules_Bluetooth::fixup! le_audio: Allow overriding the bit depth
+packages_modules_Bluetooth::offload: Make visible to device
+packages_modules_Bluetooth::BondStateMachine: Allow skipping confirm for some remotes
+packages_modules_Bluetooth::a2dp: Remember the codec chosen for a device
+packages_modules_Bluetooth::a2dp: Add LHDC V3 source codec
+packages_modules_Wifi::WifiSettingsConfigStore: Disallow WEP networks by default
+packages_modules_Wifi::Wifi: Remove random text on ssid
+packages_modules_Wifi::ClientModeImpl: Move updateCurrentConnectionInfo() before broadcast
+packages_modules_Wifi::Accept operating environment values 0x01-0x06 in Country IE
+packages_modules_Wifi::Fix Wi-Fi hotspot freeze on driver failure
+packages_modules_Wifi::Wi-Fi timeout feature
+packages_modules_Wifi::Increase 5 GHz network signal tolerance
+packages_apps_ThemeStore::ThemeStore: Update repository path again
+bionic::custom_rom_hide: Exempt zygotes for custom rom path
+bionic::custom_rom_hide: Fix custom rom artifacts detection
+frameworks_av::stagefright: Hide emitting non-AOSP symbol
+libcore::Revert "blocking non-sense root checks and sdk"
+vendor_extras::extras: Update BCR to Version v3.9
+vendor_extras::extras: sdk: Do not relock app when system sub-activity takes focus in the same task
+vendor_extras::extras: sdk: Fix leak in sandbox service
+vendor_extras::extras: sdk: Fixing m3e <-> AOSP SettingsLib visual disrepancies
+vendor_extras::extras: sdk: Update ax_compose for multi user API
+vendor_extras::extras: sdk: Refactor sandbox for migration
+vendor_extras::extras: sdk: Add reusable search utils
+bootable_recovery::recovery: Do not format /cache and /metadata with data_fstype
+bootable_recovery::recovery: Fix potential integer overflow when passing payload offset
+packages_apps_Sandbox::sandbox: Update repository link again
