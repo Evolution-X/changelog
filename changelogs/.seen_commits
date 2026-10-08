@@ -1451,3 +1451,8 @@ vendor_extras::extras: sdk: Add reusable search utils
 bootable_recovery::recovery: Do not format /cache and /metadata with data_fstype
 bootable_recovery::recovery: Fix potential integer overflow when passing payload offset
 packages_apps_Sandbox::sandbox: Update repository link again
+packages_apps_Evolver::Evolver: Add customization for bold clock and period separator
+vendor_gms::gms: Update from grizzly CD1A.261005.003
+manifest::manifest: Initialize for Evolution X 12.x+
+packages_apps_Settings::Settings: Give the About phone logo a K-pop holographic look
+vendor_pixel-style::pixel-style: Update Pixel charger from mustang CP2A.260805.005
