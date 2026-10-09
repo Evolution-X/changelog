@@ -1456,3 +1456,4 @@ vendor_gms::gms: Update from grizzly CD1A.261005.003
 manifest::manifest: Initialize for Evolution X 12.x+
 packages_apps_Settings::Settings: Give the About phone logo a K-pop holographic look
 vendor_pixel-style::pixel-style: Update Pixel charger from mustang CP2A.260805.005
+packages_apps_Evolver::Evolver: Recommend only the Pixel 6a for PIF
