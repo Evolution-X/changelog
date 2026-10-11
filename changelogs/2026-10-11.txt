@@ -1,0 +1,4 @@
+Notable ROM changes 10/11:
+==============================
+SystemUI: charging: harden charging ripple cleanup against stale callbacks [2/2]
+gms: Fully drop PersistentBackgroundServices

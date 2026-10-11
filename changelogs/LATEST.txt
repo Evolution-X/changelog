@@ -1,5 +1,4 @@
-Notable ROM changes 10/10:
+Notable ROM changes 10/11:
 ==============================
-Evolver: Drop Google Monet [2/2]
-RippleView: stop leaking animator listeners across ripples
-bootanimation: Update from Pixel 11 series
+SystemUI: charging: harden charging ripple cleanup against stale callbacks [2/2]
+gms: Fully drop PersistentBackgroundServices

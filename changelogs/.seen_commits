@@ -1460,3 +1460,5 @@ packages_apps_Evolver::Evolver: Recommend only the Pixel 6a for PIF
 packages_apps_Evolver::Evolver: Drop Google Monet [2/2]
 frameworks_libs_systemui::RippleView: stop leaking animator listeners across ripples
 vendor_evolution::bootanimation: Update from Pixel 11 series
+frameworks_libs_systemui::SystemUI: charging: harden charging ripple cleanup against stale callbacks [2/2]
+vendor_gms::gms: Fully drop PersistentBackgroundServices
