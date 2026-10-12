@@ -1,4 +1,5 @@
-Notable ROM changes 10/11:
+Notable ROM changes 10/12:
 ==============================
-SystemUI: charging: harden charging ripple cleanup against stale callbacks [2/2]
-gms: Fully drop PersistentBackgroundServices
+fixup! releasetools: Add os.path.exists() check to IsErofsImage()
+releasetools: Add os.path.exists() check to IsErofsImage()
+compat: Adapt Bluetooth audio configurations for V3 callers

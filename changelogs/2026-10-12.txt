@@ -1,0 +1,5 @@
+Notable ROM changes 10/12:
+==============================
+fixup! releasetools: Add os.path.exists() check to IsErofsImage()
+releasetools: Add os.path.exists() check to IsErofsImage()
+compat: Adapt Bluetooth audio configurations for V3 callers

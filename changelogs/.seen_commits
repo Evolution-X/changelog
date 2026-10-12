@@ -1462,3 +1462,6 @@ frameworks_libs_systemui::RippleView: stop leaking animator listeners across rip
 vendor_evolution::bootanimation: Update from Pixel 11 series
 frameworks_libs_systemui::SystemUI: charging: harden charging ripple cleanup against stale callbacks [2/2]
 vendor_gms::gms: Fully drop PersistentBackgroundServices
+build::fixup! releasetools: Add os.path.exists() check to IsErofsImage()
+build::releasetools: Add os.path.exists() check to IsErofsImage()
+hardware_lineage_compat::compat: Adapt Bluetooth audio configurations for V3 callers
