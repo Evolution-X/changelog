@@ -1,5 +1,7 @@
-Notable ROM changes 10/12:
+Notable ROM changes 10/14:
 ==============================
-fixup! releasetools: Add os.path.exists() check to IsErofsImage()
-releasetools: Add os.path.exists() check to IsErofsImage()
-compat: Adapt Bluetooth audio configurations for V3 callers
+update_engine: Grow recorded super size in recovery
+fs_mgr: Allow remount on a locked device
+liblp: Add GrowBlockDevicesToLiveSize
+compat: libaudioclient: Introduce AudioSystem shims
+releasetools: tolerate prebuilt partitions without a directory

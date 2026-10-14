@@ -1,0 +1,7 @@
+Notable ROM changes 10/14:
+==============================
+update_engine: Grow recorded super size in recovery
+fs_mgr: Allow remount on a locked device
+liblp: Add GrowBlockDevicesToLiveSize
+compat: libaudioclient: Introduce AudioSystem shims
+releasetools: tolerate prebuilt partitions without a directory

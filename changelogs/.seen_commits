@@ -1465,3 +1465,8 @@ vendor_gms::gms: Fully drop PersistentBackgroundServices
 build::fixup! releasetools: Add os.path.exists() check to IsErofsImage()
 build::releasetools: Add os.path.exists() check to IsErofsImage()
 hardware_lineage_compat::compat: Adapt Bluetooth audio configurations for V3 callers
+system_update_engine::update_engine: Grow recorded super size in recovery
+system_fs_fs_mgr::fs_mgr: Allow remount on a locked device
+system_fs_fs_mgr::liblp: Add GrowBlockDevicesToLiveSize
+hardware_lineage_compat::compat: libaudioclient: Introduce AudioSystem shims
+build::releasetools: tolerate prebuilt partitions without a directory
