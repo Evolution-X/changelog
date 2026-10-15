@@ -1470,3 +1470,6 @@ system_fs_fs_mgr::fs_mgr: Allow remount on a locked device
 system_fs_fs_mgr::liblp: Add GrowBlockDevicesToLiveSize
 hardware_lineage_compat::compat: libaudioclient: Introduce AudioSystem shims
 build::releasetools: tolerate prebuilt partitions without a directory
+packages_apps_Evolver::Evolver: Match Settings font styles
+packages_apps_Evolver::Evolver: fonts: pin add button, add delete action, reset on switch
+packages_apps_Evolver::Evolver: fonts: fix crash on missing font family resource

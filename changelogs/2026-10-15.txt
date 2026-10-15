@@ -1,0 +1,5 @@
+Notable ROM changes 10/15:
+==============================
+Evolver: Match Settings font styles
+Evolver: fonts: pin add button, add delete action, reset on switch
+Evolver: fonts: fix crash on missing font family resource

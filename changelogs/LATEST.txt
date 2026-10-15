@@ -1,7 +1,5 @@
-Notable ROM changes 10/14:
+Notable ROM changes 10/15:
 ==============================
-update_engine: Grow recorded super size in recovery
-fs_mgr: Allow remount on a locked device
-liblp: Add GrowBlockDevicesToLiveSize
-compat: libaudioclient: Introduce AudioSystem shims
-releasetools: tolerate prebuilt partitions without a directory
+Evolver: Match Settings font styles
+Evolver: fonts: pin add button, add delete action, reset on switch
+Evolver: fonts: fix crash on missing font family resource
