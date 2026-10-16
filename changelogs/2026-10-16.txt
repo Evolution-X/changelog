@@ -1,0 +1,11 @@
+Notable ROM changes 10/16:
+==============================
+Evolver: FontsPicker: Material expressive styling
+extras: sdk: fixing blur performance issues
+extras: sdk: fixing interframe threshold duration
+extras: sdk: fixing multiple blur performance
+extras: sdk: adding ax blur native deps
+extras: Update BCR to Version v3.10
+Effects: Do not allow DAP_OFFLOAD effect to be suspended
+media: map the standard profile/level for c2 params config for vp8 codec.
+CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions

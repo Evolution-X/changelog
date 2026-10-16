@@ -1473,3 +1473,12 @@ build::releasetools: tolerate prebuilt partitions without a directory
 packages_apps_Evolver::Evolver: Match Settings font styles
 packages_apps_Evolver::Evolver: fonts: pin add button, add delete action, reset on switch
 packages_apps_Evolver::Evolver: fonts: fix crash on missing font family resource
+packages_apps_Evolver::Evolver: FontsPicker: Material expressive styling
+vendor_extras::extras: sdk: fixing blur performance issues
+vendor_extras::extras: sdk: fixing interframe threshold duration
+vendor_extras::extras: sdk: fixing multiple blur performance
+vendor_extras::extras: sdk: adding ax blur native deps
+vendor_extras::extras: Update BCR to Version v3.10
+frameworks_av::Effects: Do not allow DAP_OFFLOAD effect to be suspended
+frameworks_av::media: map the standard profile/level for c2 params config for vp8 codec.
+frameworks_av::CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
