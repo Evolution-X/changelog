@@ -1,0 +1,15 @@
+Notable ROM changes 10/17:
+==============================
+Evolver: themes: wire up secondary seed color preference
+Evolver: ColorPicker: switch to Skydoves Compose picker
+New Crowdin updates (#626)
+Evolver: Remove unused strings
+Evolver: Remove unused resources
+Evolver: Remove unused classes and helpers
+Evolver: Drop unused depth model asset
+Evolver: resolve string clashes with Settings and polish wording
+Revert "Evolver: add RadioButtonPreference"
+Evolver: Fix unreadable clock text in light clock chip preview
+Evolver: Pickers: Use SettingsLib expressive dialogs and text styles
+SystemUIGoogle: smartspace: port Lunia fixes for decompile regressions
+Settings: network: scan: share pending legacy network query

@@ -1482,3 +1482,16 @@ vendor_extras::extras: Update BCR to Version v3.10
 frameworks_av::Effects: Do not allow DAP_OFFLOAD effect to be suspended
 frameworks_av::media: map the standard profile/level for c2 params config for vp8 codec.
 frameworks_av::CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
+packages_apps_Evolver::Evolver: themes: wire up secondary seed color preference
+packages_apps_Evolver::Evolver: ColorPicker: switch to Skydoves Compose picker
+packages_apps_Evolver::New Crowdin updates (#626)
+packages_apps_Evolver::Evolver: Remove unused strings
+packages_apps_Evolver::Evolver: Remove unused resources
+packages_apps_Evolver::Evolver: Remove unused classes and helpers
+packages_apps_Evolver::Evolver: Drop unused depth model asset
+packages_apps_Evolver::Evolver: resolve string clashes with Settings and polish wording
+packages_apps_Evolver::Revert "Evolver: add RadioButtonPreference"
+packages_apps_Evolver::Evolver: Fix unreadable clock text in light clock chip preview
+packages_apps_Evolver::Evolver: Pickers: Use SettingsLib expressive dialogs and text styles
+vendor_packages_SystemUIGoogle::SystemUIGoogle: smartspace: port Lunia fixes for decompile regressions
+packages_apps_Settings::Settings: network: scan: share pending legacy network query

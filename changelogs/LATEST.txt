@@ -1,11 +1,15 @@
-Notable ROM changes 10/16:
+Notable ROM changes 10/17:
 ==============================
-Evolver: FontsPicker: Material expressive styling
-extras: sdk: fixing blur performance issues
-extras: sdk: fixing interframe threshold duration
-extras: sdk: fixing multiple blur performance
-extras: sdk: adding ax blur native deps
-extras: Update BCR to Version v3.10
-Effects: Do not allow DAP_OFFLOAD effect to be suspended
-media: map the standard profile/level for c2 params config for vp8 codec.
-CCodecBufferChannel: avoid API_SAME_INPUT_BUFFER for thumbnail sessions
+Evolver: themes: wire up secondary seed color preference
+Evolver: ColorPicker: switch to Skydoves Compose picker
+New Crowdin updates (#626)
+Evolver: Remove unused strings
+Evolver: Remove unused resources
+Evolver: Remove unused classes and helpers
+Evolver: Drop unused depth model asset
+Evolver: resolve string clashes with Settings and polish wording
+Revert "Evolver: add RadioButtonPreference"
+Evolver: Fix unreadable clock text in light clock chip preview
+Evolver: Pickers: Use SettingsLib expressive dialogs and text styles
+SystemUIGoogle: smartspace: port Lunia fixes for decompile regressions
+Settings: network: scan: share pending legacy network query
