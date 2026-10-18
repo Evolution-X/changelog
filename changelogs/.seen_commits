@@ -1495,3 +1495,31 @@ packages_apps_Evolver::Evolver: Fix unreadable clock text in light clock chip pr
 packages_apps_Evolver::Evolver: Pickers: Use SettingsLib expressive dialogs and text styles
 vendor_packages_SystemUIGoogle::SystemUIGoogle: smartspace: port Lunia fixes for decompile regressions
 packages_apps_Settings::Settings: network: scan: share pending legacy network query
+packages_apps_Evolver::Evolver: Monet: sync custom seed color with the active theme
+packages_apps_Evolver::Evolver: lockscreen: use SettingsLib ButtonPreference for apply-change button
+packages_apps_Evolver::Evolver: ColorPicker: switch to Skydoves and unify color preferences
+packages_apps_Evolver::Evolver: About: only list maintainers with a build in the last 3 months
+packages_apps_Evolver::Evolver: spoofing: use tonal ButtonPreference with reset icon for resets
+packages_apps_Evolver::Evolver: fonts: sort font styles alphabetically in picker
+packages_apps_Evolver::Evolver: about: show the whole GitHub avatar instead of zooming in
+packages_apps_Evolver::Evolver: about: use animated Evolution X logo layout
+vendor_evolution::config: Allow opting out of face sense and disable on Pixel 7+
+packages_apps_Settings::Settings: show per sim ringtone
+packages_apps_Settings::Settings: hardwareinfo: rebuild Model page as hero + segmented specs
+packages_apps_Settings::Settings: Give the About phone logo a holographic look
+vendor_gms::gms: add Dreamliner for the Pixel 11 series
+build::build: Fix setting PLATFORM_SECURITY_PATCH_TIMESTAMP w/uutils
+bionic::bionic: ifaddrs: don't require inet sockets for name/flag resolution
+bionic::custom_rom_hide: Hide ROM-named RRO overlays from apps
+packages_apps_Updater::Updater: Remove the Evolution X version line from device info
+packages_apps_Updater::Updater: Use animated Evolution X logo in the top bar
+packages_apps_Updater::Updater: Use generic info icon
+packages_apps_Updater::Updater: Use Evolution X logo as app icon
+packages_apps_Updater::Updater: Add support links and some more info
+packages_apps_Updater::Updater: Replace header title with header image
+packages_apps_Updater::Updater: Fetch updates from Evolution X OTA
+packages_apps_Updater::Updater: Rebrand to Evolution X
+packages_apps_EvoEgg::EvoEgg: Use Evolution X logo as app icon
+frameworks_libs_systemui::iconloaderlib: Do not wrap themed icons
+frameworks_libs_systemui::iconloaderlib: do not invalidateSelf during alpha transitions
+vendor_extras::extras: sdk: blur: checkout to crDroid upstream

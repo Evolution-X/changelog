@@ -1,15 +1,30 @@
-Notable ROM changes 10/17:
+Notable ROM changes 10/18:
 ==============================
-Evolver: themes: wire up secondary seed color preference
-Evolver: ColorPicker: switch to Skydoves Compose picker
-New Crowdin updates (#626)
-Evolver: Remove unused strings
-Evolver: Remove unused resources
-Evolver: Remove unused classes and helpers
-Evolver: Drop unused depth model asset
-Evolver: resolve string clashes with Settings and polish wording
-Revert "Evolver: add RadioButtonPreference"
-Evolver: Fix unreadable clock text in light clock chip preview
-Evolver: Pickers: Use SettingsLib expressive dialogs and text styles
-SystemUIGoogle: smartspace: port Lunia fixes for decompile regressions
-Settings: network: scan: share pending legacy network query
+Evolver: Monet: sync custom seed color with the active theme
+Evolver: lockscreen: use SettingsLib ButtonPreference for apply-change button
+Evolver: ColorPicker: switch to Skydoves and unify color preferences
+Evolver: About: only list maintainers with a build in the last 3 months
+Evolver: spoofing: use tonal ButtonPreference with reset icon for resets
+Evolver: fonts: sort font styles alphabetically in picker
+Evolver: about: show the whole GitHub avatar instead of zooming in
+Evolver: about: use animated Evolution X logo layout
+config: Allow opting out of face sense and disable on Pixel 7+
+Settings: show per sim ringtone
+Settings: hardwareinfo: rebuild Model page as hero + segmented specs
+Settings: Give the About phone logo a holographic look
+gms: add Dreamliner for the Pixel 11 series
+build: Fix setting PLATFORM_SECURITY_PATCH_TIMESTAMP w/uutils
+bionic: ifaddrs: don't require inet sockets for name/flag resolution
+custom_rom_hide: Hide ROM-named RRO overlays from apps
+Updater: Remove the Evolution X version line from device info
+Updater: Use animated Evolution X logo in the top bar
+Updater: Use generic info icon
+Updater: Use Evolution X logo as app icon
+Updater: Add support links and some more info
+Updater: Replace header title with header image
+Updater: Fetch updates from Evolution X OTA
+Updater: Rebrand to Evolution X
+EvoEgg: Use Evolution X logo as app icon
+iconloaderlib: Do not wrap themed icons
+iconloaderlib: do not invalidateSelf during alpha transitions
+extras: sdk: blur: checkout to crDroid upstream
