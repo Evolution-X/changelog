@@ -1,30 +1,17 @@
-Notable ROM changes 10/18:
+Notable ROM changes 10/19:
 ==============================
-Evolver: Monet: sync custom seed color with the active theme
-Evolver: lockscreen: use SettingsLib ButtonPreference for apply-change button
-Evolver: ColorPicker: switch to Skydoves and unify color preferences
-Evolver: About: only list maintainers with a build in the last 3 months
-Evolver: spoofing: use tonal ButtonPreference with reset icon for resets
-Evolver: fonts: sort font styles alphabetically in picker
-Evolver: about: show the whole GitHub avatar instead of zooming in
-Evolver: about: use animated Evolution X logo layout
-config: Allow opting out of face sense and disable on Pixel 7+
-Settings: show per sim ringtone
-Settings: hardwareinfo: rebuild Model page as hero + segmented specs
-Settings: Give the About phone logo a holographic look
-gms: add Dreamliner for the Pixel 11 series
-build: Fix setting PLATFORM_SECURITY_PATCH_TIMESTAMP w/uutils
-bionic: ifaddrs: don't require inet sockets for name/flag resolution
-custom_rom_hide: Hide ROM-named RRO overlays from apps
-Updater: Remove the Evolution X version line from device info
-Updater: Use animated Evolution X logo in the top bar
-Updater: Use generic info icon
-Updater: Use Evolution X logo as app icon
-Updater: Add support links and some more info
-Updater: Replace header title with header image
-Updater: Fetch updates from Evolution X OTA
-Updater: Rebrand to Evolution X
-EvoEgg: Use Evolution X logo as app icon
-iconloaderlib: Do not wrap themed icons
-iconloaderlib: do not invalidateSelf during alpha transitions
-extras: sdk: blur: checkout to crDroid upstream
+Evolver: Rework spoofing UI with Material 3 Expressive
+Evolver: lockscreen: Replace custom Now Playing with system switches
+overlay: dps: update device config overrides
+common: move the Now Playing on-demand flags out of the device tree
+release: Enable android.os flags
+Settings: firmwareversion: convert Evolution X entries to Catalyst
+Settings: hardwareinfo: build Model page as hero card with segmented specs
+Settings: firmwareversion: give the About phone logo a holographic look
+Settings: gestures: raise IME nav bar space overlay priority
+Settings: Phone ringtone setting for Multi SIM device [2/3]
+SystemUIGoogle: ambientmusic: Add lyrics mode
+SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
+SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
+Revert "SystemUIGoogle: Guard Now Playing quick affordance"
+fs_mgr: Don't spam F2FS linear_lookup logs.

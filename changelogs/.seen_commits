@@ -1523,3 +1523,18 @@ packages_apps_EvoEgg::EvoEgg: Use Evolution X logo as app icon
 frameworks_libs_systemui::iconloaderlib: Do not wrap themed icons
 frameworks_libs_systemui::iconloaderlib: do not invalidateSelf during alpha transitions
 vendor_extras::extras: sdk: blur: checkout to crDroid upstream
+packages_apps_Evolver::Evolver: Rework spoofing UI with Material 3 Expressive
+packages_apps_Evolver::Evolver: lockscreen: Replace custom Now Playing with system switches
+vendor_evolution::overlay: dps: update device config overrides
+vendor_evolution::common: move the Now Playing on-demand flags out of the device tree
+vendor_evolution::release: Enable android.os flags
+packages_apps_Settings::Settings: firmwareversion: convert Evolution X entries to Catalyst
+packages_apps_Settings::Settings: hardwareinfo: build Model page as hero card with segmented specs
+packages_apps_Settings::Settings: firmwareversion: give the About phone logo a holographic look
+packages_apps_Settings::Settings: gestures: raise IME nav bar space overlay priority
+packages_apps_Settings::Settings: Phone ringtone setting for Multi SIM device [2/3]
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: Add lyrics mode
+vendor_packages_SystemUIGoogle::SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
+vendor_packages_SystemUIGoogle::SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
+vendor_packages_SystemUIGoogle::Revert "SystemUIGoogle: Guard Now Playing quick affordance"
+system_fs_fs_mgr::fs_mgr: Don't spam F2FS linear_lookup logs.
