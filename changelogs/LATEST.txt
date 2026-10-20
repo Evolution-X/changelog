@@ -1,17 +1,6 @@
-Notable ROM changes 10/19:
+Notable ROM changes 10/20:
 ==============================
-Evolver: Rework spoofing UI with Material 3 Expressive
-Evolver: lockscreen: Replace custom Now Playing with system switches
-overlay: dps: update device config overrides
-common: move the Now Playing on-demand flags out of the device tree
-release: Enable android.os flags
-Settings: firmwareversion: convert Evolution X entries to Catalyst
-Settings: hardwareinfo: build Model page as hero card with segmented specs
-Settings: firmwareversion: give the About phone logo a holographic look
-Settings: gestures: raise IME nav bar space overlay priority
-Settings: Phone ringtone setting for Multi SIM device [2/3]
-SystemUIGoogle: ambientmusic: Add lyrics mode
-SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
-SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
-Revert "SystemUIGoogle: Guard Now Playing quick affordance"
-fs_mgr: Don't spam F2FS linear_lookup logs.
+Settings: hardwareinfo: redesign model page with Material 3 Expressive
+custom_rom_hide: Do not spoof /data/local/tmp
+custom_rom_hide: Only hide ROM-named overlays from listings
+LineageParts: Keep Trust onboarding content clear of actions

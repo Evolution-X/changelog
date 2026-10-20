@@ -1538,3 +1538,7 @@ vendor_packages_SystemUIGoogle::SystemUIGoogle: Let dagger construct AmbientIndi
 vendor_packages_SystemUIGoogle::SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
 vendor_packages_SystemUIGoogle::Revert "SystemUIGoogle: Guard Now Playing quick affordance"
 system_fs_fs_mgr::fs_mgr: Don't spam F2FS linear_lookup logs.
+packages_apps_Settings::Settings: hardwareinfo: redesign model page with Material 3 Expressive
+bionic::custom_rom_hide: Do not spoof /data/local/tmp
+bionic::custom_rom_hide: Only hide ROM-named overlays from listings
+packages_apps_LineageParts::LineageParts: Keep Trust onboarding content clear of actions
