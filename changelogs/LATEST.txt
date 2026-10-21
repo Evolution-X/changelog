@@ -1,6 +1,4 @@
-Notable ROM changes 10/20:
+Notable ROM changes 10/21:
 ==============================
-Settings: hardwareinfo: redesign model page with Material 3 Expressive
-custom_rom_hide: Do not spoof /data/local/tmp
-custom_rom_hide: Only hide ROM-named overlays from listings
-LineageParts: Keep Trust onboarding content clear of actions
+settings: Add config to allow independent dpi settings for foldables
+Evolver: rework spoofing, pickers and dialogs with M3 Expressive

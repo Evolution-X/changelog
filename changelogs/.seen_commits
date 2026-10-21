@@ -1542,3 +1542,5 @@ packages_apps_Settings::Settings: hardwareinfo: redesign model page with Materia
 bionic::custom_rom_hide: Do not spoof /data/local/tmp
 bionic::custom_rom_hide: Only hide ROM-named overlays from listings
 packages_apps_LineageParts::LineageParts: Keep Trust onboarding content clear of actions
+packages_apps_Settings::settings: Add config to allow independent dpi settings for foldables
+packages_apps_Evolver::Evolver: rework spoofing, pickers and dialogs with M3 Expressive

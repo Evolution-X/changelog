@@ -1,0 +1,4 @@
+Notable ROM changes 10/21:
+==============================
+settings: Add config to allow independent dpi settings for foldables
+Evolver: rework spoofing, pickers and dialogs with M3 Expressive
