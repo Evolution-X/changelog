@@ -1544,3 +1544,12 @@ bionic::custom_rom_hide: Only hide ROM-named overlays from listings
 packages_apps_LineageParts::LineageParts: Keep Trust onboarding content clear of actions
 packages_apps_Settings::settings: Add config to allow independent dpi settings for foldables
 packages_apps_Evolver::Evolver: rework spoofing, pickers and dialogs with M3 Expressive
+packages_apps_Settings::Settings: AppLock: use Expressive dialogs, text fields and focus ring
+packages_apps_Settings::Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
+packages_apps_Settings::Settings: redesign model page with Material 3 Expressive
+packages_apps_Settings::Settings: gestures: Restart current IME on IME space toggle
+packages_apps_Settings::Settings: Add cellular security network internet icon
+vendor_pixel-style::PixelConfigOverlay2021: Don't disable the volume hush gesture
+device_evolution_sepolicy::sepolicy: label the boot animation name property
+vendor_extras::extras: fonts: Add new fonts
+vendor_extras::extras: Update BCR to Version v3.11

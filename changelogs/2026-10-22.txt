@@ -1,0 +1,11 @@
+Notable ROM changes 10/22:
+==============================
+Settings: AppLock: use Expressive dialogs, text fields and focus ring
+Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
+Settings: redesign model page with Material 3 Expressive
+Settings: gestures: Restart current IME on IME space toggle
+Settings: Add cellular security network internet icon
+PixelConfigOverlay2021: Don't disable the volume hush gesture
+sepolicy: label the boot animation name property
+extras: fonts: Add new fonts
+extras: Update BCR to Version v3.11
