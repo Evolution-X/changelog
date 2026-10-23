@@ -1553,3 +1553,24 @@ vendor_pixel-style::PixelConfigOverlay2021: Don't disable the volume hush gestur
 device_evolution_sepolicy::sepolicy: label the boot animation name property
 vendor_extras::extras: fonts: Add new fonts
 vendor_extras::extras: Update BCR to Version v3.11
+packages_apps_Evolver::Evolver: lockscreen: add Now Playing saved songs list with album art
+packages_apps_Evolver::Evolver: Add face unlock animation toggle [2/2]
+packages_apps_Evolver::Evolver: Add master switch to hide screen capture status from apps [2/2]
+packages_apps_Evolver::Evolver: lockscreen: Add option to show the status bar above media art [2/2]
+packages_apps_Evolver::Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: load remote album art
+packages_apps_Settings::Settings: Fix NFC payment settings activity
+manifest::manifest: Fork hardware/qcom-caf/sm8150/display
+vendor_packages_SettingsGoogle::SettingsGoogle: Drop commented-out touch category
+vendor_packages_SettingsGoogle::SettingsGoogle: Clean up decompiled locale picker
+vendor_packages_SettingsGoogle::SettingsGoogle: Match stock simple mode
+vendor_packages_SettingsGoogle::SettingsGoogle: Match stock R class choices
+vendor_packages_SettingsGoogle::SettingsGoogle: Match stock software update screen
+vendor_packages_SettingsGoogle::SettingsGoogle: Match stock battery saver screens
+vendor_packages_SettingsGoogle::SettingsGoogle: Match stock experiment proxies
+vendor_packages_SettingsGoogle::SettingsGoogle: Fix locale picker header color
+vendor_packages_SettingsGoogle::SettingsGoogle: Index Google search providers
+vendor_evolution::bootanimation: add prism and prism_dynamic, ship default as prebuilt

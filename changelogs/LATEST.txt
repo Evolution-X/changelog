@@ -1,11 +1,23 @@
-Notable ROM changes 10/22:
+Notable ROM changes 10/23:
 ==============================
-Settings: AppLock: use Expressive dialogs, text fields and focus ring
-Settings: add Material 3 scrollbar to Blur, Vehicle Motion Cues and AppLock lists
-Settings: redesign model page with Material 3 Expressive
-Settings: gestures: Restart current IME on IME space toggle
-Settings: Add cellular security network internet icon
-PixelConfigOverlay2021: Don't disable the volume hush gesture
-sepolicy: label the boot animation name property
-extras: fonts: Add new fonts
-extras: Update BCR to Version v3.11
+Evolver: lockscreen: add Now Playing saved songs list with album art
+Evolver: Add face unlock animation toggle [2/2]
+Evolver: Add master switch to hide screen capture status from apps [2/2]
+Evolver: lockscreen: Add option to show the status bar above media art [2/2]
+Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
+SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
+SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
+SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
+SystemUIGoogle: ambientmusic: load remote album art
+Settings: Fix NFC payment settings activity
+manifest: Fork hardware/qcom-caf/sm8150/display
+SettingsGoogle: Drop commented-out touch category
+SettingsGoogle: Clean up decompiled locale picker
+SettingsGoogle: Match stock simple mode
+SettingsGoogle: Match stock R class choices
+SettingsGoogle: Match stock software update screen
+SettingsGoogle: Match stock battery saver screens
+SettingsGoogle: Match stock experiment proxies
+SettingsGoogle: Fix locale picker header color
+SettingsGoogle: Index Google search providers
+bootanimation: add prism and prism_dynamic, ship default as prebuilt
