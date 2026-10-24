@@ -1,0 +1,15 @@
+Notable ROM changes 10/24:
+==============================
+extras: Drop SansSerifPro Font
+extras: Drop NothingDotHeadline font
+build: tasks: update post compile banner to the new wordmark
+config: Allow devices to opt out of Paranoid Sense
+config: Disable face sense on Pixel 7+
+custom_rom_hide: Spoof st_dev for partition roots on fstat/statx
+custom_rom_hide: Fix detection leak in substituted fds
+WallpaperPicker2: categories: hide Magic Portrait from live wallpapers
+Update settings repository to latest interface
+WallpaperPicker2: Remove the use of smaller images for thumbnails
+SystemUIGoogle: ambientmusic: place Now Playing above low UDFPS sensors
+[viperfx_aidl] viperfx aidl integrate
+media: update path for vendor specific config files

@@ -1574,3 +1574,16 @@ vendor_packages_SettingsGoogle::SettingsGoogle: Match stock experiment proxies
 vendor_packages_SettingsGoogle::SettingsGoogle: Fix locale picker header color
 vendor_packages_SettingsGoogle::SettingsGoogle: Index Google search providers
 vendor_evolution::bootanimation: add prism and prism_dynamic, ship default as prebuilt
+vendor_extras::extras: Drop SansSerifPro Font
+vendor_extras::extras: Drop NothingDotHeadline font
+vendor_evolution::build: tasks: update post compile banner to the new wordmark
+vendor_evolution::config: Allow devices to opt out of Paranoid Sense
+vendor_evolution::config: Disable face sense on Pixel 7+
+bionic::custom_rom_hide: Spoof st_dev for partition roots on fstat/statx
+bionic::custom_rom_hide: Fix detection leak in substituted fds
+packages_apps_WallpaperPicker2::WallpaperPicker2: categories: hide Magic Portrait from live wallpapers
+packages_apps_WallpaperPicker2::Update settings repository to latest interface
+packages_apps_WallpaperPicker2::WallpaperPicker2: Remove the use of smaller images for thumbnails
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: place Now Playing above low UDFPS sensors
+system_media::[viperfx_aidl] viperfx aidl integrate
+system_media::media: update path for vendor specific config files

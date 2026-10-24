@@ -1,23 +1,15 @@
-Notable ROM changes 10/23:
+Notable ROM changes 10/24:
 ==============================
-Evolver: lockscreen: add Now Playing saved songs list with album art
-Evolver: Add face unlock animation toggle [2/2]
-Evolver: Add master switch to hide screen capture status from apps [2/2]
-Evolver: lockscreen: Add option to show the status bar above media art [2/2]
-Evolver: Move pickers, dialogs and spoofing to Material 3 Expressive
-SystemUIGoogle: ambientmusic: nonpixel: play via search, save songs with the heart
-SystemUIGoogle: ambientmusic: fix Now Playing/lyrics clipped on UDFPS devices
-SystemUIGoogle: ambientmusic: nonpixel: keep on-demand icon after search
-SystemUIGoogle: ambientmusic: load remote album art
-Settings: Fix NFC payment settings activity
-manifest: Fork hardware/qcom-caf/sm8150/display
-SettingsGoogle: Drop commented-out touch category
-SettingsGoogle: Clean up decompiled locale picker
-SettingsGoogle: Match stock simple mode
-SettingsGoogle: Match stock R class choices
-SettingsGoogle: Match stock software update screen
-SettingsGoogle: Match stock battery saver screens
-SettingsGoogle: Match stock experiment proxies
-SettingsGoogle: Fix locale picker header color
-SettingsGoogle: Index Google search providers
-bootanimation: add prism and prism_dynamic, ship default as prebuilt
+extras: Drop SansSerifPro Font
+extras: Drop NothingDotHeadline font
+build: tasks: update post compile banner to the new wordmark
+config: Allow devices to opt out of Paranoid Sense
+config: Disable face sense on Pixel 7+
+custom_rom_hide: Spoof st_dev for partition roots on fstat/statx
+custom_rom_hide: Fix detection leak in substituted fds
+WallpaperPicker2: categories: hide Magic Portrait from live wallpapers
+Update settings repository to latest interface
+WallpaperPicker2: Remove the use of smaller images for thumbnails
+SystemUIGoogle: ambientmusic: place Now Playing above low UDFPS sensors
+[viperfx_aidl] viperfx aidl integrate
+media: update path for vendor specific config files
