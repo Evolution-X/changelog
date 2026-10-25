@@ -1,0 +1,11 @@
+Notable ROM changes 10/25:
+==============================
+camera: common: Optionally advertise a 60 fps high speed preview
+camera: device@3.2-impl: Allow returning HFR video buffers per frame
+renderengine: KawaseDarkmoon: fix scaling, caching and fallback issues
+renderengine: Implement KawaseDarkmoon blur algorithm
+Keep the Sensors permission for custom sensors without a permission
+Evolver: Add Triple tap to launch freeform [2/2]
+Revert "compat: libaudioclient: Introduce AudioSystem shims"
+sdk: ConnectionSettings: Set attribution tag for BluetoothAdapter
+gms: Switch LFS repo

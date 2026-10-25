@@ -1,15 +1,11 @@
-Notable ROM changes 10/24:
+Notable ROM changes 10/25:
 ==============================
-extras: Drop SansSerifPro Font
-extras: Drop NothingDotHeadline font
-build: tasks: update post compile banner to the new wordmark
-config: Allow devices to opt out of Paranoid Sense
-config: Disable face sense on Pixel 7+
-custom_rom_hide: Spoof st_dev for partition roots on fstat/statx
-custom_rom_hide: Fix detection leak in substituted fds
-WallpaperPicker2: categories: hide Magic Portrait from live wallpapers
-Update settings repository to latest interface
-WallpaperPicker2: Remove the use of smaller images for thumbnails
-SystemUIGoogle: ambientmusic: place Now Playing above low UDFPS sensors
-[viperfx_aidl] viperfx aidl integrate
-media: update path for vendor specific config files
+camera: common: Optionally advertise a 60 fps high speed preview
+camera: device@3.2-impl: Allow returning HFR video buffers per frame
+renderengine: KawaseDarkmoon: fix scaling, caching and fallback issues
+renderengine: Implement KawaseDarkmoon blur algorithm
+Keep the Sensors permission for custom sensors without a permission
+Evolver: Add Triple tap to launch freeform [2/2]
+Revert "compat: libaudioclient: Introduce AudioSystem shims"
+sdk: ConnectionSettings: Set attribution tag for BluetoothAdapter
+gms: Switch LFS repo
