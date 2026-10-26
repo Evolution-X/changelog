@@ -1596,3 +1596,20 @@ packages_apps_Evolver::Evolver: Add Triple tap to launch freeform [2/2]
 hardware_lineage_compat::Revert "compat: libaudioclient: Introduce AudioSystem shims"
 lineage-sdk::sdk: ConnectionSettings: Set attribution tag for BluetoothAdapter
 vendor_gms::gms: Switch LFS repo
+packages_apps_Evolver::Evolver: DynamicIsland: Add popup menu bg style [2/2]
+packages_apps_Evolver::Evolver: DynamicIsland: Allow adjust height and width [2/2]
+packages_apps_Evolver::Evolver: Add Dynamic Island features [2/2]
+packages_apps_Evolver::Evolver: Implement 3D Spatial Effect for Depth Wallpaper [2/2]
+hardware_lineage_compat::compat: Add shim to provide ion_close with proper close(fd)
+frameworks_native::libgui: Allow Num Buffer slots to be increased
+frameworks_native::nativewindow: Recognize Qualcomm vendor YUV formats in formatIsYuv
+build_soong::soong: Add com.color.inner to allowed package list
+build_soong::arm64: add Cortex-A520/A720/X4 cpu variants
+build_soong::Add exynos-m4 support
+build_soong::soong: Keep system partition fingerprint desc in sync
+build_soong::soong: Keep system partition fingerprint in sync
+vendor_evolution::envsetup: Fix host name generation to latest specs
+packages_apps_WallpaperPicker2::WallpaperPicker2: Support downloadable Pixel live wallpapers
+packages_apps_WallpaperPicker2::WallpaperPicker2: Fix Google dynamic wallpaper previews
+packages_apps_WallpaperPicker2::WallpaperPicker2: Implement Pixel wallpaper integration
+packages_apps_WallpaperPicker2::WallpaperPicker2: Use config_clockFontFamily for lockscreen preview

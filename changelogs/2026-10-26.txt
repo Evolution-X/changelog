@@ -1,0 +1,19 @@
+Notable ROM changes 10/26:
+==============================
+Evolver: DynamicIsland: Add popup menu bg style [2/2]
+Evolver: DynamicIsland: Allow adjust height and width [2/2]
+Evolver: Add Dynamic Island features [2/2]
+Evolver: Implement 3D Spatial Effect for Depth Wallpaper [2/2]
+compat: Add shim to provide ion_close with proper close(fd)
+libgui: Allow Num Buffer slots to be increased
+nativewindow: Recognize Qualcomm vendor YUV formats in formatIsYuv
+soong: Add com.color.inner to allowed package list
+arm64: add Cortex-A520/A720/X4 cpu variants
+Add exynos-m4 support
+soong: Keep system partition fingerprint desc in sync
+soong: Keep system partition fingerprint in sync
+envsetup: Fix host name generation to latest specs
+WallpaperPicker2: Support downloadable Pixel live wallpapers
+WallpaperPicker2: Fix Google dynamic wallpaper previews
+WallpaperPicker2: Implement Pixel wallpaper integration
+WallpaperPicker2: Use config_clockFontFamily for lockscreen preview
