@@ -1,0 +1,7 @@
+Notable ROM changes 10/27:
+==============================
+Revert "Update settings repository to latest interface"
+Update strings in localization files
+InputConsumer: Add empty check before erasing mBatches
+InputConsumer: Store it early and return OK status when failed
+InputConsumer: Check consume time before sending finished signal

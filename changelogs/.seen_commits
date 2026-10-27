@@ -1613,3 +1613,8 @@ packages_apps_WallpaperPicker2::WallpaperPicker2: Support downloadable Pixel liv
 packages_apps_WallpaperPicker2::WallpaperPicker2: Fix Google dynamic wallpaper previews
 packages_apps_WallpaperPicker2::WallpaperPicker2: Implement Pixel wallpaper integration
 packages_apps_WallpaperPicker2::WallpaperPicker2: Use config_clockFontFamily for lockscreen preview
+packages_apps_WallpaperPicker2::Revert "Update settings repository to latest interface"
+packages_apps_Sandbox::Update strings in localization files
+frameworks_native::InputConsumer: Add empty check before erasing mBatches
+frameworks_native::InputConsumer: Store it early and return OK status when failed
+frameworks_native::InputConsumer: Check consume time before sending finished signal
