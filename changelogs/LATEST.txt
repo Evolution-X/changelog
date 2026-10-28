@@ -1,7 +1,36 @@
-Notable ROM changes 10/27:
+Notable ROM changes 10/28:
 ==============================
-Revert "Update settings repository to latest interface"
-Update strings in localization files
-InputConsumer: Add empty check before erasing mBatches
-InputConsumer: Store it early and return OK status when failed
-InputConsumer: Check consume time before sending finished signal
+sepolicy: Allow the updater to publish its status to SystemUpdateManager
+Evolver: quicksettings: add ColorOS to QS panel style
+Evolver: spoofing: Validate imports and fix TrickyStore target counts
+Evolver: Add glass and tinted shade color styles
+Evolver: Update tagline
+Evolver: PIF/TrickyStore: per-device initial SDK, wipe prompt after keybox import
+Evolver: fonts: Install custom fonts with FontManager#installCustomFont
+Evolver: Fix QS header image settings
+Settings: Fix per-SIM ringtone availability with eSIM / empty slots
+extras: Unify nothingdot font overlays
+extras: Remove google sans flex font package which is default
+libs: Add MTK GED-KPI support to fix MTK gpufreq Mediatek GPU
+LineageParts: Use the configured assist short/long press action
+LineageParts: Add a cycle ringer mode button action
+LineageParts: Make partial screenshot action translatable
+sdk: Make the assist short/long press action configurable
+sdk: Add a cycle ringer mode button action
+sdk: Update button actions list in lineage/res/res/values/config.xml
+compat: Provide libbase-v34
+libfs_avb: Add guard to verified_boot_state check
+libfs_avb: Allow LKs patched with fenrir to boot on AOSP
+Updater: Report the update status to SystemUpdateManager
+Updater: Show recent changes of the offered update
+Updater: Add a check for updates entry to the overflow menu
+Updater: Show the live update status in the headline
+Updater: Migrate import progress dialog to Jetpack Compose
+Updater: Use Compose stock icon for topbar
+Updater: Shorten preferences menu entry
+Updater: Use Pixel loading animation
+Updater: Remove superseded settings UI
+Updater: Present updates in the system update screen
+Updater: Add Pixel-style system update screen
+Updater: Use default user agent for SingleRangeHttpFetcher
+Add Japanese localization strings

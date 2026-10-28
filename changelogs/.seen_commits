@@ -1618,3 +1618,37 @@ packages_apps_Sandbox::Update strings in localization files
 frameworks_native::InputConsumer: Add empty check before erasing mBatches
 frameworks_native::InputConsumer: Store it early and return OK status when failed
 frameworks_native::InputConsumer: Check consume time before sending finished signal
+device_evolution_sepolicy::sepolicy: Allow the updater to publish its status to SystemUpdateManager
+packages_apps_Evolver::Evolver: quicksettings: add ColorOS to QS panel style
+packages_apps_Evolver::Evolver: spoofing: Validate imports and fix TrickyStore target counts
+packages_apps_Evolver::Evolver: Add glass and tinted shade color styles
+packages_apps_Evolver::Evolver: Update tagline
+packages_apps_Evolver::Evolver: PIF/TrickyStore: per-device initial SDK, wipe prompt after keybox import
+packages_apps_Evolver::Evolver: fonts: Install custom fonts with FontManager#installCustomFont
+packages_apps_Evolver::Evolver: Fix QS header image settings
+packages_apps_Settings::Settings: Fix per-SIM ringtone availability with eSIM / empty slots
+vendor_extras::extras: Unify nothingdot font overlays
+vendor_extras::extras: Remove google sans flex font package which is default
+frameworks_native::libs: Add MTK GED-KPI support to fix MTK gpufreq Mediatek GPU
+packages_apps_LineageParts::LineageParts: Use the configured assist short/long press action
+packages_apps_LineageParts::LineageParts: Add a cycle ringer mode button action
+packages_apps_LineageParts::LineageParts: Make partial screenshot action translatable
+lineage-sdk::sdk: Make the assist short/long press action configurable
+lineage-sdk::sdk: Add a cycle ringer mode button action
+lineage-sdk::sdk: Update button actions list in lineage/res/res/values/config.xml
+hardware_lineage_compat::compat: Provide libbase-v34
+system_fs_fs_mgr::libfs_avb: Add guard to verified_boot_state check
+system_fs_fs_mgr::libfs_avb: Allow LKs patched with fenrir to boot on AOSP
+packages_apps_Updater::Updater: Report the update status to SystemUpdateManager
+packages_apps_Updater::Updater: Show recent changes of the offered update
+packages_apps_Updater::Updater: Add a check for updates entry to the overflow menu
+packages_apps_Updater::Updater: Show the live update status in the headline
+packages_apps_Updater::Updater: Migrate import progress dialog to Jetpack Compose
+packages_apps_Updater::Updater: Use Compose stock icon for topbar
+packages_apps_Updater::Updater: Shorten preferences menu entry
+packages_apps_Updater::Updater: Use Pixel loading animation
+packages_apps_Updater::Updater: Remove superseded settings UI
+packages_apps_Updater::Updater: Present updates in the system update screen
+packages_apps_Updater::Updater: Add Pixel-style system update screen
+packages_apps_Updater::Updater: Use default user agent for SingleRangeHttpFetcher
+packages_apps_AppLocker::Add Japanese localization strings
