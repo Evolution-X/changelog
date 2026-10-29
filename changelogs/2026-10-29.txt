@@ -1,0 +1,31 @@
+Notable ROM changes 10/29:
+==============================
+Evolver: Allow disabling clipboard overlay [3/3]
+Evolver: Add dynamic island X/Y offset preferences
+Evolver: Fix preview of OOS clock 2
+Don't show serial number in recovery
+reject updates with serialno constraints
+add missing flag check for AppFunctionAccess safety source
+delay activation of Allow button(s) in runtime permission dialog
+fix multi-user handling bug in WifiService package state listener
+don't enable the "send DHCP hostname" option by default
+fix DNS leak in VPN lockdown mode when VPN is down
+fix API level check for %#m format string
+add secondary stack randomization
+move pthread_internal_t behind guard page
+add guard page(s) between static_tls and stack
+on 64-bit, zero the leading stack canary byte
+make __stack_chk_guard read-only at runtime
+use a better pthread_attr junk filling pattern
+add XOR mangling mitigation for thread-local dtors
+add memory protection for pthread_atfork handlers
+switch pthread_atfork handler allocation to mmap
+enable secure NFC by default
+show a confirmation dialog before opening a URL
+fix: Prevent double-freeing `png_struct` members on allocation failure
+fix: Sync `info_ptr->palette` unconditionally after in-place transforms
+fix: Sync `info_ptr->palette` after in-place transforms
+fix: Resolve use-after-free on `png_ptr->palette`
+fix: Initialize tail bytes in `trans_alpha` buffers
+fix: Resolve use-after-free on `png_ptr->trans_alpha`
+label protected_{fifos,regular} as proc_security

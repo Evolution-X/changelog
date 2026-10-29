@@ -1652,3 +1652,32 @@ packages_apps_Updater::Updater: Present updates in the system update screen
 packages_apps_Updater::Updater: Add Pixel-style system update screen
 packages_apps_Updater::Updater: Use default user agent for SingleRangeHttpFetcher
 packages_apps_AppLocker::Add Japanese localization strings
+packages_apps_Evolver::Evolver: Allow disabling clipboard overlay [3/3]
+packages_apps_Evolver::Evolver: Add dynamic island X/Y offset preferences
+packages_apps_Evolver::Evolver: Fix preview of OOS clock 2
+bootable_recovery::Don't show serial number in recovery
+bootable_recovery::reject updates with serialno constraints
+packages_modules_Permission::add missing flag check for AppFunctionAccess safety source
+packages_modules_Permission::delay activation of Allow button(s) in runtime permission dialog
+packages_modules_Wifi::fix multi-user handling bug in WifiService package state listener
+packages_modules_Wifi::don't enable the "send DHCP hostname" option by default
+system_netd::fix DNS leak in VPN lockdown mode when VPN is down
+bionic::fix API level check for %#m format string
+bionic::add secondary stack randomization
+bionic::move pthread_internal_t behind guard page
+bionic::add guard page(s) between static_tls and stack
+bionic::on 64-bit, zero the leading stack canary byte
+bionic::make __stack_chk_guard read-only at runtime
+bionic::use a better pthread_attr junk filling pattern
+bionic::add XOR mangling mitigation for thread-local dtors
+bionic::add memory protection for pthread_atfork handlers
+bionic::switch pthread_atfork handler allocation to mmap
+vendor_evolution::enable secure NFC by default
+vendor_evolution::show a confirmation dialog before opening a URL
+external_libpng::fix: Prevent double-freeing `png_struct` members on allocation failure
+external_libpng::fix: Sync `info_ptr->palette` unconditionally after in-place transforms
+external_libpng::fix: Sync `info_ptr->palette` after in-place transforms
+external_libpng::fix: Resolve use-after-free on `png_ptr->palette`
+external_libpng::fix: Initialize tail bytes in `trans_alpha` buffers
+external_libpng::fix: Resolve use-after-free on `png_ptr->trans_alpha`
+system_sepolicy::label protected_{fifos,regular} as proc_security
