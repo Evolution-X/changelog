@@ -1681,3 +1681,9 @@ external_libpng::fix: Resolve use-after-free on `png_ptr->palette`
 external_libpng::fix: Initialize tail bytes in `trans_alpha` buffers
 external_libpng::fix: Resolve use-after-free on `png_ptr->trans_alpha`
 system_sepolicy::label protected_{fifos,regular} as proc_security
+packages_apps_Evolver::New Crowdin updates (#648)
+packages_apps_Evolver::Evolver: QS: Show the ColorOS options for the ColorOS panel style
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: nonpixel: don't auto-listen in on-demand mode
+frameworks_opt_telephony::WapPush: validate WSP header length before allocation
+lineage-sdk::lineage-sdk: Harden LineageHardwareManager against HAL errors
+lineage-sdk::lineage-sdk: LiveDisplay: Don't let HAL failures crash system_server

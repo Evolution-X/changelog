@@ -1,0 +1,8 @@
+Notable ROM changes 10/30:
+==============================
+New Crowdin updates (#648)
+Evolver: QS: Show the ColorOS options for the ColorOS panel style
+SystemUIGoogle: ambientmusic: nonpixel: don't auto-listen in on-demand mode
+WapPush: validate WSP header length before allocation
+lineage-sdk: Harden LineageHardwareManager against HAL errors
+lineage-sdk: LiveDisplay: Don't let HAL failures crash system_server
