@@ -1689,3 +1689,7 @@ lineage-sdk::lineage-sdk: Harden LineageHardwareManager against HAL errors
 lineage-sdk::lineage-sdk: LiveDisplay: Don't let HAL failures crash system_server
 frameworks_opt_telephony::imsphone: Clean up tracked calls after IMS setup failure
 frameworks_native::renderengine: Draw blur regions as Liquid Glass
+packages_apps_Evolver::Evolver: TrickyStore: Accept JSON and check keys in patch levels
+packages_apps_Evolver::Evolver: TrickyStore: Add Deselect unnecessary to the app picker
+packages_apps_Evolver::Evolver: TrickyStore: Show what a patch date template resolves to
+packages_apps_Evolver::Evolver: TrickyStore: Use the framework keybox and patch validators
