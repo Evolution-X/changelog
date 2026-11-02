@@ -1,0 +1,3 @@
+Notable ROM changes 11/02:
+==============================
+Add MTK GED KPI support to fix broken Mediatek gpufreq

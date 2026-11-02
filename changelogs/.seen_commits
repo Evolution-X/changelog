@@ -1693,3 +1693,4 @@ packages_apps_Evolver::Evolver: TrickyStore: Accept JSON and check keys in patch
 packages_apps_Evolver::Evolver: TrickyStore: Add Deselect unnecessary to the app picker
 packages_apps_Evolver::Evolver: TrickyStore: Show what a patch date template resolves to
 packages_apps_Evolver::Evolver: TrickyStore: Use the framework keybox and patch validators
+frameworks_native::Add MTK GED KPI support to fix broken Mediatek gpufreq
