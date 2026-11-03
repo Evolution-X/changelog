@@ -1,3 +1,4 @@
-Notable ROM changes 11/02:
+Notable ROM changes 11/03:
 ==============================
-Add MTK GED KPI support to fix broken Mediatek gpufreq
+Evolver: DynamicIsland: Add switches for system events
+Evolver: DynamicIsland: Add a charging chip toggle

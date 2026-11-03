@@ -1694,3 +1694,5 @@ packages_apps_Evolver::Evolver: TrickyStore: Add Deselect unnecessary to the app
 packages_apps_Evolver::Evolver: TrickyStore: Show what a patch date template resolves to
 packages_apps_Evolver::Evolver: TrickyStore: Use the framework keybox and patch validators
 frameworks_native::Add MTK GED KPI support to fix broken Mediatek gpufreq
+packages_apps_Evolver::Evolver: DynamicIsland: Add switches for system events
+packages_apps_Evolver::Evolver: DynamicIsland: Add a charging chip toggle

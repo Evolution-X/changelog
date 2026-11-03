@@ -1,0 +1,4 @@
+Notable ROM changes 11/03:
+==============================
+Evolver: DynamicIsland: Add switches for system events
+Evolver: DynamicIsland: Add a charging chip toggle
