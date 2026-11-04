@@ -1696,3 +1696,13 @@ packages_apps_Evolver::Evolver: TrickyStore: Use the framework keybox and patch 
 frameworks_native::Add MTK GED KPI support to fix broken Mediatek gpufreq
 packages_apps_Evolver::Evolver: DynamicIsland: Add switches for system events
 packages_apps_Evolver::Evolver: DynamicIsland: Add a charging chip toggle
+manifest::manifest: Fork hardware/broadcom/wlan
+manifest::manifest: Fork system/gsid for 2026-11 ASB
+manifest::manifest: Forks for 2026-11 ASB
+packages_apps_Evolver::Evolver: DynamicIsland: Add a switch to keep the island on top in landscape
+packages_apps_Evolver::Evolver: DynamicIsland: Add a switch for calls
+packages_apps_Evolver::Evolver: Sync action assignment changes with lineage
+bionic::custom_rom_hide: Preserve canonical proc paths for substituted files
+bionic::custom_rom_hide: Keep substituting files opened with O_NOFOLLOW
+bionic::custom_rom_hide: Mask blocked paths and null-name reads consistently
+bionic::custom_rom_hide: Harden custom ROM hiding and improve filesystem handling
