@@ -1706,3 +1706,6 @@ bionic::custom_rom_hide: Preserve canonical proc paths for substituted files
 bionic::custom_rom_hide: Keep substituting files opened with O_NOFOLLOW
 bionic::custom_rom_hide: Mask blocked paths and null-name reads consistently
 bionic::custom_rom_hide: Harden custom ROM hiding and improve filesystem handling
+packages_apps_Settings::Ensure non-admin users can't change the Content Protection toggle state
+packages_apps_Settings::Fix BAL bypass in AddAccountSettings
+vendor_evolution::release: Bump Security String to 2026-11-01

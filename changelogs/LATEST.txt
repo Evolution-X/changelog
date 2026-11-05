@@ -1,12 +1,5 @@
-Notable ROM changes 11/04:
+Notable ROM changes 11/05:
 ==============================
-manifest: Fork hardware/broadcom/wlan
-manifest: Fork system/gsid for 2026-11 ASB
-manifest: Forks for 2026-11 ASB
-Evolver: DynamicIsland: Add a switch to keep the island on top in landscape
-Evolver: DynamicIsland: Add a switch for calls
-Evolver: Sync action assignment changes with lineage
-custom_rom_hide: Preserve canonical proc paths for substituted files
-custom_rom_hide: Keep substituting files opened with O_NOFOLLOW
-custom_rom_hide: Mask blocked paths and null-name reads consistently
-custom_rom_hide: Harden custom ROM hiding and improve filesystem handling
+Ensure non-admin users can't change the Content Protection toggle state
+Fix BAL bypass in AddAccountSettings
+release: Bump Security String to 2026-11-01

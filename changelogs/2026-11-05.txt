@@ -1,0 +1,5 @@
+Notable ROM changes 11/05:
+==============================
+Ensure non-admin users can't change the Content Protection toggle state
+Fix BAL bypass in AddAccountSettings
+release: Bump Security String to 2026-11-01
