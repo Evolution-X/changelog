@@ -1709,3 +1709,12 @@ bionic::custom_rom_hide: Harden custom ROM hiding and improve filesystem handlin
 packages_apps_Settings::Ensure non-admin users can't change the Content Protection toggle state
 packages_apps_Settings::Fix BAL bypass in AddAccountSettings
 vendor_evolution::release: Bump Security String to 2026-11-01
+frameworks_native::dumpstate: Always include full dmesg in bugreports
+packages_apps_Settings::Settings: ShadePanels: Ungate Separate panels (Dual Shade) page
+packages_apps_Settings::Settings: Add battery saver dark theme toggle to dark theme screen
+packages_apps_Settings::Settings: only lock dark theme controls when battery saver forces it
+packages_apps_Settings::don't enable "send device name" option by default for new Wi-Fi networks
+packages_apps_Settings::fixup! backport 17 QPR1 fix for Bluetooth dev settings confirmation
+packages_apps_Settings::expose AOSP adaptive Wi-Fi connectivity setting
+vendor_evolution::build: fix cross-platform DTBO dependency cycle
+vendor_extras::extras: Drop SansSerif Fonts

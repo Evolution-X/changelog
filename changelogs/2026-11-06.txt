@@ -1,0 +1,11 @@
+Notable ROM changes 11/06:
+==============================
+dumpstate: Always include full dmesg in bugreports
+Settings: ShadePanels: Ungate Separate panels (Dual Shade) page
+Settings: Add battery saver dark theme toggle to dark theme screen
+Settings: only lock dark theme controls when battery saver forces it
+don't enable "send device name" option by default for new Wi-Fi networks
+fixup! backport 17 QPR1 fix for Bluetooth dev settings confirmation
+expose AOSP adaptive Wi-Fi connectivity setting
+build: fix cross-platform DTBO dependency cycle
+extras: Drop SansSerif Fonts
