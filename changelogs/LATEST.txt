@@ -1,11 +1,10 @@
-Notable ROM changes 11/06:
+Notable ROM changes 11/07:
 ==============================
-dumpstate: Always include full dmesg in bugreports
-Settings: ShadePanels: Ungate Separate panels (Dual Shade) page
-Settings: Add battery saver dark theme toggle to dark theme screen
-Settings: only lock dark theme controls when battery saver forces it
-don't enable "send device name" option by default for new Wi-Fi networks
-fixup! backport 17 QPR1 fix for Bluetooth dev settings confirmation
-expose AOSP adaptive Wi-Fi connectivity setting
-build: fix cross-platform DTBO dependency cycle
-extras: Drop SansSerif Fonts
+Evolver: Themes: Lock the shade style with the ColorOS QS panel
+Evolver: TrickyStore: Hide device RKP on unsupported devices
+Evolver: DynamicIsland: Add the live updates switch
+Evolver: Default Dynamic Island to stay on top in landscape
+Evolver: Show native Duck RKP provisioning errors
+Evolver: Show automatic Duck RKP provisioning status
+Evolver: Add Duck RKP V1 provisioning with TrickyStore integration
+Evolver: QuickSettings: Add NothingOS to the QS panel styles

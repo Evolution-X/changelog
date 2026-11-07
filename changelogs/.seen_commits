@@ -1718,3 +1718,11 @@ packages_apps_Settings::fixup! backport 17 QPR1 fix for Bluetooth dev settings c
 packages_apps_Settings::expose AOSP adaptive Wi-Fi connectivity setting
 vendor_evolution::build: fix cross-platform DTBO dependency cycle
 vendor_extras::extras: Drop SansSerif Fonts
+packages_apps_Evolver::Evolver: Themes: Lock the shade style with the ColorOS QS panel
+packages_apps_Evolver::Evolver: TrickyStore: Hide device RKP on unsupported devices
+packages_apps_Evolver::Evolver: DynamicIsland: Add the live updates switch
+packages_apps_Evolver::Evolver: Default Dynamic Island to stay on top in landscape
+packages_apps_Evolver::Evolver: Show native Duck RKP provisioning errors
+packages_apps_Evolver::Evolver: Show automatic Duck RKP provisioning status
+packages_apps_Evolver::Evolver: Add Duck RKP V1 provisioning with TrickyStore integration
+packages_apps_Evolver::Evolver: QuickSettings: Add NothingOS to the QS panel styles

@@ -1,0 +1,10 @@
+Notable ROM changes 11/07:
+==============================
+Evolver: Themes: Lock the shade style with the ColorOS QS panel
+Evolver: TrickyStore: Hide device RKP on unsupported devices
+Evolver: DynamicIsland: Add the live updates switch
+Evolver: Default Dynamic Island to stay on top in landscape
+Evolver: Show native Duck RKP provisioning errors
+Evolver: Show automatic Duck RKP provisioning status
+Evolver: Add Duck RKP V1 provisioning with TrickyStore integration
+Evolver: QuickSettings: Add NothingOS to the QS panel styles
