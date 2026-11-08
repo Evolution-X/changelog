@@ -1,0 +1,5 @@
+Notable ROM changes 11/08:
+==============================
+Evolver: TrickyStore: Handle unsupported device RKP and hide keybox UI
+Evolver: QuickSettings: Add a Nothing color style list
+Evolver: DynamicIsland: Add a ColorOS style switch

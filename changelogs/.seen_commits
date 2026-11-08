@@ -1726,3 +1726,6 @@ packages_apps_Evolver::Evolver: Show native Duck RKP provisioning errors
 packages_apps_Evolver::Evolver: Show automatic Duck RKP provisioning status
 packages_apps_Evolver::Evolver: Add Duck RKP V1 provisioning with TrickyStore integration
 packages_apps_Evolver::Evolver: QuickSettings: Add NothingOS to the QS panel styles
+packages_apps_Evolver::Evolver: TrickyStore: Handle unsupported device RKP and hide keybox UI
+packages_apps_Evolver::Evolver: QuickSettings: Add a Nothing color style list
+packages_apps_Evolver::Evolver: DynamicIsland: Add a ColorOS style switch
