@@ -1,0 +1,5 @@
+Notable ROM changes 11/09:
+==============================
+Evolver: Add Iris, Desaturate and Shutter screen off animations
+manifest: Fork hardware/qcom-caf/sm8450-6.6/audio/primary-hal and display/hal
+Settings: Add missing adaptive connectivity icon

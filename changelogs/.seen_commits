@@ -1729,3 +1729,6 @@ packages_apps_Evolver::Evolver: QuickSettings: Add NothingOS to the QS panel sty
 packages_apps_Evolver::Evolver: TrickyStore: Handle unsupported device RKP and hide keybox UI
 packages_apps_Evolver::Evolver: QuickSettings: Add a Nothing color style list
 packages_apps_Evolver::Evolver: DynamicIsland: Add a ColorOS style switch
+packages_apps_Evolver::Evolver: Add Iris, Desaturate and Shutter screen off animations
+manifest::manifest: Fork hardware/qcom-caf/sm8450-6.6/audio/primary-hal and display/hal
+packages_apps_Settings::Settings: Add missing adaptive connectivity icon
