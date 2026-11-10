@@ -1732,3 +1732,13 @@ packages_apps_Evolver::Evolver: DynamicIsland: Add a ColorOS style switch
 packages_apps_Evolver::Evolver: Add Iris, Desaturate and Shutter screen off animations
 manifest::manifest: Fork hardware/qcom-caf/sm8450-6.6/audio/primary-hal and display/hal
 packages_apps_Settings::Settings: Add missing adaptive connectivity icon
+hardware_lineage_compat::libnetmgrportutils: Shim ip_local_unbindable_ports for 6.1+
+packages_apps_Evolver::New Crowdin updates (#665)
+packages_apps_Evolver::Evolver: PlayIntegrityFix: Suggest similar initial level device
+packages_apps_Evolver::Evolver: TrickyStore: Reduce keybox expiring threshold to 7 days
+packages_apps_Evolver::Evolver: TrickyStore: Harden status-list parsing
+packages_apps_Evolver::Evolver: PlayIntegrityFix: Add missing select button in device picker
+packages_apps_Evolver::Evolver: PlayIntegrityFix: Fix crash when leaving screen during fetch
+packages_apps_Evolver::Evolver: quicksettings: ask for a SystemUI restart on QS style changes
+vendor_gms::gms: sysconfig: google: allow PCS to bind back to ASI
+vendor_gms::gms: Make Photos prebuilt conditional

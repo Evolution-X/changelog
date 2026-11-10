@@ -1,5 +1,12 @@
-Notable ROM changes 11/09:
+Notable ROM changes 11/10:
 ==============================
-Evolver: Add Iris, Desaturate and Shutter screen off animations
-manifest: Fork hardware/qcom-caf/sm8450-6.6/audio/primary-hal and display/hal
-Settings: Add missing adaptive connectivity icon
+libnetmgrportutils: Shim ip_local_unbindable_ports for 6.1+
+New Crowdin updates (#665)
+Evolver: PlayIntegrityFix: Suggest similar initial level device
+Evolver: TrickyStore: Reduce keybox expiring threshold to 7 days
+Evolver: TrickyStore: Harden status-list parsing
+Evolver: PlayIntegrityFix: Add missing select button in device picker
+Evolver: PlayIntegrityFix: Fix crash when leaving screen during fetch
+Evolver: quicksettings: ask for a SystemUI restart on QS style changes
+gms: sysconfig: google: allow PCS to bind back to ASI
+gms: Make Photos prebuilt conditional
