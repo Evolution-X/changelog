@@ -1742,3 +1742,6 @@ packages_apps_Evolver::Evolver: PlayIntegrityFix: Fix crash when leaving screen 
 packages_apps_Evolver::Evolver: quicksettings: ask for a SystemUI restart on QS style changes
 vendor_gms::gms: sysconfig: google: allow PCS to bind back to ASI
 vendor_gms::gms: Make Photos prebuilt conditional
+frameworks_av::Codec2Client: List HIDL stores when AIDL is selected
+frameworks_av::CameraProviderManager: Propagate HAL failures in torch strength control path
+frameworks_opt_net_wifi::add support for always generating new random MAC

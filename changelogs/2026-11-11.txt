@@ -1,0 +1,5 @@
+Notable ROM changes 11/11:
+==============================
+Codec2Client: List HIDL stores when AIDL is selected
+CameraProviderManager: Propagate HAL failures in torch strength control path
+add support for always generating new random MAC
