@@ -1745,3 +1745,13 @@ vendor_gms::gms: Make Photos prebuilt conditional
 frameworks_av::Codec2Client: List HIDL stores when AIDL is selected
 frameworks_av::CameraProviderManager: Propagate HAL failures in torch strength control path
 frameworks_opt_net_wifi::add support for always generating new random MAC
+packages_apps_Settings::Settings: AppDataUsage: Fix NPE when package name is null
+packages_apps_Settings::Settings: Add permissions to update emoji/fonts
+frameworks_native::SurfaceFlinger: Blur with KawaseDarkmoon on low end devices
+frameworks_native::renderengine: Keep a circle's rim flare still as its bounds round
+frameworks_native::renderengine: Refract what lies beyond a glass slab rim
+frameworks_native::installd: Harden emoji font swap calls
+frameworks_native::installd: Add calls to swap emoji fonts in app data
+manifest::manifest: Fork some sm8450-6.6 repos
+vendor_evolution::init: Create custom emoji font dir
+device_evolution_sepolicy::sepolicy: Add rules for custom emoji font
