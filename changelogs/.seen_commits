@@ -1755,3 +1755,17 @@ frameworks_native::installd: Add calls to swap emoji fonts in app data
 manifest::manifest: Fork some sm8450-6.6 repos
 vendor_evolution::init: Create custom emoji font dir
 device_evolution_sepolicy::sepolicy: Add rules for custom emoji font
+device_evolution_sepolicy::sepolicy: Allow overlay_remounter to search cache
+device_evolution_sepolicy::atv: sepolicy: private: Extend netflix_app's dontaudit
+packages_apps_Evolver::Evolver: Add advanced edge lighting designs [2/2]
+packages_apps_Evolver::Evolver: Extend edge lighting to unlocked device [2/2]
+packages_apps_Evolver::Evolver: themes: Add dialog and toast blur toggle
+packages_apps_Evolver::Evolver: Emoji: Move the app reset to the picker's button row
+packages_apps_Evolver::Evolver: Emoji: Use the framework emoji API and restart SystemUI
+external_zstd::zstd: allow framework services to link libzstd
+packages_apps_Settings::Settings: Add a lock screen display timeout [2/2]
+frameworks_av::audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+frameworks_native::installd: report incomplete app backup and restore failures
+frameworks_native::installd: support large app backup and restore payloads
+frameworks_native::CompositionEngine: Report expensive rendering only for blur
+frameworks_native::renderengine: Reuse the blur composition surface across frames

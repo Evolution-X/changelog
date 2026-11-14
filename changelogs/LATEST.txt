@@ -1,12 +1,16 @@
-Notable ROM changes 11/13:
+Notable ROM changes 11/14:
 ==============================
-Settings: AppDataUsage: Fix NPE when package name is null
-Settings: Add permissions to update emoji/fonts
-SurfaceFlinger: Blur with KawaseDarkmoon on low end devices
-renderengine: Keep a circle's rim flare still as its bounds round
-renderengine: Refract what lies beyond a glass slab rim
-installd: Harden emoji font swap calls
-installd: Add calls to swap emoji fonts in app data
-manifest: Fork some sm8450-6.6 repos
-init: Create custom emoji font dir
-sepolicy: Add rules for custom emoji font
+sepolicy: Allow overlay_remounter to search cache
+atv: sepolicy: private: Extend netflix_app's dontaudit
+Evolver: Add advanced edge lighting designs [2/2]
+Evolver: Extend edge lighting to unlocked device [2/2]
+Evolver: themes: Add dialog and toast blur toggle
+Evolver: Emoji: Move the app reset to the picker's button row
+Evolver: Emoji: Use the framework emoji API and restart SystemUI
+zstd: allow framework services to link libzstd
+Settings: Add a lock screen display timeout [2/2]
+audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+installd: report incomplete app backup and restore failures
+installd: support large app backup and restore payloads
+CompositionEngine: Report expensive rendering only for blur
+renderengine: Reuse the blur composition surface across frames

@@ -1,0 +1,16 @@
+Notable ROM changes 11/14:
+==============================
+sepolicy: Allow overlay_remounter to search cache
+atv: sepolicy: private: Extend netflix_app's dontaudit
+Evolver: Add advanced edge lighting designs [2/2]
+Evolver: Extend edge lighting to unlocked device [2/2]
+Evolver: themes: Add dialog and toast blur toggle
+Evolver: Emoji: Move the app reset to the picker's button row
+Evolver: Emoji: Use the framework emoji API and restart SystemUI
+zstd: allow framework services to link libzstd
+Settings: Add a lock screen display timeout [2/2]
+audiopolicy: Do not wipe device's known codec during bluetooth disconnection
+installd: report incomplete app backup and restore failures
+installd: support large app backup and restore payloads
+CompositionEngine: Report expensive rendering only for blur
+renderengine: Reuse the blur composition surface across frames
