@@ -1,16 +1,11 @@
-Notable ROM changes 11/14:
+Notable ROM changes 11/15:
 ==============================
-sepolicy: Allow overlay_remounter to search cache
-atv: sepolicy: private: Extend netflix_app's dontaudit
-Evolver: Add advanced edge lighting designs [2/2]
-Evolver: Extend edge lighting to unlocked device [2/2]
-Evolver: themes: Add dialog and toast blur toggle
-Evolver: Emoji: Move the app reset to the picker's button row
-Evolver: Emoji: Use the framework emoji API and restart SystemUI
-zstd: allow framework services to link libzstd
-Settings: Add a lock screen display timeout [2/2]
-audiopolicy: Do not wipe device's known codec during bluetooth disconnection
-installd: report incomplete app backup and restore failures
-installd: support large app backup and restore payloads
-CompositionEngine: Report expensive rendering only for blur
-renderengine: Reuse the blur composition surface across frames
+manifest: Track hardware/qcom-caf/sm8850/audio/mcs
+lineage-sdk: Enforce live display permission for setPictureAdjustment
+recovery: Only mark touch as calibrated when valid bounds are read
+recovery_ui: Count item spacing when fitting menu items
+Evolver: Fix custom gradient preview in clock chip picker
+Evolver: Fix clock chip gradient angle summary
+Evolver: Add support custom color for clock chip [2/2]
+Evolver: Add click sound and ripple for compose switches in spoofing UI
+pixel-style: Disable satellite SOS in Setup Wizard

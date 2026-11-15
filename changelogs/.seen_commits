@@ -1769,3 +1769,12 @@ frameworks_native::installd: report incomplete app backup and restore failures
 frameworks_native::installd: support large app backup and restore payloads
 frameworks_native::CompositionEngine: Report expensive rendering only for blur
 frameworks_native::renderengine: Reuse the blur composition surface across frames
+manifest::manifest: Track hardware/qcom-caf/sm8850/audio/mcs
+lineage-sdk::lineage-sdk: Enforce live display permission for setPictureAdjustment
+bootable_recovery::recovery: Only mark touch as calibrated when valid bounds are read
+bootable_recovery::recovery_ui: Count item spacing when fitting menu items
+packages_apps_Evolver::Evolver: Fix custom gradient preview in clock chip picker
+packages_apps_Evolver::Evolver: Fix clock chip gradient angle summary
+packages_apps_Evolver::Evolver: Add support custom color for clock chip [2/2]
+packages_apps_Evolver::Evolver: Add click sound and ripple for compose switches in spoofing UI
+vendor_pixel-style::pixel-style: Disable satellite SOS in Setup Wizard

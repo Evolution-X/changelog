@@ -1,0 +1,11 @@
+Notable ROM changes 11/15:
+==============================
+manifest: Track hardware/qcom-caf/sm8850/audio/mcs
+lineage-sdk: Enforce live display permission for setPictureAdjustment
+recovery: Only mark touch as calibrated when valid bounds are read
+recovery_ui: Count item spacing when fitting menu items
+Evolver: Fix custom gradient preview in clock chip picker
+Evolver: Fix clock chip gradient angle summary
+Evolver: Add support custom color for clock chip [2/2]
+Evolver: Add click sound and ripple for compose switches in spoofing UI
+pixel-style: Disable satellite SOS in Setup Wizard
