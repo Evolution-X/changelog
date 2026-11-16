@@ -1778,3 +1778,6 @@ packages_apps_Evolver::Evolver: Fix clock chip gradient angle summary
 packages_apps_Evolver::Evolver: Add support custom color for clock chip [2/2]
 packages_apps_Evolver::Evolver: Add click sound and ripple for compose switches in spoofing UI
 vendor_pixel-style::pixel-style: Disable satellite SOS in Setup Wizard
+packages_apps_Evolver::Evolver: Move "Browse All Clocks" to strings
+vendor_extras::extras: sdk: compose: Add AxAlertDialog with shape-aware blur
+vendor_extras::extras: Include google-sans-flex font config
