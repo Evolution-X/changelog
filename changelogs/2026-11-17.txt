@@ -1,0 +1,9 @@
+Notable ROM changes 11/17:
+==============================
+custom_rom_hide: Harden post-syscall pathname spoofing against concurrent unmap
+custom_rom_hide: Avoid dereferencing caller pathnames in custom ROM hide filters
+Updater: Move update_engine perf mode IPC off the main thread
+extras: Update Gramophone to 1.1.2
+atv: Keep Netflix in the ignorance
+gms: Bring back AmbientStreaming
+iconloaderlib: Support for bitmap drawable icons
