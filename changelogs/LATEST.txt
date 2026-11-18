@@ -1,9 +1,19 @@
-Notable ROM changes 11/17:
+Notable ROM changes 11/18:
 ==============================
-custom_rom_hide: Harden post-syscall pathname spoofing against concurrent unmap
-custom_rom_hide: Avoid dereferencing caller pathnames in custom ROM hide filters
-Updater: Move update_engine perf mode IPC off the main thread
-extras: Update Gramophone to 1.1.2
-atv: Keep Netflix in the ignorance
-gms: Bring back AmbientStreaming
-iconloaderlib: Support for bitmap drawable icons
+pixel-style: Suffix the clashing Google overlays with GMS
+DisplayRotation: Honor config_allowAllRotations
+LineageParts: Only accept NFC profile switches from the NFC stack
+common: Label ro.bootanim.set_orientation_logical_0
+Settings: Use GTA VI sunset gradient for the Evolution X logo
+Settings: Complete missing Arabic translations
+CompositionEngine: Drop stale render of flattened single-layer sets
+RegionSamplingThread: Skip sampling unchanged content
+PowerAdvisor: Hold expensive rendering between nearby composites
+renderengine: Stop allocating blur textures every frame
+renderengine: Reshape Dolby Vision layers in client composition
+recovery: Allow user fomatting with f2fs if supported
+recovery: Match back arrow hitbox to its drawn position
+recovery_ui: Coalesce progress bar redraws
+minui: Stop compositing directly into the framebuffer
+lineage-sdk: Complete missing Arabic translations
+custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings

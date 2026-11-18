@@ -1788,3 +1788,20 @@ vendor_extras::extras: Update Gramophone to 1.1.2
 device_evolution_sepolicy::atv: Keep Netflix in the ignorance
 vendor_gms::gms: Bring back AmbientStreaming
 frameworks_libs_systemui::iconloaderlib: Support for bitmap drawable icons
+vendor_pixel-style::pixel-style: Suffix the clashing Google overlays with GMS
+packages_apps_LineageParts::DisplayRotation: Honor config_allowAllRotations
+packages_apps_LineageParts::LineageParts: Only accept NFC profile switches from the NFC stack
+device_evolution_sepolicy::common: Label ro.bootanim.set_orientation_logical_0
+packages_apps_Settings::Settings: Use GTA VI sunset gradient for the Evolution X logo
+packages_apps_Settings::Settings: Complete missing Arabic translations
+frameworks_native::CompositionEngine: Drop stale render of flattened single-layer sets
+frameworks_native::RegionSamplingThread: Skip sampling unchanged content
+frameworks_native::PowerAdvisor: Hold expensive rendering between nearby composites
+frameworks_native::renderengine: Stop allocating blur textures every frame
+frameworks_native::renderengine: Reshape Dolby Vision layers in client composition
+bootable_recovery::recovery: Allow user fomatting with f2fs if supported
+bootable_recovery::recovery: Match back arrow hitbox to its drawn position
+bootable_recovery::recovery_ui: Coalesce progress bar redraws
+bootable_recovery::minui: Stop compositing directly into the framebuffer
+lineage-sdk::lineage-sdk: Complete missing Arabic translations
+bionic::custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
