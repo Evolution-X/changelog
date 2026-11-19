@@ -1,0 +1,4 @@
+Notable ROM changes 11/19:
+==============================
+installd: Add call to remove replaced emoji fonts
+pixel-style: Give Pixelframework-res a higher priority

@@ -1805,3 +1805,5 @@ bootable_recovery::recovery_ui: Coalesce progress bar redraws
 bootable_recovery::minui: Stop compositing directly into the framebuffer
 lineage-sdk::lineage-sdk: Complete missing Arabic translations
 bionic::custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
+frameworks_native::installd: Add call to remove replaced emoji fonts
+vendor_pixel-style::pixel-style: Give Pixelframework-res a higher priority
