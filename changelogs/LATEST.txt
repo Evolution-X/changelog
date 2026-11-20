@@ -1,4 +1,11 @@
-Notable ROM changes 11/19:
+Notable ROM changes 11/20:
 ==============================
-installd: Add call to remove replaced emoji fonts
-pixel-style: Give Pixelframework-res a higher priority
+Settings: Add LineageOS entries into device info
+Revert "[Flag Removal] Remove flag catalyst_firmware_version of package com.android.settings.flags"
+Settings: Use SUW preference adapter for pattern size picker
+extras: Drop HideSmartSpace overlay
+extras: sdk: Use system strings for cancel and ok
+OmniJaws: Add air quality index
+OmniJaws: Show sub-locality when available
+iconloaderlib: Don't crash on stale themed icon resource IDs
+renderengine: Use a denser frost for Liquid Glass notification cards

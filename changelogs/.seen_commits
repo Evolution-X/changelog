@@ -1807,3 +1807,12 @@ lineage-sdk::lineage-sdk: Complete missing Arabic translations
 bionic::custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
 frameworks_native::installd: Add call to remove replaced emoji fonts
 vendor_pixel-style::pixel-style: Give Pixelframework-res a higher priority
+packages_apps_Settings::Settings: Add LineageOS entries into device info
+packages_apps_Settings::Revert "[Flag Removal] Remove flag catalyst_firmware_version of package com.android.settings.flags"
+packages_apps_Settings::Settings: Use SUW preference adapter for pattern size picker
+vendor_extras::extras: Drop HideSmartSpace overlay
+vendor_extras::extras: sdk: Use system strings for cancel and ok
+packages_services_OmniJaws::OmniJaws: Add air quality index
+packages_services_OmniJaws::OmniJaws: Show sub-locality when available
+frameworks_libs_systemui::iconloaderlib: Don't crash on stale themed icon resource IDs
+frameworks_native::renderengine: Use a denser frost for Liquid Glass notification cards
