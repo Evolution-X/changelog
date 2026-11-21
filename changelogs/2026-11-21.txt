@@ -1,0 +1,27 @@
+Notable ROM changes 11/21:
+==============================
+Evolver: Group screen capture settings and clarify secure capture
+Evolver: Add option to hide lockscreen lock icon [2/2]
+Evolver: Add qs header interactive preview with zoom and position controls
+Evolver: QuickSettings: Bring back QS header clock styles
+Evolver: Lay out browsed clock previews like the main preview
+Evolver: Add a one-hour timed mode to Tensor spoofing
+Evolver: Fix 24-hour formats of custom clock styles
+Evolver: Apply lock clock font without restarting SystemUI
+Evolver: Add apply feedback to custom clock style screens
+Evolver: Sync clock preview with clock applied from browser
+Evolver: Keep clock picker Apply button on screen
+Evolver: Disable smartspace toggle while a custom clock style is enabled
+Evolver: Toggle smartspace and lockscreen weather without restarting SystemUI
+Evolver: Clock: Add dynamic size switch for custom clock styles
+Evolver: Clock: Apply custom clock style without restarting SystemUI
+Evolver: Add the Liquid Glass tab bars
+Evolver: EmojiStyle: Restore app emoji and serialize operations
+Evolver: Add custom gradient angle customization
+Evolver: Add a Liquid Glass settings screen
+Evolver: relocate double tap to sleep into Miscellaneous gestures
+Evolver: extend CutoutProgress ring gap range below cutout bounds
+Evolver: DynamicIsland: Default the ColorOS style switch to on
+LineageParts: Fix RTL mirroring in trigger rows and color preview
+Settings: reset_network: Lift reset button to the top and enable scrolling
+extras: BCR: Auto-update to version 3.12
