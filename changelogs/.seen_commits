@@ -1841,3 +1841,46 @@ packages_apps_Evolver::Evolver: DynamicIsland: Default the ColorOS style switch 
 packages_apps_LineageParts::LineageParts: Fix RTL mirroring in trigger rows and color preview
 packages_apps_Settings::Settings: reset_network: Lift reset button to the top and enable scrolling
 vendor_extras::extras: BCR: Auto-update to version 3.12
+packages_apps_Evolver::Evolver: Pulse: Preview every renderer and pin the pulse and charging previews
+packages_apps_Evolver::Evolver: QuickSettings: Move the QS panel style to its own page
+packages_apps_Evolver::Evolver: QuickSettings: Draw the Remix looks in the panel style preview
+packages_apps_Evolver::Evolver: QuickSettings: Add the Remix panel style and its look picker
+packages_apps_Evolver::Evolver: ClockStyle: switch to Lastochka font from astthillabeltaden
+packages_apps_Evolver::Evolver: quicksettings: Stop restarting SystemUI on QS style changes
+packages_apps_Evolver::Evolver: QuickSettings: Add a QS panel style preview
+packages_apps_Evolver::Evolver: Use the default_value string for the Default array items
+packages_apps_Evolver::Evolver: Charging animation: Pick the plug-in animation
+packages_apps_Evolver::Evolver: Charging animation: Add a live preview
+packages_apps_Evolver::Evolver: Charging animation: Convert the page's files to LF
+packages_apps_Evolver::Evolver: Keep saved slider values on their steps
+packages_apps_Evolver::Evolver: Fonts: Preview fonts straight from the font map
+packages_apps_Evolver::Evolver: Themes: Load the navbar and shape previews off the main thread
+packages_apps_Evolver::Evolver: Lock clock: Load the font previews off the main thread
+packages_apps_Evolver::Evolver: UDFPS: Load icon and animation previews off the main thread
+packages_apps_Evolver::Evolver: Pulse: Add a live preview
+packages_apps_Evolver::Evolver: Load the font previews off the main thread
+packages_apps_Evolver::Evolver: Keep an empty PixelProps target list empty
+packages_apps_Evolver::Evolver: Save the keybox for another phone
+packages_apps_Evolver::Evolver: Fall back to the expiry when no renewal time is set
+packages_apps_Evolver::Evolver: Extract a keybox on import
+vendor_extras::extras: sdk: Use Sandbox's unlock prompt for app lock
+vendor_extras::extras: sdk: Allow locking Settings with app lock
+vendor_extras::extras: sdk: Honor app lock timeout after leaving an app
+vendor_extras::extras: sdk: Play click sound on switch toggles
+vendor_extras::extras: fonts: Add missing HarmonyOS Sans weight aliases
+vendor_extras::extras: fonts: Fix IBM Plex Sans weights
+vendor_extras::extras: fonts: Fix NothingDot alias targets
+vendor_extras::extras: Drop Sans Serif overlays
+vendor_extras::extras: fonts: Define google-sans-flex-medium alias
+vendor_extras::extras: sdk: Refine accessibility semantics for switches, sheet and slider
+vendor_extras::extras: ax_compose: expose the state of switch preferences to accessibility services
+vendor_evolution::common: Replace AppLocker from speed dexpreopt apps
+vendor_evolution::config: Let devices set their own default sounds
+packages_apps_Sandbox::Sandbox: Enable R8 shrinking
+packages_apps_Sandbox::Sandbox: Take over the app lock unlock prompt from AppLocker
+packages_services_OmniJaws::OmniJaws: Enable R8 optimization and resource shrinking
+packages_services_OmniJaws::OmniJaws: Dim the background behind dialogs
+packages_services_OmniJaws::OmniJaws: Add icons to general preferences
+packages_services_OmniJaws::OmniJaws: Redesign icon pack picker
+device_evolution_sepolicy::sepolicy: Address denial for setting vbmeta prop
+packages_apps_Settings::Settings: Allow customizing volume stream steps [2/2]

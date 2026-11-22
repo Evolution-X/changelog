@@ -1,27 +1,45 @@
-Notable ROM changes 11/21:
+Notable ROM changes 11/22:
 ==============================
-Evolver: Group screen capture settings and clarify secure capture
-Evolver: Add option to hide lockscreen lock icon [2/2]
-Evolver: Add qs header interactive preview with zoom and position controls
-Evolver: QuickSettings: Bring back QS header clock styles
-Evolver: Lay out browsed clock previews like the main preview
-Evolver: Add a one-hour timed mode to Tensor spoofing
-Evolver: Fix 24-hour formats of custom clock styles
-Evolver: Apply lock clock font without restarting SystemUI
-Evolver: Add apply feedback to custom clock style screens
-Evolver: Sync clock preview with clock applied from browser
-Evolver: Keep clock picker Apply button on screen
-Evolver: Disable smartspace toggle while a custom clock style is enabled
-Evolver: Toggle smartspace and lockscreen weather without restarting SystemUI
-Evolver: Clock: Add dynamic size switch for custom clock styles
-Evolver: Clock: Apply custom clock style without restarting SystemUI
-Evolver: Add the Liquid Glass tab bars
-Evolver: EmojiStyle: Restore app emoji and serialize operations
-Evolver: Add custom gradient angle customization
-Evolver: Add a Liquid Glass settings screen
-Evolver: relocate double tap to sleep into Miscellaneous gestures
-Evolver: extend CutoutProgress ring gap range below cutout bounds
-Evolver: DynamicIsland: Default the ColorOS style switch to on
-LineageParts: Fix RTL mirroring in trigger rows and color preview
-Settings: reset_network: Lift reset button to the top and enable scrolling
-extras: BCR: Auto-update to version 3.12
+Evolver: Pulse: Preview every renderer and pin the pulse and charging previews
+Evolver: QuickSettings: Move the QS panel style to its own page
+Evolver: QuickSettings: Draw the Remix looks in the panel style preview
+Evolver: QuickSettings: Add the Remix panel style and its look picker
+Evolver: ClockStyle: switch to Lastochka font from astthillabeltaden
+Evolver: quicksettings: Stop restarting SystemUI on QS style changes
+Evolver: QuickSettings: Add a QS panel style preview
+Evolver: Use the default_value string for the Default array items
+Evolver: Charging animation: Pick the plug-in animation
+Evolver: Charging animation: Add a live preview
+Evolver: Charging animation: Convert the page's files to LF
+Evolver: Keep saved slider values on their steps
+Evolver: Fonts: Preview fonts straight from the font map
+Evolver: Themes: Load the navbar and shape previews off the main thread
+Evolver: Lock clock: Load the font previews off the main thread
+Evolver: UDFPS: Load icon and animation previews off the main thread
+Evolver: Pulse: Add a live preview
+Evolver: Load the font previews off the main thread
+Evolver: Keep an empty PixelProps target list empty
+Evolver: Save the keybox for another phone
+Evolver: Fall back to the expiry when no renewal time is set
+Evolver: Extract a keybox on import
+extras: sdk: Use Sandbox's unlock prompt for app lock
+extras: sdk: Allow locking Settings with app lock
+extras: sdk: Honor app lock timeout after leaving an app
+extras: sdk: Play click sound on switch toggles
+extras: fonts: Add missing HarmonyOS Sans weight aliases
+extras: fonts: Fix IBM Plex Sans weights
+extras: fonts: Fix NothingDot alias targets
+extras: Drop Sans Serif overlays
+extras: fonts: Define google-sans-flex-medium alias
+extras: sdk: Refine accessibility semantics for switches, sheet and slider
+extras: ax_compose: expose the state of switch preferences to accessibility services
+common: Replace AppLocker from speed dexpreopt apps
+config: Let devices set their own default sounds
+Sandbox: Enable R8 shrinking
+Sandbox: Take over the app lock unlock prompt from AppLocker
+OmniJaws: Enable R8 optimization and resource shrinking
+OmniJaws: Dim the background behind dialogs
+OmniJaws: Add icons to general preferences
+OmniJaws: Redesign icon pack picker
+sepolicy: Address denial for setting vbmeta prop
+Settings: Allow customizing volume stream steps [2/2]
