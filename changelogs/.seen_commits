@@ -1884,3 +1884,13 @@ packages_services_OmniJaws::OmniJaws: Add icons to general preferences
 packages_services_OmniJaws::OmniJaws: Redesign icon pack picker
 device_evolution_sepolicy::sepolicy: Address denial for setting vbmeta prop
 packages_apps_Settings::Settings: Allow customizing volume stream steps [2/2]
+packages_apps_Evolver::Evolver: QuickSettings: List the Remix looks as rows with previews
+packages_apps_Evolver::Evolver: Charging animation: Pin a style strip and preview the plug-in animations
+device_evolution_sepolicy::libperfmgr: sepolicy: Drop pixelstats service rule
+hardware_lineage_compat::libutils: Provide legacy PropertyMap API
+hardware_lineage_compat::libutils: Provide PropertyMap
+hardware_lineage_compat::libutils: Provide String8::toUpper()
+hardware_lineage_compat::compat: Unbreak x86_64 build
+packages_apps_GameSpace::Update Japanese strings for localization
+packages_apps_GameSpace::GameSpace: Enable R8 optimization and drop unused libs
+packages_apps_ThemeStore::ThemeStore: Enable R8 optimization and drop unused libs

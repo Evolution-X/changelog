@@ -1,0 +1,12 @@
+Notable ROM changes 11/23:
+==============================
+Evolver: QuickSettings: List the Remix looks as rows with previews
+Evolver: Charging animation: Pin a style strip and preview the plug-in animations
+libperfmgr: sepolicy: Drop pixelstats service rule
+libutils: Provide legacy PropertyMap API
+libutils: Provide PropertyMap
+libutils: Provide String8::toUpper()
+compat: Unbreak x86_64 build
+Update Japanese strings for localization
+GameSpace: Enable R8 optimization and drop unused libs
+ThemeStore: Enable R8 optimization and drop unused libs
