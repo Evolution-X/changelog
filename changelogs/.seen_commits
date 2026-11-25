@@ -1927,3 +1927,24 @@ vendor_themes::themes: Add a catalog for downloadable emoji
 frameworks_av::codec2: client: Retry when the service dies during client creation
 frameworks_av::libmedia: Search odm/etc/camera for media profiles
 frameworks_av::MediaCodec: Fix mReplyID null assertion crash in postPendingRepliesAndDeferredMessages
+packages_apps_Settings::Settings: Show screen resolution preference when more than 2 resolutions are available
+frameworks_av::DrmHalHidl: Implement requiresSecureDecoder fallback for HIDL < 1.4
+frameworks_av::MediaCodecBuffer: Allow setRange on null-backed buffers
+packages_apps_Evolver::Evolver: DynamicBar: Add morph animation toggle
+packages_apps_Evolver::Evolver: DynamicBar: Add tap haptics toggle
+packages_apps_Evolver::Evolver: DynamicBar: Use Settings.Secure setting keys
+packages_apps_Evolver::Evolver: BootAnimation: Pin the preview above the styles
+packages_apps_Evolver::Evolver: BootAnimation: Download the larger styles from the online catalog
+lineage-sdk::lineage-sdk: Add quick tap haptic effect extra
+lineage-sdk::lineage-sdk: Add quick tap key action
+lineage-sdk::lineage-sdk: Add open app key action
+lineage-sdk::lineage-sdk: Add power menu, contextual search and silence call key actions
+vendor_packages_SystemUIGoogle::SystemUIGoogle: ambientmusic: Feed Now Playing to the dynamic island
+packages_apps_GameSpace::GameSpace: Update Japanese strings for localization
+packages_apps_GameSpace::GameSpace: Add refresh rate lock tile
+packages_apps_GameSpace::GameSpace: Add refresh rate lock
+bootable_recovery::recovery: Allow reading pstore logs
+vendor_evolution::overlay: Use google-sans-flex-medium for body medium font
+vendor_evolution::prebuilts: Drop some bootanimation styles
+vendor_extras::extras: fonts: Use google-sans as google-sans-flex fallback
+vendor_themes::bootanimation: Add the online boot animation catalog

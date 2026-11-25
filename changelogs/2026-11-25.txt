@@ -1,0 +1,23 @@
+Notable ROM changes 11/25:
+==============================
+Settings: Show screen resolution preference when more than 2 resolutions are available
+DrmHalHidl: Implement requiresSecureDecoder fallback for HIDL < 1.4
+MediaCodecBuffer: Allow setRange on null-backed buffers
+Evolver: DynamicBar: Add morph animation toggle
+Evolver: DynamicBar: Add tap haptics toggle
+Evolver: DynamicBar: Use Settings.Secure setting keys
+Evolver: BootAnimation: Pin the preview above the styles
+Evolver: BootAnimation: Download the larger styles from the online catalog
+lineage-sdk: Add quick tap haptic effect extra
+lineage-sdk: Add quick tap key action
+lineage-sdk: Add open app key action
+lineage-sdk: Add power menu, contextual search and silence call key actions
+SystemUIGoogle: ambientmusic: Feed Now Playing to the dynamic island
+GameSpace: Update Japanese strings for localization
+GameSpace: Add refresh rate lock tile
+GameSpace: Add refresh rate lock
+recovery: Allow reading pstore logs
+overlay: Use google-sans-flex-medium for body medium font
+prebuilts: Drop some bootanimation styles
+extras: fonts: Use google-sans as google-sans-flex fallback
+bootanimation: Add the online boot animation catalog

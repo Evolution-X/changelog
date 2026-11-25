@@ -1,35 +1,23 @@
-Notable ROM changes 11/24:
+Notable ROM changes 11/25:
 ==============================
-extras: Drop the prebuilt emoji styles
-Evolver: Fonts: Remove strings the font and emoji pages no longer use
-Evolver: Fonts: Sort the Google Fonts list A to Z
-Evolver: Fonts: Save Google Fonts styles for offline use
-Evolver: Fonts: Remove a duplicate typefaceOf from EmojiController
-Evolver: Fonts: Add a help footer to the font and emoji pages
-Evolver: Fonts: Download emoji styles instead of bundling them
-Evolver: Fonts: Remember a pending reboot after a bundled emoji style
-Evolver: Fonts: Allow font files up to 64 MB
-Evolver: Fonts: Remember a pending emoji restart or reboot
-Evolver: Fonts: Remember a pending restart, replace or remove a custom font
-Evolver: Fonts: Shrink the preview on scroll, try your own text
-Evolver: Fonts: Show the stock font on the Default card
-Evolver: Fonts: Explain install failures and show apply progress
-Evolver: Fonts: Add downloadable Google Fonts
-Evolver: Fonts: Filter the font grid by look
-Evolver: Fonts: Add an emoji tab to the font preview page
-Evolver: Fonts: Pick the system font from a page with a live preview
-Evolver: TrickyStore: Export the generated Duck RKP keybox
-Evolver: ClockStyle: Draw the clock preview phone shell as a plain view
-Evolver: QuickSettings: Draw the header preview reset as a plain button
-Evolver: Charging animation: Draw the chips as plain views
-Evolver: Charging animation: Preview the effect on a scaled lock screen
-Evolver: Previews: Share the phone shell dimens and the small preview radius
-Evolver: Previews: Draw the lock wallpaper behind the charging and pulse stages
-Evolver: Previews: Add a shared stage view and height tiers
-Evolver: Previews: Share the stage radius and padding
-themes: Add Fluent UI to the downloadable emoji
-themes: Add Twemoji to the downloadable emoji
-themes: Add a catalog for downloadable emoji
-codec2: client: Retry when the service dies during client creation
-libmedia: Search odm/etc/camera for media profiles
-MediaCodec: Fix mReplyID null assertion crash in postPendingRepliesAndDeferredMessages
+Settings: Show screen resolution preference when more than 2 resolutions are available
+DrmHalHidl: Implement requiresSecureDecoder fallback for HIDL < 1.4
+MediaCodecBuffer: Allow setRange on null-backed buffers
+Evolver: DynamicBar: Add morph animation toggle
+Evolver: DynamicBar: Add tap haptics toggle
+Evolver: DynamicBar: Use Settings.Secure setting keys
+Evolver: BootAnimation: Pin the preview above the styles
+Evolver: BootAnimation: Download the larger styles from the online catalog
+lineage-sdk: Add quick tap haptic effect extra
+lineage-sdk: Add quick tap key action
+lineage-sdk: Add open app key action
+lineage-sdk: Add power menu, contextual search and silence call key actions
+SystemUIGoogle: ambientmusic: Feed Now Playing to the dynamic island
+GameSpace: Update Japanese strings for localization
+GameSpace: Add refresh rate lock tile
+GameSpace: Add refresh rate lock
+recovery: Allow reading pstore logs
+overlay: Use google-sans-flex-medium for body medium font
+prebuilts: Drop some bootanimation styles
+extras: fonts: Use google-sans as google-sans-flex fallback
+bootanimation: Add the online boot animation catalog
