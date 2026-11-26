@@ -1,0 +1,7 @@
+Notable ROM changes 11/26:
+==============================
+Revert "Evolver: allow disabling ripple effect on unlock [2/2]"
+Evolver: TrickyStore: Add an auto-add switch for new apps
+libcomparetf2: Add the remaining long double comparisons
+Revert "gms-mosey: Lock ExternalSharingService component [1/2]"
+Settings: Guard volume sliders against an empty range

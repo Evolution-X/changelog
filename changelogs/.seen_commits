@@ -1948,3 +1948,8 @@ vendor_evolution::overlay: Use google-sans-flex-medium for body medium font
 vendor_evolution::prebuilts: Drop some bootanimation styles
 vendor_extras::extras: fonts: Use google-sans as google-sans-flex fallback
 vendor_themes::bootanimation: Add the online boot animation catalog
+packages_apps_Evolver::Revert "Evolver: allow disabling ripple effect on unlock [2/2]"
+packages_apps_Evolver::Evolver: TrickyStore: Add an auto-add switch for new apps
+hardware_lineage_compat::libcomparetf2: Add the remaining long double comparisons
+vendor_gms-mosey::Revert "gms-mosey: Lock ExternalSharingService component [1/2]"
+packages_apps_Settings::Settings: Guard volume sliders against an empty range
