@@ -1953,3 +1953,6 @@ packages_apps_Evolver::Evolver: TrickyStore: Add an auto-add switch for new apps
 hardware_lineage_compat::libcomparetf2: Add the remaining long double comparisons
 vendor_gms-mosey::Revert "gms-mosey: Lock ExternalSharingService component [1/2]"
 packages_apps_Settings::Settings: Guard volume sliders against an empty range
+vendor_packages_SystemUIGoogle::SystemUIGoogle: Keep Now Playing above keyguard indications
+vendor_themes::themes: Add the online boot animation catalog
+frameworks_av::codec2: vndk: Allow a process to force HIDL bufferpool block pools

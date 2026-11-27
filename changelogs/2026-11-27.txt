@@ -1,0 +1,5 @@
+Notable ROM changes 11/27:
+==============================
+SystemUIGoogle: Keep Now Playing above keyguard indications
+themes: Add the online boot animation catalog
+codec2: vndk: Allow a process to force HIDL bufferpool block pools
