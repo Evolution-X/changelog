@@ -1,0 +1,22 @@
+Notable ROM changes 11/28:
+==============================
+Settings: VolumeSliderPreference: Observe stream max changes
+Settings: Extend volume stream steps to ring and notifications [2/2]
+OmniJaws: Add hourly forecast tabs
+OmniJaws: Add daily forecast and persistent notifications
+OmniJaws: Add precipitation chance and amount
+OmniJaws: Search locations with Open-Meteo geocoding
+OmniJaws: Calculate missing dew point, humidity and feels-like
+OmniJaws: Discard implausible weather values
+OmniJaws: Use calendar day low and high for Pirate Weather
+OmniJaws: Fall back to free OpenWeatherMap API without One Call 3.0
+OmniJaws: Report why a weather update failed
+OmniJaws: Identify the app and cache HTTP responses
+OmniJaws: Calculate sunrise and sunset when the provider has none
+OmniJaws: Date daily forecasts in the location's calendar
+OmniJaws: Fix Open-Meteo forecast dates around DST changes
+OmniJaws: Fix cloud conditions for OpenWeatherMap
+OmniJaws: Read feels-like temperature from MET Norway
+sepolicy: Add an attribute for core domains that read pstore
+clock: Remove Sixtyfour
+sepolicy: Label ro.evolution.* and ro.modversion properties

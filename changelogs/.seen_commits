@@ -1956,3 +1956,23 @@ packages_apps_Settings::Settings: Guard volume sliders against an empty range
 vendor_packages_SystemUIGoogle::SystemUIGoogle: Keep Now Playing above keyguard indications
 vendor_themes::themes: Add the online boot animation catalog
 frameworks_av::codec2: vndk: Allow a process to force HIDL bufferpool block pools
+packages_apps_Settings::Settings: VolumeSliderPreference: Observe stream max changes
+packages_apps_Settings::Settings: Extend volume stream steps to ring and notifications [2/2]
+packages_services_OmniJaws::OmniJaws: Add hourly forecast tabs
+packages_services_OmniJaws::OmniJaws: Add daily forecast and persistent notifications
+packages_services_OmniJaws::OmniJaws: Add precipitation chance and amount
+packages_services_OmniJaws::OmniJaws: Search locations with Open-Meteo geocoding
+packages_services_OmniJaws::OmniJaws: Calculate missing dew point, humidity and feels-like
+packages_services_OmniJaws::OmniJaws: Discard implausible weather values
+packages_services_OmniJaws::OmniJaws: Use calendar day low and high for Pirate Weather
+packages_services_OmniJaws::OmniJaws: Fall back to free OpenWeatherMap API without One Call 3.0
+packages_services_OmniJaws::OmniJaws: Report why a weather update failed
+packages_services_OmniJaws::OmniJaws: Identify the app and cache HTTP responses
+packages_services_OmniJaws::OmniJaws: Calculate sunrise and sunset when the provider has none
+packages_services_OmniJaws::OmniJaws: Date daily forecasts in the location's calendar
+packages_services_OmniJaws::OmniJaws: Fix Open-Meteo forecast dates around DST changes
+packages_services_OmniJaws::OmniJaws: Fix cloud conditions for OpenWeatherMap
+packages_services_OmniJaws::OmniJaws: Read feels-like temperature from MET Norway
+system_sepolicy::sepolicy: Add an attribute for core domains that read pstore
+packages_apps_LMOSystemUIClock::clock: Remove Sixtyfour
+device_evolution_sepolicy::sepolicy: Label ro.evolution.* and ro.modversion properties
